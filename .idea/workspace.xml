@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/start-new-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/OurCourses/OurCourse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/OurCourses/OurCourses.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Self/Control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Self/Self.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Self/Self.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/LearMore/LearnMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/LearMore/LearnMore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/LearMore/LearnMore.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/LearMore/LearnMore.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,19 +27,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2O0Gzu9gnhrtAD4StotBYIsCrHd" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -52,7 +59,9 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -70,6 +79,16 @@
       <workItem from="1680699569764" duration="16000" />
       <workItem from="1680699628467" duration="1976000" />
       <workItem from="1680701748419" duration="2366000" />
+      <workItem from="1680782970323" duration="2131000" />
+      <workItem from="1680785476704" duration="79000" />
+      <workItem from="1680785578830" duration="28000" />
+      <workItem from="1680785634923" duration="92000" />
+      <workItem from="1680785762002" duration="937000" />
+      <workItem from="1680786740709" duration="169000" />
+      <workItem from="1680786929442" duration="2061000" />
+      <workItem from="1680789063017" duration="46000" />
+      <workItem from="1680789126254" duration="301000" />
+      <workItem from="1680789448575" duration="27000" />
     </task>
     <servers />
   </component>
@@ -89,16 +108,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.js</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
