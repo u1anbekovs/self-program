@@ -1,0 +1,309 @@
+#books {
+    .books {
+
+        margin-bottom: 200px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &--btn {
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid #FFFFFF;
+            border-radius: 10px;
+            padding: 12px 24px;
+            margin-top: 40px;
+        }
+
+        &--img1 {
+            position: absolute;
+            filter: blur(1px);
+            transform: rotate(26.59deg);
+            top: 494px;
+            left: 356px;
+            width: 164px;
+        }
+
+
+        &--img2 {
+            position: absolute;
+            filter: blur(1.5px);
+            transform: rotate(-2.55deg);
+            overflow: hidden;
+            width: 164px;
+            right: -100px;
+            top: 700px;
+        }
+
+        &--img3 {
+            position: absolute;
+            filter: blur(2px);
+            transform: rotate(26.59deg);
+            width: 50px;
+            bottom: -110px;
+            left: 177px;
+        }
+
+        &--img4 {
+            position: absolute;
+            filter: blur(2px);
+            transform: rotate(-43.1deg);
+            width: 73px;
+            right: 226px;
+            bottom: -68px;
+        }
+
+        &--startBlock {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+
+            &__centerBooks {
+                width: 31%;
+
+                &--aboutBook {
+                    margin-top: 30px;
+                    height: auto;
+                    background: rgba(255, 255, 255, 0.1);
+                    border: 1px solid #FFFFFF;
+                    backdrop-filter: blur(7.5px);
+                    padding: 20px;
+                    border-radius: 10px;
+
+                    &__img {
+                        padding-top: 80px;
+                    }
+
+                    &__line {
+                        width: 100%;
+                        height: 1.4px;
+                        background: #fff;
+                        margin: 10px 0;
+                    }
+
+                    h2 {
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 29px;
+                        padding-bottom: 20px;
+                        color: #FFFFFF;
+                    }
+
+                    &__end {
+                        h3 {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #FFFFFF;
+                        }
+
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding-bottom: 6px;
+                    }
+
+                    &__start {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin: 10px 0;
+
+                        h4 {
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #FFFFFF;
+                            margin-right: 10px;
+                        }
+
+                        button {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #FFFFFF;
+                            background: rgba(255, 255, 255, 0.1);
+                            border: 0.5px solid #FFFFFF;
+                            border-radius: 5px;
+                            padding: 3px 5px;
+                        }
+                    }
+                }
+            }
+
+            &__firstBlock {
+                width: 31%;
+
+                &--aboutBook {
+                    margin-top: 30px;
+                    height: auto;
+                    background: rgba(255, 255, 255, 0.1);
+                    border: 1px solid #FFFFFF;
+                    backdrop-filter: blur(7.5px);
+                    padding: 20px;
+                    border-radius: 10px;
+
+                    &__line {
+                        width: 100%;
+                        height: 1.4px;
+                        background: #fff;
+                        margin: 10px 0;
+                    }
+
+                    h2 {
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 29px;
+                        padding-bottom: 20px;
+                        color: #FFFFFF;
+                    }
+
+                    &__end {
+                        h3 {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #FFFFFF;
+                        }
+
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding-bottom: 6px;
+                    }
+
+                    &__start {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin: 10px 0;
+
+                        h4 {
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #FFFFFF;
+                            margin-right: 10px;
+                        }
+
+                        button {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #FFFFFF;
+                            background: rgba(255, 255, 255, 0.1);
+                            border: 0.5px solid #FFFFFF;
+                            border-radius: 5px;
+                            padding: 3px 5px;
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+        &--tabs {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 0;
+            width: 52%;
+
+            &__btn {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+                border: 1px solid #FFFFFF;
+                border-radius: 10px;
+                padding: 5px 17px;
+                cursor: pointer;
+                transition: .4s;
+
+                &:hover {
+                    background: #fff;
+
+                    &:hover {
+                        background: #fff;
+                        color: #595FEB;
+                    }
+                }
+            }
+        }
+        &--block {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &__aboutBook {
+                width: 31%;
+                height: auto;
+                background: rgba(255, 255, 255, 0.1);
+                border: 1px solid #FFFFFF;
+                backdrop-filter: blur(7.5px);
+                padding: 20px;
+                border-radius: 10px;
+
+                &--line {
+                    width: 100%;
+                    height: 1.4px;
+                    background: #fff;
+                    margin: 10px 0;
+                }
+
+                h2 {
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 29px;
+                    padding-bottom: 20px;
+                    color: #FFFFFF;
+                }
+
+                &--end {
+                    h3 {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                    }
+
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-bottom: 6px;
+                }
+
+                &--start {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 10px 0;
+
+                    h4 {
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                        margin-right: 10px;
+                    }
+
+                    button {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                        background: rgba(255, 255, 255, 0.1);
+                        border: 0.5px solid #FFFFFF;
+                        border-radius: 5px;
+                        padding: 3px 5px;
+                    }
+                }
+            }
+        }
+    }
+}

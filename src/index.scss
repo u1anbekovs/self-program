@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./components/Header/Header.scss";
+@import "./components/Footer/Footer.scss";
+@import "./pages/Home/Home.scss";
+@import "./pages/Home/Hero/Hero";
+@import "./pages/Login/Index";
+@import "./pages/Books/Books.scss";
+@import "./pages/Home/Accardeon/Accardeon";
+@import "./pages/Login/Index";
+@import "./pages/Home/Follow/Buy/Buy";
+
+
+////////////////////////////////////////////////////////////////
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/// //////////////////////////////////////////////////////////////////
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+  background: linear-gradient(140deg, #D78B59 6.77%,#595FEB, #595FEB 47.79%);
+  font-family: 'Montserrat',sans-serif;
+  width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+

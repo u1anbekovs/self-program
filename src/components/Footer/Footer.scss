@@ -1,0 +1,1099 @@
+#footer {
+    padding: 20px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid #FFFFFF;
+    backdrop-filter: blur(5px);
+    border-top: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    .footer {
+        position: relative;
+        z-index: 9;
+
+        a {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+       
+
+        &--img2 {
+            position: absolute;
+            width: 73px;
+            filter: blur(2px);
+            transform: rotate(-43.1deg);
+            bottom: -40px;
+            right: 200px;
+        }
+
+        &--cards {
+            display: flex;
+            justify-content: center;
+
+            &__card {
+                font-size: 65px;
+                margin-right: 10px;
+                color: white;
+            }
+
+            &__mCard {
+                width: 70px;
+                height: 55px;
+            }
+        }
+
+        &--footNav {
+            display: flex;
+            justify-content: space-between;
+
+            .socLogos {
+                font-size: 25px;
+                color: white;
+                margin-right: 8px;
+                margin-bottom: 10px;
+            }
+
+            .socLogosS {
+                font-size: 25px;
+                color: white;
+            }
+
+            h3 {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                color: #FFFFFF;
+                margin-bottom: 10px;
+            }
+
+            h4 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+                margin-left: 10px;
+            }
+
+            .line {
+                width: 162px;
+                height: 1.8px;
+                background: linear-gradient(152.23deg, #D78B59 6.77%, #595FEB 47.79%);
+            }
+
+            &__selfBook {
+
+                //width: 100%;
+                a {
+                    border-bottom: solid 1px white;
+                }
+
+                img {
+                    width: 75px;
+                    height: 70px;
+                }
+
+                .text {
+                    font-size: 15px;
+                }
+            }
+
+            &__fastLinks {
+
+                //width: 100%;
+                .boot {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 90px;
+                }
+            }
+
+            &__socials {
+                //width: 100%;
+
+                &--blockSoc {
+                    &__logos {
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 72%;
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+            &__contacts {
+                //width: 100%;
+
+                .koko {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 70px;
+
+                    .line {
+                        width: 162px;
+                        height: 1.8px !important;
+                        background: linear-gradient(152.23deg, #D78B59 6.77%, #595FEB 47.79%);
+                    }
+                }
+
+
+                .dis {
+                    display: none;
+                }
+            }
+
+            &__address {
+                //width: 100%;
+
+                .pq {
+                    height: 130px;
+                }
+
+                .logoO {
+                    font-size: 35px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1440px) {
+    #footer {
+        .footer {
+            a {}
+
+            &--cards {
+
+                &__card {
+                    font-size: 65px;
+                    margin-right: 10px;
+                    color: white;
+                }
+
+                &__mCard {
+                    width: 70px;
+                    height: 55px;
+                }
+            }
+
+            &--footNav {
+
+                .socLogos {
+                    font-size: 25px;
+
+                }
+
+                .socLogosS {}
+
+                h3 {}
+
+                h4 {}
+
+                .line {
+                    width: 162px;
+                }
+
+                &__selfBook {
+                    a {}
+
+                    img {
+                        width: 75px;
+                        height: 70px;
+                    }
+
+                    .text {
+                        font-size: 15px;
+                    }
+                }
+
+                &__fastLinks {
+                    .boot {}
+                }
+
+                &__socials {
+                    &--blockSoc {
+                        &__logos {}
+                    }
+                }
+
+                &__contacts {
+                    .koko {
+                        height: 70px;
+                    }
+                }
+
+                &__address {
+                    .pq {
+                        height: 130px;
+                    }
+
+                    .logoO {
+                        font-size: 35px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    #footer {
+        .footer {
+            a {}
+
+            &--cards {
+
+                &__card {
+                    font-size: 65px;
+                    margin-right: 10px;
+                    color: white;
+                }
+
+                &__mCard {
+                    width: 70px;
+                    height: 55px;
+                }
+            }
+
+            &--footNav {
+
+                .socLogos {
+                    font-size: 20px;
+                }
+
+                .socLogosS {
+                    font-size: 20px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                }
+
+                h4 {
+                    font-size: 12px;
+                }
+
+                .line {
+                    width: 125px;
+                }
+
+                &__selfBook {
+                    width: 85%;
+
+                    a {}
+
+                    img {
+                        width: 60px;
+                        height: 55px;
+                    }
+
+                    .text {
+                        font-size: 11px;
+                    }
+                }
+
+                &__fastLinks {
+                    width: 100%;
+
+                    .boot {}
+                }
+
+                &__socials {
+                    width: 100%;
+
+                    &--blockSoc {
+                        &__logos {}
+                    }
+                }
+
+                &__contacts {
+                    width: 100%;
+
+                    .koko {
+                        height: 70px;
+                    }
+                }
+
+                &__address {
+                    width: 100%;
+
+                    .pq {
+                        height: 130px;
+                    }
+
+                    .logoO {
+                        font-size: 30px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    #footer {
+        .footer {
+            &--cards {
+
+                &__card {}
+
+                &__mCard {}
+            }
+
+            &--footNav {
+
+                .socLogos {
+                    font-size: 16px;
+                }
+
+                .socLogosS {
+                    font-size: 16px;
+                }
+
+                h3 {
+                    font-size: 12px;
+                }
+
+                h4 {
+                    line-height: 16px;
+                }
+
+                .line {
+                    width: 105px;
+                }
+
+                &__selfBook {
+                    width: 90%;
+
+                    a {}
+
+                    img {
+                        width: 50px;
+                        height: 40px;
+                        margin-right: 18px;
+                    }
+
+                    .text {
+                        font-size: 10px;
+                        margin-right: 15px;
+
+                    }
+                }
+
+                &__fastLinks {
+                    .boot {}
+                }
+
+                &__socials {
+                    &--blockSoc {
+                        &__logos {}
+                    }
+                }
+
+                &__contacts {
+                    .koko {}
+                }
+
+                &__address {
+                    width: 115%;
+
+                    .pq {}
+
+                    .logoO {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    #footer {
+        .footer {
+            a {}
+
+            &--cards {
+
+                &__card {
+                    font-size: 55px;
+                }
+
+                &__mCard {
+                    width: 55px;
+                    height: 45px;
+                }
+            }
+
+            &--footNav {
+                width: 100%;
+
+                .socLogos {
+                    font-size: 15px;
+                }
+
+                .socLogosS {}
+
+                h3 {}
+
+                h4 {
+                    font-size: 10px;
+                }
+
+                .line {}
+
+                &__selfBook {
+                    a {}
+
+                    img {}
+
+                    .text {
+                        font-size: 8px;
+                    }
+                }
+
+                &__fastLinks {
+                    .boot {
+                        height: 75px;
+                    }
+                }
+
+                &__socials {
+                    &--blockSoc {
+                        &__logos {}
+                    }
+                }
+
+                &__contacts {
+                    .koko {
+                        height: 60px;
+                    }
+                }
+
+                &__address {
+                    .pq {
+                        height: 120px;
+                    }
+
+                    .logoO {}
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #footer {
+        .footer {
+            a {}
+
+            &--cards {
+
+                &__card {
+                    font-size: 40px;
+                }
+
+                &__mCard {
+                    width: 43px;
+                    height: 35px;
+                }
+            }
+
+            &--footNav {
+                width: 100%;
+
+                .socLogos {
+                    font-size: 14px;
+                }
+
+                .socLogosS {
+                    font-size: 14px;
+                }
+
+                h3 {
+                    font-size: 10px;
+                    line-height: 14px;
+                    margin-bottom: 7px;
+                }
+
+                h4 {
+                    font-size: 8px;
+                }
+
+                .line {
+                    width: 85px;
+                }
+
+                &__selfBook {
+                    a {
+                        font-size: 12px;
+                    }
+
+                    img {
+                        margin-right: 10px;
+                    }
+
+                    .text {
+                        font-size: 8px;
+                        margin-right: 0;
+                    }
+                }
+
+                &__fastLinks {
+                    width: 90%;
+
+                    .boot {
+                        height: 60px;
+                    }
+                }
+
+                &__socials {
+                    &--blockSoc {
+                        &__logos {
+                            width: 95%;
+                        }
+                    }
+                }
+
+                &__contacts {
+                    .koko {
+                        height: 50px;
+                    }
+                }
+
+                &__address {
+                    .pq {
+                        height: 89px;
+                    }
+
+                    .logoO {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #footer {
+        .footer {
+            a {}
+
+            &--cards {
+
+                &__card {
+                    font-size: 40px;
+                }
+
+                &__mCard {
+                    width: 43px;
+                    height: 35px;
+                }
+            }
+
+            &--footNav {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                .socLogos {
+                    font-size: 14px;
+                }
+
+                .socLogosS {
+                    font-size: 14px;
+                }
+
+                h3 {
+                    font-size: 10px;
+                    line-height: 14px;
+                    margin-bottom: 7px;
+                }
+
+                h4 {
+                    font-size: 8px;
+                    line-height: 11px;
+                }
+
+                .line {
+                    width: 85px;
+                }
+
+                &__selfBook {
+
+                    a {
+                        font-size: 12px;
+                    }
+
+                    img {
+                        margin-right: 10px;
+                    }
+
+                    .text {
+                        font-size: 7px;
+                        margin-right: 0;
+                    }
+                }
+
+                &__fastLinks {
+                    width: 90%;
+
+                    .boot {
+                        height: 60px;
+                    }
+                }
+
+                &__socials {
+                    display: none;
+
+                    &--blockSoc {
+                        &__logos {
+                            width: 95%;
+                        }
+                    }
+                }
+
+                &__contacts {
+                    .koko {
+                        height: 50px;
+                    }
+                }
+
+                &__address {
+                    .pq {
+                        height: 89px;
+                    }
+
+                    .logoO {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    #footer {
+        .footer {
+            a {}
+
+            &--cards {
+                margin-top: 30px;
+
+                &__card {
+                    font-size: 40px;
+                }
+
+                &__mCard {
+                    width: 43px;
+                    height: 35px;
+                }
+            }
+
+            &--footNav {
+                width: 100%;
+                height: 520px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+
+                .socLogos {
+                    font-size: 15px;
+                }
+
+                .socLogosS {
+                    font-size: 15px;
+                }
+
+                h3 {
+                    font-size: 14px;
+                    line-height: 14px;
+                    margin-bottom: 7px;
+                }
+
+                h4 {
+                    font-size: 10px;
+                    line-height: 11px;
+                }
+
+                .line {
+                    width: 105px;
+                }
+
+                &__selfBook {
+
+                    a {
+                        font-size: 12px;
+                    }
+
+                    img {
+                        margin-right: 10px;
+                    }
+
+                    .text {
+                        font-size: 10px;
+                        margin-right: 0;
+                    }
+                }
+
+                &__fastLinks {
+                    width: 90%;
+
+                    .boot {
+                        height: 60px;
+                    }
+                }
+
+                &__socials {
+                    display: block;
+
+                    &--blockSoc {
+                        &__logos {
+                            width: 30%;
+                        }
+                    }
+                }
+
+                &__contacts {
+                    .koko {
+                        height: 50px;
+                    }
+                }
+
+                &__address {
+                    .pq {
+                        height: 77px;
+                    }
+
+                    .logoO {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    #footer {
+        .footer {
+            a {}
+
+            &--cards {
+                margin-top: 30px;
+
+                &__card {
+                    font-size: 40px;
+                }
+
+                &__mCard {
+                    width: 43px;
+                    height: 35px;
+                }
+            }
+
+            &--footNav {
+                width: 100%;
+                height: 520px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+
+                .socLogos {
+                    font-size: 14px;
+                }
+
+                .socLogosS {
+                    font-size: 14px;
+                }
+
+                h3 {
+                    font-size: 12px;
+                    line-height: 14px;
+                    margin-bottom: 7px;
+                }
+
+                h4 {
+                    font-size: 10px;
+                    line-height: 14px;
+                }
+
+                .line {
+                    width: 105px;
+                }
+
+                &__selfBook {
+
+                    a {
+                        font-size: 12px;
+                    }
+
+                    img {
+                        margin-right: 10px;
+                    }
+
+                    .text {
+                        font-size: 10px;
+                        margin-right: 0;
+                    }
+                }
+
+                &__fastLinks {
+                    width: 90%;
+
+                    .boot {
+                        height: 60px;
+                    }
+                }
+
+                &__socials {
+                    display: block;
+
+                    &--blockSoc {
+                        &__logos {
+
+                            width: 30%;
+                        }
+                    }
+                }
+
+                &__contacts {
+                    .koko {
+                        height: 50px;
+                    }
+                }
+
+                &__address {
+                    .pq {
+                        height: 77px;
+                    }
+
+                    .logoO {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    #footer {
+        .footer {
+            a {}
+
+            &--cards {
+                margin-top: 30px;
+
+                &__card {
+                    font-size: 40px;
+                }
+
+                &__mCard {
+                    width: 43px;
+                    height: 35px;
+                }
+            }
+
+            &--footNav {
+                width: 100%;
+                height: 520px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+
+                .socLogos {
+                    font-size: 14px;
+                }
+
+                .socLogosS {
+                    font-size: 14px;
+                }
+
+                h3 {
+                    font-size: 12px;
+                    line-height: 14px;
+                    margin-bottom: 7px;
+                }
+
+                h4 {
+                    font-size: 10px;
+                    line-height: 14px;
+                }
+
+                .line {
+                    width: 105px;
+                }
+
+                &__selfBook {
+                    .java {
+                        margin-left: 29px;
+                    }
+
+                    a {
+                        font-size: 12px;
+                    }
+
+                    img {
+                        margin-right: 10px;
+                    }
+
+                    .text {
+                        font-size: 10px;
+                        margin-right: 0;
+                    }
+                }
+
+                &__fastLinks {
+                    width: 90%;
+
+                    .boot {
+                        height: 60px;
+                    }
+                }
+
+                &__socials {
+                    display: block;
+
+                    &--blockSoc {
+                        &__logos {
+
+                            width: 40%;
+                        }
+                    }
+                }
+
+                &__contacts {
+                    .koko {
+                        height: 50px;
+                    }
+                }
+
+                &__address {
+                    .pq {
+                        height: 77px;
+                    }
+
+                    .logoO {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    #footer {
+        .footer {
+            a {}
+
+            &--cards {
+                margin-top: 30px;
+
+                &__card {
+                    font-size: 40px;
+                }
+
+                &__mCard {
+                    width: 43px;
+                    height: 35px;
+                }
+            }
+
+            &--footNav {
+                width: 100%;
+                height: 520px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+
+                .socLogos {
+                    font-size: 14px;
+                }
+
+                .socLogosS {
+                    font-size: 14px;
+                }
+
+                h3 {
+                    font-size: 12px;
+                    line-height: 14px;
+                    margin-bottom: 7px;
+                }
+
+                h4 {
+                    font-size: 10px;
+                    line-height: 14px;
+                }
+
+                .line {
+                    width: 105px;
+                }
+
+                &__selfBook {
+                    .java {
+                        margin-left: 29px;
+                    }
+
+                    a {
+                        font-size: 12px;
+                    }
+
+                    img {
+                        margin-right: 10px;
+                    }
+
+                    .text {
+                        font-size: 10px;
+                        margin-right: 0;
+                    }
+                }
+
+                &__fastLinks {
+                    width: 90%;
+
+                    .boot {
+                        height: 60px;
+                    }
+                }
+
+                &__socials {
+                    display: block;
+
+                    &--blockSoc {
+                        &__logos {
+
+                            width: 40%;
+                        }
+                    }
+                }
+
+                &__contacts {
+                    .koko {
+                        height: 50px;
+                    }
+                }
+
+                &__address {
+                    .pq {
+                        height: 77px;
+                    }
+
+                    .logoO {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
