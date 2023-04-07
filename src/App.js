@@ -19,11 +19,9 @@ function App() {
 
     return (
         <div className="App">
-            <Header style={{
-                display: modal ? "none" : "block"
-            }}/>
+            <Header/>
             <Routes>
-                <Route path="/" element={<Home/>}/>
+                <Route path="/" element={<Home />}/>
                 <Route path="/login" element={<Index/>}/>
                 <Route path="/books" element={<Books/>}/>
                 <Route path="/learn-more" element={<LearnMore/>}/>

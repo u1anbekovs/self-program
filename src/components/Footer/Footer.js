@@ -9,17 +9,18 @@ import master from "./../../assets/img/mastercard.svg"
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { Tb123 } from "react-icons/tb";
 import { RiVisaLine } from "react-icons/ri";
-import { useSelector } from 'react-redux';
+import {useDispatch, useSelector} from 'react-redux';
 import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
 
     const use = useSelector(state => state.login)
-
+    const dispatch = useDispatch()
+    const {payment} = useSelector(state => state)
 
     return (
         <div style={{
-            display: !use ? "block" : "none"
+            display: !payment && !use ? "block" : "none"
         }} id="footer">
             <div className="container">
                 <div className="footer">
