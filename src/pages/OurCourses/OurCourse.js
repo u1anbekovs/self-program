@@ -5,6 +5,7 @@ import MasterClasses from './MasterClasses/MasterClasses';
 import Reviews from './Reviews/Reviews';
 import LeaveReview from './LeaveReview/LeaveReview';
 
+
 const OurCourse = () => {
     return (
         <div>

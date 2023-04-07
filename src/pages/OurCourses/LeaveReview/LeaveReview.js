@@ -1,10 +1,9 @@
 import React from 'react';
-
 const LeaveReview = () => {
+
     return (
-        <div>
-            
-        </div>
+   <div>
+   </div>
     );
 };
 
