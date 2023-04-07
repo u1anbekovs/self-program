@@ -39,7 +39,6 @@ const Staty = () => {
                                     </div>
                                     <img src={aboutBook} alt="" />
                                     <div className="books--block__aboutBook--line" />
-                                    <div className="books--block__aboutBook--line" />
                                     <div className='books--block__aboutBook--end'>
                                         <h3>Автор: Muslim Bolot</h3>
                                         <h3>Дата: 22.08.22</h3>
@@ -113,15 +112,13 @@ const Staty = () => {
                                 ))
                             }
                         </div>
-
-
                     </div>
+
+
                     <NavLink to={"/books"}>
                         <button className='books--btn'>Показать болшье</button>
                     </NavLink>
-                    <div className='books--'>
 
-                    </div>
                 </div>
             </div>
         </div>
