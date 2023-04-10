@@ -1,0 +1,106 @@
+#review{
+  .review{
+    display: flex;
+    justify-content: center;
+
+    &--title{
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 49px;
+      color: #FFFFFF;
+      padding-bottom: 30px;
+    }
+    &--description{
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
+    &--block{
+      box-sizing: border-box;
+      width: 555px;
+      height: 484px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #FFFFFF;
+      backdrop-filter: blur(12px);
+      border-radius: 10px;
+      padding: 30px 28px;
+      margin-left: 40px;
+    }
+    &--input1{
+      width: 495px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #FFFFFF;
+      backdrop-filter: blur(12px);
+      border-radius: 10px;
+      outline: none;
+      font-family: 'Montserrat',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      padding-left: 12px;
+      color: rgba(255, 255, 255, 0.41);
+      margin-bottom: 15px;
+    }
+    &--title2{
+      font-family: 'Montserrat',sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+      padding-bottom: 10px;
+    }
+    &--input2{
+      width: 495px;
+      height: 150px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      border-radius: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      outline: none;
+      padding-left: 12px;
+      border: 1px solid #FFFFFF;
+    }
+    &--btn{
+      font-family: 'Roboto',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #595FEB;
+      width: 495px;
+      height: 44px;
+      background: #FFFFFF;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+    &--image1{
+      position: relative;
+      bottom: 5rem;
+      left: 22rem;
+    }
+    &--image2{
+      position: relative;
+      bottom: 43.5rem;
+      right: 5rem;
+    }
+    &--image3{
+      position: absolute;
+      left: 56rem;
+      top: 87rem;
+      opacity: 29%;
+    }
+  }
+
+}
