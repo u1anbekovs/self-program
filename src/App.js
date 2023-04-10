@@ -11,6 +11,8 @@ import OurCourse from "./pages/OurCourses/OurCourse";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Password from "./pages/Login/FirstLogin/password/password";
 import FirstLogin from "./pages/Login/FirstLogin/FirstLogin";
+import Self from "./pages/Home/Follow/Buy/Self/Self";
+import Control from "./pages/Home/Follow/Buy/Self/Control";
 
 
 function App() {
@@ -19,15 +21,15 @@ function App() {
 
     return (
         <div className="App">
-            <Header style={{
-                display: modal ? "none" : "block"
-            }}/>
+            <Header/>
             <Routes>
-                <Route path="/" element={<Home/>}/>
+                <Route path="/" element={<Home />}/>
                 <Route path="/login" element={<Index/>}/>
                 <Route path="/books" element={<Books/>}/>
                 <Route path="/learn-more" element={<LearnMore/>}/>
                 <Route path="/buy" element={<Buy/>}/>
+                <Route path="/self" element={<Self/>}/>
+                <Route path="/control" element={<Control/>}/>
                 <Route path="/our-course" element={<OurCourse/>}/>
                 <Route path="/about-us" element={<AboutUs/>}/>
                 <Route path="/password-url" element={<Password/>}/>

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7" name="Changes" comment="">
+
       <change afterPath="$PROJECT_DIR$/src/pages/Login/FirstLogin/password/password.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/pages/Login/FirstLogin/password/password.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -13,6 +17,40 @@
       <change beforePath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login/Index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/Reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Reducer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Self/Control.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Self/Control.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Self/Self.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Self/Self.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/LearMore/LearnMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/LearMore/LearnMore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/LearMore/LearnMore.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/LearMore/LearnMore.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/leave-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_04_2023_18_22__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_04_2023_18_22__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/OurCourse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/OurCourse.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,7 +77,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2O0Gzu9gnhrtAD4StotBYIsCrHd" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -59,6 +97,19 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }]]></component>
   <component name="RecentsManager">
@@ -82,6 +133,18 @@
       <workItem from="1680772776318" duration="8284000" />
       <workItem from="1680846382767" duration="9318000" />
       <workItem from="1681030107620" duration="15015000" />
+      <workItem from="1680782970323" duration="2131000" />
+      <workItem from="1680785476704" duration="79000" />
+      <workItem from="1680785578830" duration="28000" />
+      <workItem from="1680785634923" duration="92000" />
+      <workItem from="1680785762002" duration="937000" />
+      <workItem from="1680786740709" duration="169000" />
+      <workItem from="1680786929442" duration="2061000" />
+      <workItem from="1680789063017" duration="46000" />
+      <workItem from="1680789126254" duration="301000" />
+      <workItem from="1680789448575" duration="27000" />
+      <workItem from="1680872377567" duration="11261000" />
+      <workItem from="1680858507072" duration="11544000" />
     </task>
     <servers />
   </component>
@@ -101,16 +164,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.js</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

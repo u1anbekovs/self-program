@@ -1,6 +1,6 @@
 #wrapper {
   .wrapper {
-    padding: 160px 0;
+    padding-bottom: 200px;
     position: relative;
 
     &--img1 {
@@ -28,8 +28,6 @@
         margin-left: -7%;
       }
 
-      
-
       &__title {
         &--bookL {
           position: absolute;
@@ -37,8 +35,6 @@
           right: 416px;
         }
       }
-
-     
     }
   }
 }
@@ -731,15 +727,11 @@
           margin-left: 200px;
           width: 60px;
         }
-
-
         &__title {
           &--bookL {
             display: none;
           }
         }
-
-      
       }
     }
   }
