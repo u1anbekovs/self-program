@@ -5,6 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7" name="Changes" comment="">
+
+      <change afterPath="$PROJECT_DIR$/src/pages/Login/FirstLogin/password/password.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login/FirstLogin/password/password.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_04_2023_18_22__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_04_2023_18_22__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/Index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -72,6 +84,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
@@ -86,7 +111,12 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\self-program1\src\pages\Login\FirstLogin" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -100,6 +130,9 @@
       <workItem from="1680699569764" duration="16000" />
       <workItem from="1680699628467" duration="1976000" />
       <workItem from="1680701748419" duration="2366000" />
+      <workItem from="1680772776318" duration="8284000" />
+      <workItem from="1680846382767" duration="9318000" />
+      <workItem from="1681030107620" duration="15015000" />
       <workItem from="1680782970323" duration="2131000" />
       <workItem from="1680785476704" duration="79000" />
       <workItem from="1680785578830" duration="28000" />
