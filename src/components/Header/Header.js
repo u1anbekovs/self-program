@@ -114,8 +114,7 @@ const Header = () => {
                             <img src={Logo} alt='logo' style={{
 
                                 width: menu ? "30%" : "25%"
-
-                                width: menu ? "30%" : "88%"
+                                
 
                             }}/>
                             <span style={{

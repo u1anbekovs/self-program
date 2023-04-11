@@ -10,10 +10,7 @@ import img3 from "../../../assets/img/rview-img2.png"
 const LeaveReview = () => {
 
     return (
-
-        <div>
-        </div>
-
+        
    <div id="review">
        <div className="container">
            <div className="review">
