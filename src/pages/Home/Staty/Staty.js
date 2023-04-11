@@ -34,11 +34,10 @@ const Staty = () => {
                                     <div className='books--block__aboutBook--start'>
                                         <h4>Полезные статьи</h4>
                                         <button>Все</button>
-                                        <button>Новое</button>
-                                        <button>Книги</button>
+                                        <button className="ml-[5px]">Новое</button>
+                                        <button className="">Книги</button>
                                     </div>
                                     <img src={aboutBook} alt="" />
-                                    <div className="books--block__aboutBook--line" />
                                     <div className="books--block__aboutBook--line" />
                                     <div className='books--block__aboutBook--end'>
                                         <h3>Автор: Muslim Bolot</h3>

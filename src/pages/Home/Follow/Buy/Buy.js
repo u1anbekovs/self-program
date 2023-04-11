@@ -2,9 +2,10 @@ import React, {useEffect, useState} from 'react';
 import "./Buy.scss"
 import {AiOutlineCheck} from "react-icons/ai"
 import {useNavigate} from "react-router-dom";
+import {useDispatch} from "react-redux";
 
 const Subscription = () => {
-
+   const dispatch = useDispatch()
     const navigate = useNavigate();
     const [click, setClick] = useState(false)
     const [name, setName] = useState("")
@@ -51,16 +52,29 @@ const Subscription = () => {
                 break
         }
     }
+    // const navBtn = () => {
+    //     navigate('/self')
+    //     setTimeout(() => {
+    //         navigate('/control')
+    //         setTimeout(() => {
+    //             navigate('/')
+    //         }, 2000)
+    //     }, 3000)
+    // }
+
     const navBtn = () => {
+        dispatch({type: "PAYMENT", payload: true})
         navigate('/self')
+
         setTimeout(() => {
             navigate('/control')
             setTimeout(() => {
                 navigate('/')
-            }, 2000)
-        }, 3000)
-    }
+                dispatch({type: "PAYMENT", payload: false})
 
+            }, 3000)
+            }, 2000)
+    }
     return (
         <section id="subscription">
             <div className="container">

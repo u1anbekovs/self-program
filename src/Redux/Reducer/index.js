@@ -1,6 +1,8 @@
+
 const initialState = {
-    login: JSON.parse(localStorage.getItem('login')),
-    login: false,
+    // login: JSON.parse(localStorage.getItem('login')),
+    login:false,
+    payment: false,
 }
 
 
@@ -16,6 +18,9 @@ export const Reducer = (state = initialState, action) => {
             return {
                 login: false
             }
+        case "PAYMENT":{
+            return {payment: action.payload}
+        }
         default: return state
     }
 }

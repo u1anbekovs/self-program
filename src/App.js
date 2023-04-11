@@ -11,6 +11,7 @@ import OurCourse from "./pages/OurCourses/OurCourse";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Self from "./pages/Home/Follow/Buy/Self/Self";
 import Control from "./pages/Home/Follow/Buy/Self/Control";
+import TeamBuilding from "./pages/TeamBuilding/TeamBuilding";
 
 
 function App() {
@@ -19,9 +20,7 @@ function App() {
 
     return (
         <div className="App">
-            <Header style={{
-                display: modal ? "none" : "block"
-            }}/>
+            <Header/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/login" element={<Index/>}/>
@@ -32,6 +31,7 @@ function App() {
                 <Route path="/control" element={<Control/>}/>
                 <Route path="/our-course" element={<OurCourse/>}/>
                 <Route path="/about-us" element={<AboutUs/>}/>
+                <Route path="/button" element={<TeamBuilding/>}/>
             </Routes>
             <Footer/>
         </div>
