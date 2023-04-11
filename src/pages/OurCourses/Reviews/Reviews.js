@@ -34,7 +34,6 @@ const Reviews = () => {
                     </div>
                 </Slider>
 
-
             </div>
         </section>
     );

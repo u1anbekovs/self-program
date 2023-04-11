@@ -7,12 +7,7 @@
     <list default="true" id="1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_04_2023_15_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_04_2023_15_04__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/Reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Reviews/Reviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Reviews/Reviews.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/Team/Team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Team/Team.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/TeamBuilding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/TeamBuilding.js" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +49,24 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  &lt;component name=&quot;PropertiesComponent&quot;&gt;{
+  &amp;quot;keyToString&amp;quot;: {
+    &amp;quot;ASKED_ADD_EXTERNAL_FILES&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;RunOnceActivity.OpenProjectViewOnStart&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;RunOnceActivity.ShowReadmeOnStart&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;WebServerToolWindowFactoryState&amp;quot;: &amp;quot;false&amp;quot;,
+    &amp;quot;list.type.of.created.stylesheet&amp;quot;: &amp;quot;SCSS&amp;quot;,
+    &amp;quot;node.js.detected.package.eslint&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;node.js.detected.package.tslint&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;node.js.selected.package.eslint&amp;quot;: &amp;quot;(autodetect)&amp;quot;,
+    &amp;quot;node.js.selected.package.tslint&amp;quot;: &amp;quot;(autodetect)&amp;quot;,
+    &amp;quot;nodejs_package_manager_path&amp;quot;: &amp;quot;npm&amp;quot;,
+    &amp;quot;vue.rearranger.settings.migration&amp;quot;: &amp;quot;true&amp;quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -100,7 +108,7 @@
       <workItem from="1681056660640" duration="7774000" />
       <workItem from="1681067743495" duration="779000" />
       <workItem from="1681112071765" duration="448000" />
-      <workItem from="1681224091174" duration="15483000" />
+
     </task>
     <servers />
   </component>
@@ -120,5 +128,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
