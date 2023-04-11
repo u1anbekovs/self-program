@@ -15,6 +15,7 @@
   }
 
   &--icon {
+    transition: 0.5s all;
     transform: rotate(-90deg);
     color: #FFFFFF;
     font-size: 44px;

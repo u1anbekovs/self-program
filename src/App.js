@@ -13,6 +13,7 @@ import Password from "./pages/Login/FirstLogin/password/password";
 import FirstLogin from "./pages/Login/FirstLogin/FirstLogin";
 import Self from "./pages/Home/Follow/Buy/Self/Self";
 import Control from "./pages/Home/Follow/Buy/Self/Control";
+import TeamBuilding from "./pages/TeamBuilding/TeamBuilding";
 
 
 function App() {
@@ -32,8 +33,12 @@ function App() {
                 <Route path="/control" element={<Control/>}/>
                 <Route path="/our-course" element={<OurCourse/>}/>
                 <Route path="/about-us" element={<AboutUs/>}/>
+
+                <Route path="/button" element={<TeamBuilding/>}/>
+
                 <Route path="/password-url" element={<Password/>}/>
                 <Route path="/login-url" element={<FirstLogin/>}/>
+
 
             </Routes>
             <Footer/>

@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import "./LearnMore.scss"
 import {AiOutlineCheck, AiOutlineClose} from "react-icons/ai";
 import {useNavigate} from "react-router-dom";
+import Accardeon from "../../Accardeon/Accardeon";
 
 
 const ToLearn = () => {
@@ -126,8 +127,17 @@ const ToLearn = () => {
                     </div>
                 </div>
             </div>
+            <Accardeon/>
         </section>
     );
 };
 
+
 export default ToLearn;
+
+
+
+
+
+export default ToLearn;
+

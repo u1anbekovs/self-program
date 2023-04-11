@@ -1,12 +1,19 @@
 import React from 'react';
+
+
 import "./LeaveReview.scss"
 import img from "../../../assets/img/book.png"
 import img2 from "../../../assets/img/review-img.svg"
 import img3 from "../../../assets/img/rview-img2.png"
 
+
 const LeaveReview = () => {
 
     return (
+
+        <div>
+        </div>
+
    <div id="review">
        <div className="container">
            <div className="review">
@@ -36,6 +43,7 @@ const LeaveReview = () => {
        </div>
 
    </div>
+
     );
 };
 
