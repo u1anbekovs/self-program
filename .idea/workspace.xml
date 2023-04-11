@@ -13,12 +13,20 @@
       <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/LearMore/LearnMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/LearMore/LearnMore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/Team/Team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Team/Team.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/TeamBuilding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/TeamBuilding.js" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,8 +127,11 @@
       <workItem from="1681056660640" duration="7774000" />
       <workItem from="1681067743495" duration="779000" />
       <workItem from="1681112071765" duration="448000" />
+
       <workItem from="1681223898069" duration="601000" />
       <workItem from="1681224521845" duration="10833000" />
+
+
     </task>
     <servers />
   </component>

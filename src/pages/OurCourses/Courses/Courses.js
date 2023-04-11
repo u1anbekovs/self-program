@@ -3,7 +3,10 @@ import "./Courses.scss"
 import courseBlock from "../../../assets/img/coursblock.png"
 import book from "../../../assets/img/book1.png"
 import {Link} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
+
 const Courses = () => {
+    const navigate = useNavigate()
     return (
         <section id="course">
             <div className="container">
@@ -18,7 +21,7 @@ const Courses = () => {
                                 <button>Новое</button>
                                 <button>Новое</button>
                             </div>
-                            <img src={courseBlock} alt="img" className="ml-[20px]"/>
+                            <img onClick={() => navigate(`/button`)} src={courseBlock} alt="img" className="cursor-pointer ml-[20px]"/>
                             <p className="mt-[15px] ml-[20px]">Подробнее...</p>
                         </div>
                         <div className="course--block__block-one">
@@ -29,7 +32,7 @@ const Courses = () => {
                                 <button>Новое</button>
                                 <button>Новое</button>
                             </div>
-                            <img src={courseBlock} alt="img" className="ml-[20px]"/>
+                            <img onClick={() => navigate(`/button`)} src={courseBlock} alt="img" className="cursor-pointer ml-[20px]"/>
                             <p className="mt-[15px] ml-[20px]">Подробнее...</p>
                         </div>
                         <div className="course--block__block-one">
@@ -40,7 +43,7 @@ const Courses = () => {
                                 <button>Новое</button>
                                 <button>Новое</button>
                             </div>
-                            <img src={courseBlock} alt="img" className="ml-[20px]"/>
+                            <img onClick={() => navigate(`/button`)} src={courseBlock} alt="img" className="cursor-pointer ml-[20px]"/>
                             <p className="mt-[15px] ml-[20px]">Подробнее...</p>
                         </div>
                     </div>

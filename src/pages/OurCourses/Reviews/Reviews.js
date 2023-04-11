@@ -33,6 +33,7 @@ const Reviews = () => {
                         </div>
                     </div>
                 </Slider>
+
             </div>
         </section>
     );
