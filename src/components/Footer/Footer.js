@@ -6,6 +6,7 @@ import {BsFacebook, BsTwitter, BsTelephone} from "react-icons/bs";
 import {FaTelegram, FaTiktok} from "react-icons/fa";
 import {SlSocialVkontakte} from "react-icons/sl";
 import master from "./../../assets/img/mastercard.svg"
+
 import {HiOutlineLocationMarker} from "react-icons/hi";
 import {Tb123} from "react-icons/tb";
 import {RiVisaLine} from "react-icons/ri";
@@ -13,11 +14,23 @@ import {useSelector} from 'react-redux';
 import {NavLink} from 'react-router-dom';
 import {useDispatch} from "react-redux";
 
+import { HiOutlineLocationMarker } from "react-icons/hi";
+import { Tb123 } from "react-icons/tb";
+import { RiVisaLine } from "react-icons/ri";
+import {useDispatch, useSelector} from 'react-redux';
+import { NavLink } from 'react-router-dom';
+
+
 const Footer = () => {
 
     const use = useSelector(state => state.login)
+
     const {payment} = useSelector(state => state)
     const dispatch = useDispatch()
+
+    const dispatch = useDispatch()
+    const {payment} = useSelector(state => state)
+
 
     return (
         <div style={{

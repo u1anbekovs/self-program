@@ -1,4 +1,3 @@
-
 import React, {useState} from 'react';
 import "./LearnMore.scss"
 import {AiOutlineCheck, AiOutlineClose} from "react-icons/ai";
@@ -41,7 +40,8 @@ const ToLearn = () => {
                                 :
                                 <div style={{
                                     transform: 'scale(1.2)',
-                                }} aria-disabled={true} onClick={() => setLearn(!learn)} className="learn--block__colon">
+                                }} aria-disabled={true} onClick={() => setLearn(!learn)}
+                                     className="learn--block__colon">
                                     <h3>Обычный</h3>
                                     <label htmlFor="visa2"><input type="radio" id="visa2"
                                                                   name="tabs"/>Ежемесячно</label>
@@ -132,8 +132,12 @@ const ToLearn = () => {
     );
 };
 
+
 export default ToLearn;
 
 
 
+
+
+export default ToLearn;
 

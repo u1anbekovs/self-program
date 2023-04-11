@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { MdArrowBackIosNew } from "react-icons/md";
+import React  from 'react';
 import OpenAcc from "./openAcc";
 import Accordion from "../../../assets/img/accordion.png"
 import BookL from "../../../assets/img/Accortitle.svg"

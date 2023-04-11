@@ -1,3 +1,4 @@
+
 // import React, { useState } from 'react';
 // import { NavLink } from 'react-router-dom';
 // import Logo from "./../../assets/img/logo.svg"
@@ -78,6 +79,7 @@
 //
 // export default Header;
 
+
 import React, {useState} from 'react';
 import {NavLink} from 'react-router-dom';
 import Logo from "./../../assets/img/logo.svg"
@@ -110,7 +112,11 @@ const Header = () => {
                     <div className='header'>
                         <div className='header--logo'>
                             <img src={Logo} alt='logo' style={{
+
                                 width: menu ? "30%" : "25%"
+
+                                width: menu ? "30%" : "88%"
+
                             }}/>
                             <span style={{
                                 display: menu ? "none" : "block"

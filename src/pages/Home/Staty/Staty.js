@@ -112,15 +112,13 @@ const Staty = () => {
                                 ))
                             }
                         </div>
-
-
                     </div>
+
+
                     <NavLink to={"/books"}>
                         <button className='books--btn'>Показать болшье</button>
                     </NavLink>
-                    <div className='books--'>
 
-                    </div>
                 </div>
             </div>
         </div>
