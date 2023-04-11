@@ -36,6 +36,7 @@ const Header = () => {
 
                                 width: menu ? "30%" : "25%"
 
+
                             }}/>
                             <span style={{
                                 display: menu ? "none" : "block"

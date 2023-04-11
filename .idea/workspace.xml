@@ -13,11 +13,20 @@
       <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/LearMore/LearnMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/LearMore/LearnMore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/Team/Team.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Team/Team.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/TeamBuilding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/TeamBuilding.js" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +68,24 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  &lt;component name=&quot;PropertiesComponent&quot;&gt;{
+  &amp;quot;keyToString&amp;quot;: {
+    &amp;quot;ASKED_ADD_EXTERNAL_FILES&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;RunOnceActivity.OpenProjectViewOnStart&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;RunOnceActivity.ShowReadmeOnStart&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;WebServerToolWindowFactoryState&amp;quot;: &amp;quot;false&amp;quot;,
+    &amp;quot;list.type.of.created.stylesheet&amp;quot;: &amp;quot;SCSS&amp;quot;,
+    &amp;quot;node.js.detected.package.eslint&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;node.js.detected.package.tslint&amp;quot;: &amp;quot;true&amp;quot;,
+    &amp;quot;node.js.selected.package.eslint&amp;quot;: &amp;quot;(autodetect)&amp;quot;,
+    &amp;quot;node.js.selected.package.tslint&amp;quot;: &amp;quot;(autodetect)&amp;quot;,
+    &amp;quot;nodejs_package_manager_path&amp;quot;: &amp;quot;npm&amp;quot;,
+    &amp;quot;vue.rearranger.settings.migration&amp;quot;: &amp;quot;true&amp;quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -105,6 +127,11 @@
       <workItem from="1681056660640" duration="7774000" />
       <workItem from="1681067743495" duration="779000" />
       <workItem from="1681112071765" duration="448000" />
+
+      <workItem from="1681223898069" duration="601000" />
+      <workItem from="1681224521845" duration="10833000" />
+
+
     </task>
     <servers />
   </component>
@@ -124,5 +151,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
