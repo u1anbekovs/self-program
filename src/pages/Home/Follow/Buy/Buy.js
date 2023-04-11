@@ -2,13 +2,9 @@ import React, {useEffect, useState} from 'react';
 import "./Buy.scss"
 import {AiOutlineCheck} from "react-icons/ai"
 import {useNavigate} from "react-router-dom";
-
+import {useSelector} from "react-redux";
 import {useDispatch} from "react-redux";
 
-const Subscription = () => {
-   const dispatch = useDispatch()
-
-import {useDispatch, useSelector} from "react-redux";
 
 const Subscription = () => {
     const dispatch = useDispatch()

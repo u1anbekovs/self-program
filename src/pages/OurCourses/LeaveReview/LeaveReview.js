@@ -11,9 +11,6 @@ const LeaveReview = () => {
 
     return (
 
-        <div>
-        </div>
-
    <div id="review">
        <div className="container">
            <div className="review">
