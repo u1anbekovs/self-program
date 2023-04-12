@@ -1,6 +1,10 @@
 import React from 'react';
 import "./AccordionProgrammer.scss"
 import book from "../../../assets/img/book3.png"
+import bookOne from "../../../assets/img/Kaif10.png"
+import bookImg from "../../../assets/img/Kaif11.png"
+import bookTwo from "../../../assets/img/Kaif12.png"
+import bookThree from "../../../assets/img/Kaif 14.png"
 
 const AccordionProgrammer = () => {
     return (
@@ -30,6 +34,9 @@ const AccordionProgrammer = () => {
                             </svg>
                             <h1>100% эксклюзив</h1>
                             <p>ТКурс записан эксклюзивно<br/>для нашей платформы.</p>
+                            <div className="absolute mt-[-170px] ml-[-100px]">
+                                <img src={bookOne} alt="img"/>
+                            </div>
                         </div>
                         <div className="programme--programme-block__block">
                             <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
@@ -41,6 +48,11 @@ const AccordionProgrammer = () => {
                             <h1>В любое время, в любом месте</h1>
                             <p>Занимайтесь как вам удобно и<br/> где угодно, на своем,<br/> мобильном или компьютере.
                             </p>
+                            <div className="absolute ml-[380px]">
+                                <div>
+                                <img src={bookImg} alt="img"/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="programme--course-learn">
@@ -85,11 +97,13 @@ const AccordionProgrammer = () => {
                                     Страрательный парень
                                 </p>
                             </div>
+                            <img className="ml-[600px]" src={bookThree} alt="img"/>
                         </div>
                         <div className="programme--speaker__photo">
                        <center>
                         <h1 className="mt-[145px]">Photo</h1>
                         </center>
+                            <img src={bookTwo} alt="img"/>
                     </div>
                     </div>
 

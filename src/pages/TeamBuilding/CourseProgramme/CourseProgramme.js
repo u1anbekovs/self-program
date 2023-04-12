@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {MdArrowBackIosNew} from "react-icons/md";
 import "./CourseProgramme.scss"
-
+import book from "../../../assets/img/Kaif10.png"
 const CourseProgramme = () => {
     const [selected, setSelected] = useState(false)
     const [selected2, setSelected2] = useState(false)
@@ -71,8 +71,9 @@ const CourseProgramme = () => {
                             </div>
                         </div>
                         </div>
-
-
+                        <div className="absolute">
+                        <img src={book} alt="img"/>
+                        </div>
                         <div onClick={() => {
                             setSelected2(!selected2)
                             setSelected(false)
