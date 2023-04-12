@@ -41,6 +41,14 @@
         border: 1px solid #FFFFFF;
         border-radius: 10px;
       }
+     &__text{
+       h1{
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 20px;
+         color: #FFFFFF;
+       }
+     }
     }
 }}
 }
