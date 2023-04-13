@@ -83,6 +83,7 @@ const AccordionProgrammer = () => {
                                     лестнице
                                 </p>
                             </div>
+                            <img src={bookThree} alt="img"/>
                         </div>
                     </div>
                     <div className="programme--speaker">
