@@ -1,5 +1,4 @@
 import React from 'react';
-
 import "./Reviews.scss"
 import Slider from "react-slick";
 
