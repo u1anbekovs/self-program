@@ -1,0 +1,260 @@
+#twoLogin{
+  .twoLogin{
+
+    &--text{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10%;
+      h2{
+        margin: 10px;
+        font-weight: 500;
+        font-size: 27px;
+        color: #FFFFFF;
+
+      }
+      &__block{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+        height: 273px;
+        background: rgba(255, 255, 255, 0.3);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(2px);
+        border-radius: 10px;
+
+        h3{
+          font-weight: 500;
+          font-size: 24px;
+          margin: 16px;
+          color: #FFFFFF;
+
+        }
+        input{
+          outline: none;
+          background: transparent;
+          width: 360px;
+          height: 40px;
+          border: 1px solid #FFFFFF;
+          border-radius: 10px;
+          padding: 0 20px;
+          margin: 8px 0;
+        }
+        input::placeholder{
+          color: rgba(255, 255, 255, 0.57);
+        }
+        button{
+          margin-top: 15px;
+          font-weight: 500;
+          font-size: 20px;
+          color: #6363DF;
+          width: 360px;
+          height: 40px;
+          background: #FFFFFF;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1140px) {
+
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+  #twoLogin{
+    .twoLogin{
+
+      &--text{
+
+        h2{
+
+
+        }
+        &__block{
+
+          h3{
+
+
+          }
+          input{
+
+          }
+
+          button{
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  #twoLogin{
+    .twoLogin{
+
+      &--text{
+        img{
+          width: 60px;
+        }
+        h2{
+
+          font-size: 18px;
+
+        }
+        &__block{
+          width: 358px;
+          h3{
+            margin: 8px;
+            font-size: 22px;
+
+          }
+          input{
+            width: 290px;
+          }
+
+          button{
+            width: 290px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  #twoLogin{
+    .twoLogin{
+
+      &--text{
+
+        h2{
+
+
+        }
+        &__block{
+
+          h3{
+
+
+          }
+          input{
+
+          }
+
+          button{
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 380px) {
+  #twoLogin{
+    .twoLogin{
+
+      &--text{
+
+        h2{
+          font-size: 15px;
+
+
+        }
+        &__block{
+          width: 304px;
+
+          h3{
+
+
+          }
+          input{
+            width: 255px;
+            height: 37px;
+
+
+          }
+
+          button{
+            margin-bottom: 20px;
+            width: 255px;
+            height: 37px;
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  #twoLogin{
+    .twoLogin{
+
+      &--text{
+
+        h2{
+
+
+        }
+        &__block{
+
+          h3{
+
+
+          }
+          input{
+
+          }
+
+          button{
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  #twoLogin{
+    .twoLogin{
+
+      &--text{
+
+        h2{
+          font-size: 14px;
+
+
+        }
+        &__block{
+          height: 250px;
+          width: 272px;
+          h3{
+            font-size: 18px;
+
+
+          }
+          input{
+            width: 230px;
+
+          }
+
+          button{
+            font-size: 15px;
+            width: 230px;
+
+          }
+        }
+      }
+    }
+  }
+}
