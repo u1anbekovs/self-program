@@ -1,0 +1,17 @@
+Index: src/pages/TeamBuilding/TeamBuilding.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/pages/TeamBuilding/TeamBuilding.js b/src/pages/TeamBuilding/TeamBuilding.js
+--- a/src/pages/TeamBuilding/TeamBuilding.js	
++++ b/src/pages/TeamBuilding/TeamBuilding.js	
+@@ -3,7 +3,7 @@
+ 
+ const TeamBuilding = () => {
+     return (
+-        <>
++        <div></div>
+ 
+     );
+ };
