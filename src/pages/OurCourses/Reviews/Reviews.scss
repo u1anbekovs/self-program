@@ -69,6 +69,19 @@
   border: 1px solid #FFFFFF;
   backdrop-filter: blur(100px);
 }
-.slick-slide{
+
+.slick-slide {
   margin: 0 30px;
 }
+
+@media (max-width: 1140px) {
+  #review .review--image3 {
+    display: none;
+  }
+}
+
+
+
+
+
+
