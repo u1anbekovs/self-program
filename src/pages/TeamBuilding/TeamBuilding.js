@@ -1,13 +1,16 @@
 import React from 'react';
+import CourseProgramme from "./CourseProgramme/CourseProgramme";
+import AccordionProgrammer from "./accordionProgrammer/AccordionProgrammer";
 import AboutCourse from "./AboutCourse/AboutCourse";
-import Reviews from "./Reviews/Reviews";
+
 
 const TeamBuilding = () => {
     return (
         <>
             <AboutCourse/>
-            <Reviews/>
-        </>
+            <CourseProgramme/>
+            <AccordionProgrammer/>
+       </>
 
     );
 };

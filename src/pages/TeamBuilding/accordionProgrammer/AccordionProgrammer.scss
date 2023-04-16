@@ -1,0 +1,90 @@
+#programme {
+  padding-top: 100px;
+  .container {
+    .programme {
+      &--programme-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__block {
+          h1 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+            margin: 10px 0 10px 0;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+          }
+        }
+      }
+
+      &--course-learn {
+        margin-top: 240px;
+
+        h1 {
+          font-weight: 600;
+          font-size: 36px;
+          color: #FFFFFF;
+          margin-bottom: 60px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 29px;
+          color: #FFFFFF;
+          margin: 5px;
+        }
+      }
+
+      &--speaker {
+        margin-top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        h4 {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 29px;
+          color: #FFFFFF;
+        }
+
+        h1 {
+          font-weight: 600;
+          font-size: 40px;
+          line-height: 49px;
+          color: #FFFFFF;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 39px;
+          color: #FFFFFF;
+        }
+        h3{
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 29px;
+          color: #FFFFFF;
+        }
+        &__photo{
+          background: rgba(255, 255, 255, 0.1);
+          border: 1px solid #FFFFFF;
+          backdrop-filter: blur(12px);
+          width: 473px;
+          height: 324px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

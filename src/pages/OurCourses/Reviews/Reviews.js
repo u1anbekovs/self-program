@@ -1,5 +1,4 @@
 import React from 'react';
-
 import "./Reviews.scss"
 import Slider from "react-slick";
 
@@ -33,7 +32,6 @@ const Reviews = () => {
                         </div>
                     </div>
                 </Slider>
-
 
             </div>
         </section>
