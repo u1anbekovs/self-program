@@ -13,18 +13,19 @@ const AboutCourse = () => {
             <div className="container">
                 <div className="about">
                     <h1 className="about--title">О КУРСЕ</h1>
+                    <img className="about--image" src={imgAbout} alt=""/>
                     <p className="about--description">Как правильно строить команду и эффективно ею управлять, чтобы достигать все поставленные цели.</p>
                     <p className="about--description">И если вы хотите достичь успеха в карьере, бизнесе, своих проектах, значит, время переходить от <br/> прокачивания личной эффективности к изучению организации и работы эффективной команды.</p>
                     <p className="about--description">Курс “Командообразование” поможет вам освоить и внедрить методы создания и работы таких <br/>
                         команд, которые приносят результат, потому что достижение успеха - это командный вид спорта.</p>
                     <p className="about--description">И в работе, и в жизни выдающихся результатов достигает только тот, кто умеет окружать себя <br/>
                         выдающимися людьми. Ваши достижения будут настолько же выдающимися, <br/>
+                        <img className="about--image2" src={imgAbout2} alt=""/>
+
                         насколько выдающейся будет ваша команда. А команда будет настолько же выдающейся, насколько выдающимся будет её <br/> лидер.</p>
                     <p className="about--description">Команда - это самая эффективная форма организации коллективного труда. Не бывает команды без <br/>
                         эффективности. Если то, что вы называете командой, неэффективна, то скорее всего, это не команда, а <br/>
                         группа людей, которым чего-то не хватает для того, чтобы стать командой. Сама природа создания и <br/> функционирования команды, подразумевает ее эффективность.</p>
-                    <img className="about--image" src={imgAbout} alt=""/>
-                    <img className="about--image2" src={imgAbout2} alt=""/>
                     <div className="about--block">
                         <div className="about--line"></div>
                         <h1 className="about--title2">Этот курс будет особо актуален для тех, кто хочет:</h1>
@@ -63,6 +64,7 @@ const AboutCourse = () => {
                     </li>
                 </ul>
                     </div>
+                    <img className="about--image" src={imgAbout5} alt=""/>
 
                     <img className="about--image3" src={imgAbout3} alt=""/>
                     <img className="about--image4" src={imgAbout4} alt=""/>
