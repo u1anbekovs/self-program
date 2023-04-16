@@ -22,13 +22,6 @@
   padding: 0;
 }
 
-html {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-
 body {
   background: linear-gradient(160deg, #D78B59, #595FEB 50%) fixed;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -37,11 +30,11 @@ body {
 
 body {
   background: linear-gradient(160deg, #D78B59 7%, #595FEB 70%) fixed;
+  background: linear-gradient(160deg, #D78B59 5%, #595FEB 70%) fixed;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   min-height: 100vh;
   background-size: 100%;
   font-family: 'Montserrat', sans-serif;
-
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;

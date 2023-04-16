@@ -162,85 +162,6 @@
     }
 }
 
-@media(max-width: 1440px) {
-    #footer {
-        .footer {
-            a {}
-
-            &--cards {
-
-                &__card {
-                    font-size: 65px;
-                    margin-right: 10px;
-                    color: white;
-                }
-
-                &__mCard {
-                    width: 70px;
-                    height: 55px;
-                }
-            }
-
-            &--footNav {
-
-                .socLogos {
-                    font-size: 25px;
-
-                }
-
-                .socLogosS {}
-
-                h3 {}
-
-                h4 {}
-
-                .line {
-                    width: 162px;
-                }
-
-                &__selfBook {
-                    a {}
-
-                    img {
-                        width: 75px;
-                        height: 70px;
-                    }
-
-                    .text {
-                        font-size: 15px;
-                    }
-                }
-
-                &__fastLinks {
-                    .boot {}
-                }
-
-                &__socials {
-                    &--blockSoc {
-                        &__logos {}
-                    }
-                }
-
-                &__contacts {
-                    .koko {
-                        height: 70px;
-                    }
-                }
-
-                &__address {
-                    .pq {
-                        height: 130px;
-                    }
-
-                    .logoO {
-                        font-size: 35px;
-                        color: white;
-                    }
-                }
-            }
-        }
-    }
-}
 
 @media (max-width: 1200px) {
     #footer {
@@ -336,7 +257,9 @@
         }
     }
 }
-
+@media (max-width: 1140px) {
+    
+}
 @media (max-width: 1024px) {
     #footer {
         .footer {
@@ -414,7 +337,6 @@
         }
     }
 }
-
 @media (max-width: 992px) {
     #footer {
         .footer {
@@ -488,7 +410,6 @@
         }
     }
 }
-
 @media (max-width: 768px) {
     #footer {
         .footer {
@@ -581,7 +502,6 @@
         }
     }
 }
-
 @media (max-width: 576px) {
     #footer {
         .footer {
@@ -680,8 +600,7 @@
         }
     }
 }
-
-@media (max-width: 450px) {
+@media (max-width: 451px) {
     #footer {
         .footer {
             a {}
@@ -782,7 +701,6 @@
         }
     }
 }
-
 @media (max-width: 400px) {
     #footer {
         .footer {
@@ -885,8 +803,7 @@
         }
     }
 }
-
-@media (max-width: 350px) {
+@media (max-width: 380px) {
     #footer {
         .footer {
             a {}
@@ -991,7 +908,9 @@
         }
     }
 }
-
+@media (max-width: 360px) {
+    
+}
 @media (max-width: 320px) {
     #footer {
         .footer {

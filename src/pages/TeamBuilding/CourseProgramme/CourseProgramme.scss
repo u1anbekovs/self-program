@@ -12,6 +12,8 @@
     margin: 10px 0;
 
     &__items {
+      cursor: pointer;
+
       &--btn-one {
         button {
           font-weight: 500;
@@ -99,3 +101,24 @@
 @media (max-width: 320px) {
 
 }
+.aboutAcc {
+  display: flex;
+  align-items: center;
+  &--h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-left: 20px;
+  }
+
+  &__line {
+    width: 10px;
+    height: 44px;
+    background: #FFFFFF;
+  }
+}
+
+

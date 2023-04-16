@@ -17,7 +17,7 @@ const Accardeon = () => {
                         <img className='wrapper--accardion--bookT' src={Accordion} alt="img" />
                         <div className="wrapper--accordion__title">
                             <img className="wrapper--accordion__title--bookL" src={BookL} alt="img" />
-                            <OpenAcc />
+                            <OpenAcc/>
                         </div>
                     </div>
                     <img className='wrapper--img1' src={bg} alt='img' />
