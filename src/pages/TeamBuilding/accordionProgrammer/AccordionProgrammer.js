@@ -1,4 +1,4 @@
-import React from 'react';
+    import React from 'react';
 import "./AccordionProgrammer.scss"
 import book from "../../../assets/img/book3.png"
 import bookOne from "../../../assets/img/Kaif10.png"
@@ -34,7 +34,7 @@ const AccordionProgrammer = () => {
                             </svg>
                             <h1>100% эксклюзив</h1>
                             <p>ТКурс записан эксклюзивно<br/>для нашей платформы.</p>
-                            <div className="absolute mt-[-170px] ml-[-100px]">
+                            <div className="absolute mt-[-250px] ml-[-120px]">
                                 <img src={bookOne} alt="img"/>
                             </div>
                         </div>

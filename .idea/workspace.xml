@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="000de989-247d-44ef-a3dc-5177fba8a7b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Buy.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Self/Control.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Self/Control.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Self/Self.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Buy/Self/Self.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="adaptive" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
