@@ -4,6 +4,10 @@ import {AiOutlineCheck} from "react-icons/ai"
 import {useNavigate} from "react-router-dom";
 import {useSelector} from "react-redux";
 import {useDispatch} from "react-redux";
+import Book from "../../../../assets/img/book1.png";
+import BookOne from "../../../../assets/img/book3.svg";
+import Book2 from "../../../../assets/img/book2.svg";
+import Book1 from "../../../../assets/img/book1.svg";
 
 
 
@@ -60,15 +64,6 @@ const Subscription = () => {
                 break
         }
     }
-    // const navBtn = () => {
-    //     navigate('/self')
-    //     setTimeout(() => {
-    //         navigate('/control')
-    //         setTimeout(() => {
-    //             navigate('/')
-    //         }, 2000)
-    //     }, 3000)
-    // }
 
     const navBtn = () => {
         dispatch({type: "PAYMENT", payload: true})
@@ -88,8 +83,14 @@ const Subscription = () => {
     }
     return (
         <section id="subscription">
+            <img className="buyImg3" src={Book2} alt="img"/>
+            <img className="buyImg4" src={Book1} alt="img"/>
+            <img className="buyImage" src={BookOne} alt="img"/>
+            <img className="buyImg2" src={Book} alt="img"/>
+
 
             <div className="container">
+
                 <div className="subscription">
 
                     <h1 className="subscription__h1">Оформление подписки</h1>
@@ -250,6 +251,8 @@ const Subscription = () => {
 
                 </div>
             </div>
+            <img className="buyImg" src={Book} alt="img"/>
+
         </section>
     );
 };

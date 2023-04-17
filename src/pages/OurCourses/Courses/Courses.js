@@ -47,12 +47,10 @@ const Courses = () => {
                             <p className="mt-[15px] ml-[20px]">Подробнее...</p>
                         </div>
                     </div>
-                    <center>
-                    <div className="course--block-btn flex justify-center items-center ml-[-150px]">
-                        <img src={book} alt="img" className="mt-[-50px]"/>
-                        <Link to={"/button"}><button>Смотреть все курсы</button></Link>
+                    <div className="course--block-btn">
+                        <img src={book} alt="img" className="course--block-btn__img"/>
+                        <center><Link to={"/button"}><button>Смотреть все курсы</button></Link></center>
                     </div>
-                    </center>
                 </div>
             </div>
         </section>

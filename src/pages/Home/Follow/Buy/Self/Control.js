@@ -1,5 +1,5 @@
 import React from 'react';
-import selfImg from "../../../../../assets/img/book.png"
+import selfImg from "../../../../../assets/img/auto.svg"
 
 
 const Self = () => {
