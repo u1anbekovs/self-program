@@ -28,13 +28,14 @@ const CourseProgramme = () => {
 
                         }} style={{
                             height: selected ? "270px" : "",
-                            transition: ".5s"
+                            transition: ".5s",
+                            // maxHeight: selected ? "400px" : "",
                         }}
                              className="accordion--btn mt-30px">
                             <div className="accordion--btn__items">
                                 <div className="flex items-center justify-between">
                                     <div
-                                        className="accordion--btn__items--btn-one flex items-center gap-[55px] mt-[15px] ml-[30px]">
+                                        className="accordion--btn__items--btn-one flex items-center gap-[55px] mt-[15px] ml-[30px] flex-wrap">
                                         <button>Модуль 1</button>
                                         <h1>Введение</h1>
 

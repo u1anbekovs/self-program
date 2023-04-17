@@ -50,7 +50,7 @@ const AccordionProgrammer = () => {
                             </p>
                             <div className="absolute ml-[380px]">
                                 <div>
-                                <img src={bookImg} alt="img"/>
+                                    <img src={bookImg} alt="img"/>
                                 </div>
                             </div>
                         </div>
@@ -59,12 +59,13 @@ const AccordionProgrammer = () => {
                         <h1>НА КУРСЕ ВЫ НАУЧИТЕСЬ:</h1>
                         <div className="ml-[100px]">
                             <div className="flex items-center">
-                                <div className=" w-[10px] h-[10px] bg-white rounded-3xl mt-[-30px]"></div>
+                                <div
+                                    className=" w-[10px] h-[10px] bg-white rounded-3xl mt-[-30px]"></div>
                                 <p>Анализировать и устранять типичные ошибки руководителей в управлении<br/> командой
                                 </p>
                             </div>
                             <div className="flex items-center">
-                                <div className=" w-[10px] h-[10px] bg-white rounded-3xl"></div>
+                                <div className="  w-[10px] h-[10px] bg-white rounded-3xl"></div>
                                 <p>Внедрять специальные приемы работы с людьми и командой</p>
                             </div>
 
@@ -72,12 +73,14 @@ const AccordionProgrammer = () => {
                                 <div className=" w-[10px] h-[10px] bg-white rounded-3xl"></div>
                                 <p>Создавать команду и эффективно ею управлять в любом проекте</p>
                             </div>
+
                             <div className="flex items-center">
-                                <div className="w-[10px] h-[10px] bg-white rounded-3xl"></div>
+                                <div className=" w-[10px] h-[10px] bg-white rounded-3xl"></div>
                                 <p>Правильно прогнозировать и масштабировать результат работы команды</p>
                             </div>
+
                             <div className="flex items-center">
-                                <div className=" w-[10px] h-[10px] bg-white rounded-3xl mt-[-30px]"></div>
+                                <div className="w-[10px] h-[10px] bg-white rounded-3xl mt-[-30px]"></div>
                                 <p>Правильно подходить к вопросам увольнения и продвижения по карьерной
                                     <br/>
                                     лестнице
@@ -101,11 +104,11 @@ const AccordionProgrammer = () => {
                             <img className="ml-[600px]" src={bookThree} alt="img"/>
                         </div>
                         <div className="programme--speaker__photo">
-                       <center>
-                        <h1 className="mt-[145px]">Photo</h1>
-                        </center>
+                            <center>
+                                <h1 className="mt-[145px]">Photo</h1>
+                            </center>
                             <img src={bookTwo} alt="img"/>
-                    </div>
+                        </div>
                     </div>
 
                 </div>
