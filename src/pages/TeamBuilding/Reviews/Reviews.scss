@@ -1,8 +1,12 @@
-#view{
+#view {
   padding: 100px 0;
-  .view{
-    &--title{
-      font-family: 'Montserrat',sans-serif;
+
+  .view {
+    SliderХ{
+      display: none;
+    }
+    &--title {
+      font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 36px;
@@ -10,22 +14,37 @@
       color: #FFFFFF;
       padding-bottom: 60px;
     }
-    &--box{
+
+    &--box {
       display: flex;
       align-items: center;
       justify-content: space-around;
       padding-bottom: 90px;
     }
-    &--block{
+
+    &--block {
       width: 370px;
       height: 215px;
+      margin: 0 30px;
       background: rgba(255, 255, 255, 0.1);
       border: 1px solid #FFFFFF;
       backdrop-filter: blur(7px);
       border-radius: 10px;
-      padding: 10px 20px;
+      padding: 20px;
     }
-    &--title2{
+    &--block2 {
+      width: 370px;
+      height: 215px;
+      margin: 0 30px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #FFFFFF;
+      backdrop-filter: blur(7px);
+      border-radius: 10px;
+      padding: 20px;
+      display: none;
+    }
+
+    &--title2 {
       font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: 500;
@@ -33,43 +52,162 @@
       line-height: 29px;
       color: #FFFFFF;
     }
-    &--desc{
-      font-family: 'Montserrat',sans-serif;
+
+    &--desc {
+      font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
       line-height: 20px;
       color: rgba(255, 255, 255, 0.5);
-      padding-bottom: 15px;
+      padding-bottom: 10px;
     }
-    &--titles{
+
+    &--titles {
       padding: 5px 5px;
     }
-    &--icons{
+
+    &--icons {
+      padding-left: 3.8rem;
       display: flex;
       align-items: center;
       padding-bottom: 15px;
     }
-    &--icon{
-      padding: 0 2px;
+
+    &--icon {
+      padding: 0 0.5px;
       color: #DFAC4D;
     }
-    &--desc2{
-      font-family: 'Montserrat',sans-serif;
+
+    &--desc2 {
+      font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
       line-height: 20px;
       color: #FFFFFF;
     }
-   &--box2{
-     display: flex;
-     flex-wrap: wrap;
-   }
-    &--image2{
+    &--desc3 {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
+
+    &--box2 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &--box3{
+      display: flex;
+    }
+    &--image2 {
       position: absolute;
       left: 420px;
       top: 158.3rem;
     }
+  }
+}
+
+
+@media (max-width: 1140px) {
+
+}
+
+@media (max-width: 1024px) {
+  #view .view--image2 {
+    position: absolute;
+    left: 237px;
+    top: 193.5rem;
+  }
+  #view .view--block {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  #view .view--image2 {
+    position: absolute;
+    left: 235px;
+    top: 212.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #view .view--box {
+    overflow-x: scroll;
+    width: 106%;
+  }
+  #view .view--block2 {
+    display: block;
+  }
+  #view .view--image2 {
+    position: absolute;
+    left: 148px;
+    top: 217.9rem;
+  }
+
+}
+
+@media (max-width: 576px) {
+  #view .view--image2 {
+    position: absolute;
+    left: 148px;
+    top: 267.9rem;
+  }
+  #view .view--box {
+    overflow-x: scroll;
+    width: 180%;
+  }
+}
+
+@media (max-width: 450px) {
+  #view .view--image2 {
+    position: absolute;
+    left: 148px;
+    top: 325.9rem;
+  }
+  #view .view--box {
+    overflow-x: scroll;
+    width: 180%;
+  }
+}
+
+@media (max-width: 400px) {
+  #view .view--image2 {
+    position: absolute;
+    left: 148px;
+    top: 339.9rem;
+  }
+  #view .view--block2 {
+    width: 299px;
+    height: 220px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  #view .view--image2 {
+    position: absolute;
+    left: 148px;
+    top: 355.9rem;
+  }
+}
+
+@media (max-width: 360px) {
+  #view .view--image2 {
+    position: absolute;
+    left: 148px;
+    top: 348.9rem;
+  }
+}
+
+@media (max-width: 320px) {
+  #view .view--image2 {
+    position: absolute;
+    left: 112px;
+    top: 422.9rem;
   }
 }

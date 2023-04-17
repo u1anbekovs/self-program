@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="000de989-247d-44ef-a3dc-5177fba8a7b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/video.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.js" afterDir="false" />
     </list>
