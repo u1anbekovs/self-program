@@ -5,7 +5,11 @@
         font-weight: 600;
         font-size: 40px;
         color: #FFFFFF;
-        margin: 0 0 30px 80px;
+        margin: 0 0 20px 80px;
+      }
+      &--image{
+        position: absolute;
+        right: 0;
       }
 
       &--block {
