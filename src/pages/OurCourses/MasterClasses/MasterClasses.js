@@ -2,6 +2,7 @@ import React from 'react';
 import "./MasterClasses.scss"
 import courseBlock from "../../../assets/img/coursblock.png";
 import {Link} from "react-router-dom";
+import imgAbout2 from "../../../assets/img/Kaif 5.svg";
 const MasterClasses = () => {
     return (
         <section id="master">
@@ -9,6 +10,7 @@ const MasterClasses = () => {
                 <div className="master">
                     <div className="master">
                         <h1>Мастер классы</h1>
+                        <img className="master--image" src={imgAbout2} alt=""/>
                         <div className="master--block">
                             <div className="master--block__block-one">
                                 <h1>Создание команды</h1>

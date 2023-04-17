@@ -1,5 +1,28 @@
 #subscription {
-  padding: 150px 0;
+  padding: 200px 0;
+  .buyImg{
+    position: absolute;
+    left: 450px;
+  }
+  .buyImg2{
+    position: absolute;
+    right: 100px;
+    top: 600px;
+  }
+  .buyImg3{
+    position: absolute;
+    left: 300px;
+  }
+  .buyImg4{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+  }
+  .buyImage{
+    position: absolute;
+    left: 0;
+    top: 600px;
+  }
 
   .subscription {
     background: rgba(255, 255, 255, 0.3);
