@@ -1,0 +1,39 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,20 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_10_52__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_10_52__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" afterDir="false" />
+-    </list>
++    <list default="true" id="1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -127,7 +114,7 @@
+       <workItem from="1681378458031" duration="424000" />
+       <workItem from="1681378917714" duration="5345000" />
+       <workItem from="1681550895243" duration="1529000" />
+-      <workItem from="1681621701092" duration="7386000" />
++      <workItem from="1681621701092" duration="7765000" />
+     </task>
+     <servers />
+   </component>
