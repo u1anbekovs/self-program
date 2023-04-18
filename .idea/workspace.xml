@@ -4,6 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7" name="Changes" comment="i did bro">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/TwoLogin/TwoLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/faicBeckend/faicBeckend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/TwoLogin/TwoLogin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/OurCourses.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/OurCourses.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/TeamBuilding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/TeamBuilding.js" afterDir="false" />
     <list default="true" id="000de989-247d-44ef-a3dc-5177fba8a7b4" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/assets/img/video.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -45,6 +53,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="bro" />
         <entry key="$PROJECT_DIR$" value="adaptionMaster" />
         <entry key="$PROJECT_DIR$" value="adaptive" />
       </map>
@@ -142,6 +151,12 @@
       <workItem from="1681704746826" duration="6908000" />
       <workItem from="1681377768835" duration="3047000" />
       <workItem from="1681381586573" duration="6551000" />
+      <workItem from="1681541447595" duration="10638000" />
+      <workItem from="1681574941724" duration="6449000" />
+      <workItem from="1681698674386" duration="8793000" />
+      <workItem from="1681719910250" duration="673000" />
+      <workItem from="1681721667782" duration="603000" />
+      <workItem from="1681723477830" duration="6000" />
       <workItem from="1681541447595" duration="3198000" />
       <workItem from="1681563501902" duration="825000" />
       <workItem from="1681564368713" duration="1494000" />
@@ -149,6 +164,14 @@
       <workItem from="1681638809812" duration="605000" />
       <workItem from="1681647491372" duration="9759000" />
     </task>
+    <task id="LOCAL-00001" summary="i did bro">
+      <created>1681551216332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681551216332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,5 +190,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="i did login" />
+    <MESSAGE value="i did bro" />
+    <option name="LAST_COMMIT_MESSAGE" value="i did bro" />
   </component>
 </project>

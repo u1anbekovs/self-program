@@ -14,6 +14,7 @@ const TeamBuilding = () => {
             <AccordionProgrammer/>
        </>
 
+
     );
 };
 
