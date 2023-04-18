@@ -1,4 +1,5 @@
 #programme {
+  padding-top: 100px;
   .container {
     .programme {
       &--programme-block {
@@ -7,8 +8,6 @@
         justify-content: space-between;
 
         &__block {
-          margin-top: 200px;
-
           h1 {
             font-weight: 600;
             font-size: 24px;
@@ -44,13 +43,13 @@
           margin: 5px;
         }
       }
-
       &--speaker {
         margin-top: 120px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
+
         h4 {
           font-weight: 500;
           font-size: 24px;
@@ -71,13 +70,15 @@
           line-height: 39px;
           color: #FFFFFF;
         }
-        h3{
+
+        h3 {
           font-weight: 400;
           font-size: 24px;
           line-height: 29px;
           color: #FFFFFF;
         }
-        &__photo{
+
+        &__photo {
           background: rgba(255, 255, 255, 0.1);
           border: 1px solid #FFFFFF;
           backdrop-filter: blur(12px);
@@ -87,5 +88,83 @@
         }
       }
     }
+  }
+}
+@media (max-width: 768px) {
+  #programme {
+    .container {
+      .programme {
+        &--programme-block {
+          flex-direction: column;
+          align-items: start;
+          gap: 10px;
+          margin-left: 50px;
+        }
+      }
+    }
+  }
+  #programme .container .programme--course-learn p {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  #programme {
+    .container {
+      .programme {
+        &--programme-block {
+          flex-direction: column;
+          align-items: start;
+          gap: 10px;
+          margin-left: 50px;
+        }
+        &--speaker{
+          h3{
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 451px) {
+  .aboutAcc--h1 {
+    font-size: 34px;
+  }
+  #programme .container .programme--course-learn h1 {
+    font-size: 27px;
+  }
+  #programme .container .programme--speaker h3 {
+    font-size: 18px;
+  }
+  #programme .container .programme--speaker p {
+    width: 411px;
+    margin-left: -130px;
+  }
+}
+
+@media (max-width: 400px) {
+  #programme .container .programme--speaker h3 {
+    font-size: 24px;
+    width: 379px;
+  }
+  #programme .container .programme--speaker p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 360px) {
+  #programme .container .programme--speaker p {
+    width: 351px;
+  }
+}
+
+@media (max-width: 320px) {
+  #programme .container .programme--speaker h3 {
+    width: 320px;
+  }
+  #programme .container .programme--speaker p {
+    width: 299px;
   }
 }

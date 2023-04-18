@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Self.scss"
-import selfImg from "../../../../../assets/img/book.png"
+import selfImg from "../../../../../assets/img/auto.svg"
 
 const Self = () => {
 

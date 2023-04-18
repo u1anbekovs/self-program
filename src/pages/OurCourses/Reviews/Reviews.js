@@ -1,5 +1,4 @@
 import React from 'react';
-
 import "./Reviews.scss"
 import Slider from "react-slick";
 
@@ -9,7 +8,6 @@ const Reviews = () => {
         slidesToShow: 1.8,
         cssEase: "linear"
     };
-
     return (
         <section id="reviews">
             <div className="reviews">
@@ -38,5 +36,4 @@ const Reviews = () => {
         </section>
     );
 };
-
 export default Reviews;

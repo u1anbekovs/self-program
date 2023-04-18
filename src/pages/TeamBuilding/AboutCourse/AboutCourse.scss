@@ -54,14 +54,12 @@
     }
     &--image{
       position: absolute;
-      bottom: 260px;
-      left: 390px;
-      opacity: 60%;
+      left: 400px;
+      opacity: 0.5;
     }
     &--image2{
       position: absolute;
-      bottom: 100px;
-      left: 1400px;
+      right: 0;
     }
     &--line2{
       width: 10px;
@@ -88,3 +86,243 @@
     }
   }
 }
+
+
+@media (max-width: 1040px) {
+  #about .about--image4 {
+    position: absolute;
+    left: 58rem;
+  }
+  #about .about--image2 {
+    position: absolute;
+    bottom: -275px;
+    left: 921px;
+  }
+  #about .about--image {
+    position: absolute;
+    bottom: 237px;
+    left: 371px;
+  }
+  #about .about--image6 {
+    position: relative;
+    right: 5.3rem;
+  }
+}
+@media (max-width: 1024px) {
+  #about .about--image2 {
+    position: absolute;
+    left: 904px;
+  }
+  #about .about--image4 {
+    position: absolute;
+    left: 57rem;
+  }
+  #about .about--image6 {
+    position: relative;
+    right: 5.2rem;
+  }
+}
+@media (max-width: 992px) {
+  #about .about--image2 {
+    position: absolute;
+    left: 873px;
+  }
+  #about .about--image4 {
+    position: absolute;
+    left: 55rem;
+  }
+  #about .about--image6 {
+    position: relative;
+    right: 9.2rem;
+  }
+}
+@media (max-width: 768px) {
+  #about .about--image2 {
+    position: absolute;
+    left: 649px;
+  }
+  #about .about--image4 {
+    position: absolute;
+    left: 41rem;
+  }
+  #about .about--image6 {
+    position: relative;
+    right: 4.5rem;
+  }
+  #about .about--image5 {
+    position: absolute;
+    left: 622px;
+  }
+}
+@media (max-width: 576px) {
+  #about .about--image2 {
+    position: absolute;
+    left: 458px;
+  }
+  #about .about--image {
+    position: absolute;
+    bottom: 237px;
+    left: 346px;
+  }
+  #about .about--image4 {
+    position: absolute;
+    left: 28rem;
+  }
+  #about .about--image5 {
+    position: absolute;
+    left: 480px;
+  }
+  #about .about--image6 {
+    position: relative;
+    right: 3.9rem;
+  }
+  #about .about--title {
+    font-weight: 500;
+  }
+  #about .about--title2 {
+    font-weight: 500;
+  }
+}
+@media (max-width: 450px) {
+  #about .about--image4 {
+    position: absolute;
+    left: 19rem;
+  }
+  #about .about--image {
+    position: absolute;
+    bottom: 237px;
+    left: 197px;
+  }
+  #about .about--image2 {
+    position: absolute;
+    left: 330px;
+  }
+  #about .about--image3 {
+    position: absolute;
+    left: 165px;
+  }
+  #about .about--image5 {
+    position: absolute;
+    left: 358px;
+  }
+  #about .about--image6 {
+    position: relative;
+    right: 3.4rem;
+  }
+  #about .about--title {
+    font-weight: 400;
+  }
+  #about .about--title2 {
+    font-weight: 400;
+  }
+  #about .about--description {
+    font-weight: 300;
+  }
+  #about .about--desc {
+    font-weight: 300;
+  }
+}
+@media (max-width: 400px) {
+  #about .about--image2 {
+    position: absolute;
+    left: 282px;
+  }
+  #about .about--image5 {
+    position: absolute;
+    left: 318px;
+  }
+  #about .about--image6 {
+    position: relative;
+    right: 3.2rem;
+  }
+}
+@media (max-width: 380px) {
+  #about .about--image {
+    position: absolute;
+    left: 165px;
+  }
+  #about .about--image2 {
+    position: absolute;
+    left: 260px;
+  }
+  #about .about--image4 {
+    position: absolute;
+    left: 16rem;
+  }
+  #about .about--image5 {
+    position: absolute;
+    left: 306px;
+  }
+}
+@media (max-width: 360px) {
+  #about .about--image {
+    position: absolute;
+    left: 130px;
+  }
+  #about .about--image2 {
+    position: absolute;
+    left: 240px;
+  }
+  #about .about--image5 {
+    position: absolute;
+    left: 275px;
+  }
+  #about .about--image5 {
+    position: absolute;
+    left: 275px;
+  }
+  #about .about--title {
+    font-weight: 300;
+  }
+  #about .about--description {
+    font-weight: 200;
+    font-size: 22px;
+  }
+  #about .about--title2 {
+    font-weight: 200;
+  }
+  #about .about--desc {
+    font-weight: 200;
+    font-size: 22px;
+  }
+}
+@media (max-width: 320px) {
+  #about .about--image {
+    position: absolute;
+    left: 98px;
+  }
+  #about .about--image2 {
+    position: absolute;
+    left: 200px;
+  }
+  #about .about--image4 {
+    position: absolute;
+    left: 12rem;
+  }
+  #about .about--image5 {
+    position: absolute;
+    left: 246px;
+  }
+  #about .about--image6 {
+    position: relative;
+    right: 3rem;
+  }
+  #about .about--title2 {
+    line-height: 38px;
+  }
+  #about .about--line {
+    position: relative;
+    top: -45px;
+  }
+  #about .about--title2 {
+    line-height: 36px;
+  }
+  #about .about--title2 {
+    line-height: 38px;
+    width: 1px;
+  }
+  #about .about--line2 {
+    position: relative;
+    top: -13rem;
+  }
+  }
