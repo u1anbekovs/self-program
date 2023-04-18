@@ -1,5 +1,5 @@
-import book from './../../assets/img/aboutBook.png';
-import bookState from './../../assets/img/bookStuty.png'
+import book from  './../../assets/img/aboutBook.png';
+import bookState from  './../../assets/img/bookStuty.png'
 
 export const data = [
                {
@@ -117,6 +117,6 @@ export const data = [
                 button: "Все",
                 button2: "Новое",
                 button3: "Книги",
-            }
+             }
 ]
 
