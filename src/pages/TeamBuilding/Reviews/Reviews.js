@@ -4,7 +4,7 @@ import "./Reviews.scss"
 // import take from "../../../assets/img/take.png"
 // import scroll from "../../../assets/img/scrol-book.png"
 // import small from "../../../assets/img/small-book.png"
-import person from "../../../assets/img/book1.png"
+import person from "../../../assets/img/Ellipse 51.svg"
 
 
 const Reviews = () => {
