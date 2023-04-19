@@ -1,0 +1,148 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_10_52__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_10_52__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/index.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/index.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/Home/Hero/Hero.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/Home/Hero/Hero.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss\" afterDir=\"false\" />\r\n    <list default=\"true\" id=\"1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7\" name=\"Changes\" comment=\"i did login\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2023_23_58__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2023_23_58__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_10_52__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_10_52__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_04_2023_18_22__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_04_2023_18_22__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_04_2023_15_04__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_04_2023_15_04__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/Footer/Footer.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/Footer/Footer.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/index.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/index.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/Home/Hero/Hero.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/Home/Hero/Hero.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.scss\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"SCSS File\" />\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2OMMCujQrSBow0WfvPnFzQSbIBu\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\self-program1\\src\\pages\\Login\\FirstLogin\\password\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7\" name=\"Changes\" comment=\"i did login\" />\r\n      <created>1681365904325</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1680690352083</updated>\r\n      <workItem from=\"1680690353482\" duration=\"3083000\" />\r\n      <workItem from=\"1680698431654\" duration=\"1086000\" />\r\n      <workItem from=\"1680699569764\" duration=\"16000\" />\r\n      <workItem from=\"1680699628467\" duration=\"1976000\" />\r\n      <workItem from=\"1680701748419\" duration=\"2366000\" />\r\n      <workItem from=\"1680772776318\" duration=\"8284000\" />\r\n      <workItem from=\"1680846382767\" duration=\"9318000\" />\r\n      <workItem from=\"1681030107620\" duration=\"15015000\" />\r\n      <workItem from=\"1680782970323\" duration=\"2131000\" />\r\n      <workItem from=\"1680785476704\" duration=\"79000\" />\r\n      <workItem from=\"1680785578830\" duration=\"28000\" />\r\n      <workItem from=\"1680785634923\" duration=\"92000\" />\r\n      <workItem from=\"1680785762002\" duration=\"937000\" />\r\n      <workItem from=\"1680786740709\" duration=\"169000\" />\r\n      <workItem from=\"1680786929442\" duration=\"2061000\" />\r\n      <workItem from=\"1680789063017\" duration=\"46000\" />\r\n      <workItem from=\"1680789126254\" duration=\"301000\" />\r\n      <workItem from=\"1680789448575\" duration=\"27000\" />\r\n      <workItem from=\"1680872377567\" duration=\"11261000\" />\r\n      <workItem from=\"1680858507072\" duration=\"11544000\" />\r\n      <workItem from=\"1681189455733\" duration=\"1353000\" />\r\n      <workItem from=\"1681193882004\" duration=\"7134000\" />\r\n      <workItem from=\"1680957706410\" duration=\"5572000\" />\r\n      <workItem from=\"1681056660640\" duration=\"7774000\" />\r\n      <workItem from=\"1681067743495\" duration=\"779000\" />\r\n      <workItem from=\"1681112071765\" duration=\"448000\" />\r\n      <workItem from=\"1681223898069\" duration=\"601000\" />\r\n      <workItem from=\"1681224521845\" duration=\"10833000\" />\r\n      <workItem from=\"1681295816698\" duration=\"9976000\" />\r\n      <workItem from=\"1681316799153\" duration=\"334000\" />\r\n      <workItem from=\"1681361530302\" duration=\"365000\" />\r\n      <workItem from=\"1681377490835\" duration=\"393000\" />\r\n      <workItem from=\"1681378458031\" duration=\"424000\" />\r\n      <workItem from=\"1681378917714\" duration=\"5345000\" />\r\n      <workItem from=\"1681550895243\" duration=\"1529000\" />\r\n      <workItem from=\"1681621701092\" duration=\"7386000\" />\r\n      <workItem from=\"1681377768835\" duration=\"3047000\" />\r\n      <workItem from=\"1681381586573\" duration=\"6551000\" />\r\n      <workItem from=\"1681541447595\" duration=\"3198000\" />\r\n      <workItem from=\"1681563501902\" duration=\"825000\" />\r\n      <workItem from=\"1681564368713\" duration=\"1494000\" />\r\n      <workItem from=\"1681574182970\" duration=\"7560000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 185381fc7c51335f9d34605049c0160c41eca04f)
++++ b/.idea/workspace.xml	(date 1681713823385)
+@@ -8,32 +8,11 @@
+       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03__Changes_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_10_52__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_10_52__Changes_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" afterDir="false" />
+-    <list default="true" id="1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7" name="Changes" comment="i did login">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2023_23_58__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2023_23_58__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_10_52__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_10_52__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_04_2023_18_22__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_04_2023_18_22__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_04_2023_15_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_04_2023_15_04__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/FirstLogin/FirstLogin.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.scss" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.scss" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -44,15 +23,29 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+-        <option value="SCSS File" />
+         <option value="JavaScript File" />
++        <option value="CSS File" />
++        <option value="SCSS File" />
+       </list>
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <excluded-from-favorite>
++      <branch-storage>
++        <map>
++          <entry type="LOCAL">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="master" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </excluded-from-favorite>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="adaptionMaster" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -60,7 +53,7 @@
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+-  <component name="ProjectId" id="2OMMCujQrSBow0WfvPnFzQSbIBu" />
++  <component name="ProjectId" id="2O0Gzu9gnhrtAD4StotBYIsCrHd" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="2" id="Add" />
+   </component>
+@@ -70,27 +63,42 @@
+   </component>
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
++    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
++    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  &lt;component name=&quot;PropertiesComponent&quot;&gt;{
++  &amp;quot;keyToString&amp;quot;: {
++    &amp;quot;ASKED_ADD_EXTERNAL_FILES&amp;quot;: &amp;quot;true&amp;quot;,
++    &amp;quot;RunOnceActivity.OpenProjectViewOnStart&amp;quot;: &amp;quot;true&amp;quot;,
++    &amp;quot;RunOnceActivity.ShowReadmeOnStart&amp;quot;: &amp;quot;true&amp;quot;,
++    &amp;quot;WebServerToolWindowFactoryState&amp;quot;: &amp;quot;false&amp;quot;,
++    &amp;quot;list.type.of.created.stylesheet&amp;quot;: &amp;quot;SCSS&amp;quot;,
++    &amp;quot;node.js.detected.package.eslint&amp;quot;: &amp;quot;true&amp;quot;,
++    &amp;quot;node.js.detected.package.tslint&amp;quot;: &amp;quot;true&amp;quot;,
++    &amp;quot;node.js.selected.package.eslint&amp;quot;: &amp;quot;(autodetect)&amp;quot;,
++    &amp;quot;node.js.selected.package.tslint&amp;quot;: &amp;quot;(autodetect)&amp;quot;,
++    &amp;quot;nodejs_package_manager_path&amp;quot;: &amp;quot;npm&amp;quot;,
++    &amp;quot;vue.rearranger.settings.migration&amp;quot;: &amp;quot;true&amp;quot;
+   }
+ }</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+-      <recent name="C:\self-program1\src\pages\Login\FirstLogin\password" />
++      <recent name="C:\self-program1\src\pages\Login\FirstLogin" />
+     </key>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7" name="Changes" comment="i did login" />
+-      <created>1681365904325</created>
++      <changelist id="1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7" name="Changes" comment="" />
++      <created>1680690352083</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1680690352083</updated>
+@@ -130,12 +138,7 @@
+       <workItem from="1681378917714" duration="5345000" />
+       <workItem from="1681550895243" duration="1529000" />
+       <workItem from="1681621701092" duration="7386000" />
+-      <workItem from="1681377768835" duration="3047000" />
+-      <workItem from="1681381586573" duration="6551000" />
+-      <workItem from="1681541447595" duration="3198000" />
+-      <workItem from="1681563501902" duration="825000" />
+-      <workItem from="1681564368713" duration="1494000" />
+-      <workItem from="1681574182970" duration="7560000" />
++      <workItem from="1681704746826" duration="6908000" />
+     </task>
+     <servers />
+   </component>
