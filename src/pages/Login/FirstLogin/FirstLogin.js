@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Book from "./../../../assets/img/logo.svg"
 import {AiOutlineEye, AiOutlineEyeInvisible} from "react-icons/ai";
+import {Link} from "react-router-dom";
 import {Link, useNavigate} from "react-router-dom";
 import {useDispatch} from "react-redux";
 
@@ -65,6 +66,7 @@ const FirstLogin = () => {
         }
         else return <div className="firstLogin--block__login--input">
             {(passwordGo && passwordError) && <p style={{color: 'red'}}>{passwordError}</p>}
+            <input onChange={e => passwordHandler(e)} value={password} onBlur={(e => start(e))} type="password" name="Password" placeholder='Password' id=""/>
             <input style={{
                 border: passwordError ? '1px solid red' : ''
             }} onChange={e => passwordHandler(e)} value={password} onBlur={(e => start(e))} type="password" name="Password" placeholder='Password' id=""/>
@@ -96,6 +98,7 @@ const FirstLogin = () => {
                             <h2>Войти в аккаунт</h2>
                            <div className="firstLogin--block__login--div">
                                {(emailGo && emailError) && <p>{emailError}</p>}
+                               <input className={'firstLogin--block__login--div__Email'} onChange={e => EmailHandler(e)} value={email} onBlur={(e => start(e))} type="text" name="Email" placeholder='Email...' id="" />
                                <input style={{
                                    border: emailError ? '1px solid red' : ''
                                }} className={'firstLogin--block__login--div__Email'} onChange={e => EmailHandler(e)} value={email} onBlur={(e => start(e))} type="text" name="Email" placeholder='Email...' id="" />
@@ -107,6 +110,8 @@ const FirstLogin = () => {
                             </Link>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>
