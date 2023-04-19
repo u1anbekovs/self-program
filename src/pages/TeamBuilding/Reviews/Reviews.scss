@@ -1,213 +1,1477 @@
-#view {
-  padding: 100px 0;
+#reviewCourse {
+  padding: 0 0 103px 0;
 
-  .view {
-    SliderХ{
-      display: none;
-    }
-    &--title {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 36px;
-      line-height: 44px;
-      color: #FFFFFF;
-      padding-bottom: 60px;
-    }
+  .bloc {
+    display: none;
+    align-items: center;
 
-    &--box {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      padding-bottom: 90px;
+    &--blocs {
+
+
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background: wheat;
     }
 
-    &--block {
-      width: 370px;
-      height: 215px;
-      margin: 0 30px;
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid #FFFFFF;
-      backdrop-filter: blur(7px);
-      border-radius: 10px;
-      padding: 20px;
-    }
-    &--block2 {
-      width: 370px;
-      height: 215px;
-      margin: 0 30px;
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid #FFFFFF;
-      backdrop-filter: blur(7px);
-      border-radius: 10px;
-      padding: 20px;
-      display: none;
+    &--blocs2 {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background: wheat;
     }
 
-    &--title2 {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 24px;
-      line-height: 29px;
-      color: #FFFFFF;
+    &--blocs3 {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background: wheat;
     }
 
-    &--desc {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 20px;
-      color: rgba(255, 255, 255, 0.5);
-      padding-bottom: 10px;
-    }
-
-    &--titles {
-      padding: 5px 5px;
-    }
-
-    &--icons {
-      padding-left: 3.8rem;
-      display: flex;
-      align-items: center;
-      padding-bottom: 15px;
-    }
-
-    &--icon {
-      padding: 0 0.5px;
-      color: #DFAC4D;
-    }
-
-    &--desc2 {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 20px;
-      color: #FFFFFF;
-    }
-    &--desc3 {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 20px;
-      color: #FFFFFF;
-    }
-
-    &--box2 {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    &--box3{
-      display: flex;
-    }
-    &--image2 {
-      position: absolute;
-      left: 420px;
-      top: 158.3rem;
-    }
   }
 }
 
 
-@media (max-width: 1140px) {
+.reviewCourse {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
+  &--title {
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+
+  &--block {
+    width: 370px;
+    height: 215px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    margin: 40px 30px;
+    padding: 15px;
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      color: #FFFFFF;
+      padding-top: 20px;
+    }
+
+    &__about {
+      display: flex;
+      align-items: start;
+
+      &--user {
+        width: 60px;
+        height: 60px;
+        background: #8F94FF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #FFFFFF;
+        margin-right: 10px;
+        font-weight: 500;
+        font-size: 32px;
+        color: #FFFFFF;
+      }
+
+      &--name {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        h2 {
+          font-weight: 500;
+          font-size: 24px;
+          color: #FFFFFF;
+        }
+
+        h4 {
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(255, 255, 255, 0.5);
+
+        }
+
+        &__fly {
+          display: flex;
+          align-items: center;
+
+          span {
+            padding-left: 10px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+
+          }
+
+          &__item {
+            display: flex;
+            align-items: center;
+
+            &--icon {
+              color: #DFAC4D;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &--block1 {
+    display: none;
+    width: 370px;
+    height: 215px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    margin: 40px 30px;
+    padding: 15px;
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      color: #FFFFFF;
+      padding-top: 20px;
+    }
+
+    &__about {
+      display: flex;
+      align-items: start;
+
+      &--user {
+        width: 60px;
+        height: 60px;
+        background: #8F94FF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #FFFFFF;
+        margin-right: 10px;
+        font-weight: 500;
+        font-size: 32px;
+        color: #FFFFFF;
+      }
+
+      &--name {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        h2 {
+          font-weight: 500;
+          font-size: 24px;
+          color: #FFFFFF;
+        }
+
+        h4 {
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(255, 255, 255, 0.5);
+
+        }
+
+        &__fly {
+          display: flex;
+          align-items: center;
+
+          span {
+            padding-left: 10px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+
+          }
+
+          &__item {
+            display: flex;
+            align-items: center;
+
+            &--icon {
+              color: #DFAC4D;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.image {
+  position: relative;
+
+  &--small {
+    position: absolute;
+    left: 838px;
+    top: -412px;
+  }
+
+  &--take {
+    position: absolute;
+    left: 328px;
+    top: -85px;
+
+  }
+
+  &--scroll {
+    position: absolute;
+    left: -73px;
+    top: -399px;
+
+  }
+
+}
+
+//adapteshin
+@media (max-width: 1440px) {
+  #reviewCourse {
+    .reviewCourse {
+
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #reviewCourse {
+    .reviewCourse {
+
+    }
+  }
 }
 
 @media (max-width: 1024px) {
-  #view .view--image2 {
-    position: absolute;
-    left: 237px;
-    top: 193.5rem;
+  #reviewCourse {
+    padding: 0 0 68px 0;
+
+    &--title {
+
+    }
+
+    .reviewCourse {
+      display: flex;
+      align-items: start;
+      flex-flow: wrap;
+
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: 328px;
+        top: -697px;
+
+      }
+
+      &--small {
+        position: absolute;
+        left: 838px;
+        top: -412px;
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: -73px;
+        top: -399px;
+
+      }
+
+    }
+
+
   }
-  #view .view--block {
-    margin: 0 20px;
+}
+
+@media (max-width: 999px) {
+  #reviewCourse {
+    &--title {
+
+    }
+
+    .reviewCourse {
+      width: 114%;
+
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
   }
+
 }
 
 @media (max-width: 992px) {
-  #view .view--image2 {
-    position: absolute;
-    left: 235px;
-    top: 212.9rem;
+  #reviewCourse {
+    &--title {
+
+    }
+
+    .reviewCourse {
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: 328px;
+        top: -63px;
+
+
+      }
+
+      &--small {
+        position: absolute;
+        left: 336px;
+        top: -652px;
+
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: -122px;
+        top: -670px;
+
+
+      }
+
+    }
+
+
   }
+
+}
+
+@media (max-width: 850px) {
+  #reviewCourse {
+    &--title {
+
+    }
+
+    .reviewCourse {
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: -41px;
+        top: -974px;
+
+
+      }
+
+      &--small {
+        position: absolute;
+        left: 336px;
+        top: -652px;
+
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: -122px;
+        top: -670px;
+
+
+      }
+
+    }
+
+
+  }
+
+}
+
+@media (max-width: 800px) {
+  #reviewCourse {
+    h1 {
+      margin-left: 36px;
+
+    }
+
+    &--title {
+      background: red;
+
+
+    }
+
+    .reviewCourse {
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+            width: 40px;
+            height: 40px;
+            font-size: 24px;
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
+  }
+
 }
 
 @media (max-width: 768px) {
-  #view .view--box {
-    overflow-x: scroll;
-    width: 106%;
-  }
-  #view .view--block2 {
-    display: block;
-  }
-  #view .view--image2 {
-    position: absolute;
-    left: 148px;
-    top: 217.9rem;
+  #reviewCourse {
+    &--title {
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: -25px;
+        width: 23%;
+        top: -54px;
+
+
+      }
+
+      &--small {
+        position: absolute;
+        left: 397px;
+        top: -359px;
+
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: -48px;
+        width: 11%;
+        top: -382px;
+
+
+      }
+
+    }
+
+    .reviewCourse {
+      display: flex;
+      flex-wrap: nowrap;
+      width: 106%;
+
+      &--block1 {
+        display: block;
+      }
+
+      //&::-webkit-scrollbar {
+      //    display: none;
+      //}
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
   }
 
 }
 
 @media (max-width: 576px) {
-  #view .view--image2 {
-    position: absolute;
-    left: 148px;
-    top: 267.9rem;
+  #reviewCourse {
+    &--title {
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: -25px;
+        width: 23%;
+        top: -54px;
+
+
+      }
+
+      &--small {
+        position: absolute;
+        left: 397px;
+        top: -359px;
+
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: -48px;
+        width: 11%;
+        top: -382px;
+
+
+      }
+
+    }
+
+    .reviewCourse {
+      display: flex;
+      flex-wrap: nowrap;
+      width: 106%;
+      overflow-x: scroll;
+
+      &--block1 {
+        display: block;
+      }
+
+      //&::-webkit-scrollbar {
+      //    display: none;
+      //}
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
   }
-  #view .view--box {
-    overflow-x: scroll;
-    width: 180%;
-  }
+
 }
 
-@media (max-width: 450px) {
-  #view .view--image2 {
-    position: absolute;
-    left: 148px;
-    top: 325.9rem;
+@media (max-width: 315px) {
+  #reviewCourse {
+    &--title {
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: -25px;
+        width: 23%;
+        top: -54px;
+
+
+      }
+
+      &--small {
+        position: absolute;
+        left: -18px;
+        width: 15%;
+        top: -334px;
+
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: 204px;
+        width: 24%;
+        top: -429px;
+
+
+      }
+
+    }
+
+    .reviewCourse {
+      display: flex;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      width: 106%;
+
+      &--block1 {
+        display: block;
+      }
+
+      //&::-webkit-scrollbar {
+      //    display: none;
+      //}
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
   }
-  #view .view--box {
-    overflow-x: scroll;
-    width: 180%;
+
+}
+
+@media (max-width: 414px) {
+  #reviewCourse {
+    &--title {
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: -25px;
+        width: 23%;
+        top: -54px;
+
+
+      }
+
+      &--small {
+        position: absolute;
+        left: -18px;
+        width: 15%;
+        top: -334px;
+
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: 204px;
+        width: 24%;
+        top: -429px;
+
+
+      }
+
+    }
+
+    .reviewCourse {
+      display: flex;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      width: 106%;
+
+      &--block1 {
+        display: block;
+      }
+
+      //&::-webkit-scrollbar {
+      //    display: none;
+      //}
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
   }
+
 }
 
 @media (max-width: 400px) {
-  #view .view--image2 {
-    position: absolute;
-    left: 148px;
-    top: 339.9rem;
+  #reviewCourse {
+    &--title {
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: 7px;
+        width: 39%;
+        top: -50px;
+
+
+      }
+
+      &--small {
+        position: absolute;
+        left: 227px;
+        width: 27%;
+        top: -382px;
+
+
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: -17px;
+        width: 15%;
+        top: -350px;
+
+
+      }
+
+    }
+
+    .reviewCourse {
+      display: flex;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      width: 106%;
+
+      &--block1 {
+        display: block;
+      }
+
+      //&::-webkit-scrollbar {
+      //    display: none;
+      //}
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
   }
-  #view .view--block2 {
-    width: 299px;
-    height: 220px;
-    padding: 10px;
+
+}
+
+@media (max-width: 390px) {
+  #reviewCourse {
+    &--title {
+
+    }
+
+    .reviewCourse {
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: -41px;
+        top: -974px;
+
+
+      }
+
+      &--small {
+        position: absolute;
+        left: 336px;
+        top: -652px;
+
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: -122px;
+        top: -670px;
+
+
+      }
+
+    }
+
+
   }
+
 }
 
 @media (max-width: 380px) {
-  #view .view--image2 {
-    position: absolute;
-    left: 148px;
-    top: 355.9rem;
+  #reviewCourse {
+    &--title {
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: 7px;
+        width: 39%;
+        top: -50px;
+
+
+      }
+
+      &--small {
+        position: absolute;
+        left: 227px;
+        width: 27%;
+        top: -382px;
+
+
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: -17px;
+        width: 15%;
+        top: -350px;
+
+
+      }
+
+    }
+
+    .reviewCourse {
+      display: flex;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      width: 106%;
+
+      &--block1 {
+        display: block;
+      }
+
+      //&::-webkit-scrollbar {
+      //    display: none;
+      //}
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
   }
+
+}
+
+@media (max-width: 375px) {
+  #reviewCourse {
+    &--title {
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: 7px;
+        width: 39%;
+        top: -50px;
+
+
+      }
+
+      &--small {
+        position: absolute;
+        left: 227px;
+        width: 27%;
+        top: -382px;
+
+
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: -17px;
+        width: 15%;
+        top: -350px;
+
+
+      }
+
+    }
+
+    .reviewCourse {
+      display: flex;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      width: 106%;
+
+      &--block1 {
+        display: block;
+      }
+
+      //&::-webkit-scrollbar {
+      //    display: none;
+      //}
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
+  }
+
 }
 
 @media (max-width: 360px) {
-  #view .view--image2 {
-    position: absolute;
-    left: 148px;
-    top: 348.9rem;
+  #reviewCourse {
+    &--title {
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: 7px;
+        width: 39%;
+        top: -50px;
+
+
+      }
+
+      &--small {
+        position: absolute;
+        left: 227px;
+        width: 27%;
+        top: -382px;
+
+
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: -17px;
+        width: 15%;
+        top: -350px;
+
+
+      }
+
+    }
+
+    .reviewCourse {
+      display: flex;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      width: 106%;
+
+      &--block1 {
+        display: block;
+      }
+
+      //&::-webkit-scrollbar {
+      //    display: none;
+      //}
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
   }
+
 }
 
 @media (max-width: 320px) {
-  #view .view--image2 {
-    position: absolute;
-    left: 112px;
-    top: 422.9rem;
+  #reviewCourse {
+    padding: 70px 0;
+
+    &--title {
+      margin-left: 10px;
+
+    }
+
+    .bloc {
+      display: flex;
+      position: relative;
+
+      &--blocs {
+        position: absolute;
+        top: -102px;
+        left: 91px;
+        width: 30px;
+        background: white;
+
+        height: 30px;
+      }
+
+      &--blocs3 {
+        position: absolute;
+        top: -102px;
+        left: 156px;
+        background: white;
+        width: 30px;
+        height: 30px;
+      }
+
+      &--blocs2 {
+        position: absolute;
+        top: -102px;
+        left: 124px;
+        background: white;
+
+        width: 30px;
+        height: 30px;
+      }
+
+    }
+
+    .image {
+      position: relative;
+
+      &--take {
+        position: absolute;
+        left: 237px;
+        width: 24%;
+        top: -557px;
+
+
+      }
+
+      &--small {
+        display: none;
+        position: absolute;
+        left: 227px;
+        width: 27%;
+        top: -382px;
+
+
+      }
+
+
+      &--scroll {
+        position: absolute;
+        left: -17px;
+        width: 15%;
+        top: -790px;
+
+
+      }
+
+    }
+
+    .reviewCourse {
+      display: flex;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      width: 106%;
+      padding: 0 0 99px 0;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+
+      &--block1 {
+        display: block;
+
+      }
+
+      //&::-webkit-scrollbar {
+      //    display: none;
+      //}
+      &--block {
+        &__about {
+          p {
+          }
+
+
+          &--user {
+
+          }
+
+          &--name {
+            h2 {
+
+            }
+
+            &__fly {
+              span {
+
+              }
+
+              &--item {
+                &__icon {
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
+

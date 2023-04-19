@@ -86,8 +86,38 @@
 
       &__img2 {
         position: absolute;
+        width: 6%;
         left: 0
       }
     }
+  }
+}
+
+@media (max-width: 992px) {
+  #team .team--text {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  #team .team--text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #team .team--text__logo {
+    padding: 0;
+  }
+  #team {
+    padding-top: 100px;
+  }
+  #team .team--text__logo {
+    line-height: 50px;
+  }
+}
+@media (max-width: 768px) {
+  #team .team--text__logo--image {
+    display: none;
   }
 }

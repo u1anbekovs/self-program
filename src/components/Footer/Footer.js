@@ -38,7 +38,7 @@ const Footer = () => {
                     <img className='footer--img2' src={bg} alt='img'/>
                     <div className="footer--footNav">
                         <div className="footer--footNav__selfBook">
-                            <div className=" java flex flex-col items-center mt-3">
+                            <div className="flex flex-col items-center w-full">
                                 <img src={bg} alt=""/>
                                 <h3 className="text">SELF DEVELOPING SCHOOL</h3>
                             </div>

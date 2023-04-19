@@ -1,0 +1,66 @@
+.youWillLearn {
+  padding: 100px 0;
+  &--book{
+    position: absolute;
+    right: 0;
+    width: 7%;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+
+  td {
+    padding:60px 0 40px 100px;
+
+    li {
+      font-weight: 400;
+      font-size: 24px;
+      color: #FFFFFF;
+      padding: 4px 0;
+    }
+  }
+}
+@media (max-width: 1440px) {
+  .youWillLearn {
+  }
+}
+@media (max-width: 1200px) {
+  .youWillLearn {
+  }
+}
+@media (max-width: 1024px) {
+  .youWillLearn {
+  }
+}
+@media (max-width: 992px) {
+  .youWillLearn {
+  }
+}
+@media (max-width: 768px) {
+  .youWillLearn h1 {
+    font-size: 30px;
+  }
+  .youWillLearn td li {
+    font-size: 18px;
+  }
+  .youWillLearn {
+    padding: 47px 0;
+  }
+  .youWillLearn td {
+    padding: 40px 0 40px 100px;
+  }
+}
+@media (max-width: 576px) {
+  .youWillLearn td {
+    padding: 20px 0 20px 60px;
+  }
+}
+@media (max-width: 450px) {
+  .youWillLearn h1 {
+    font-size: 27px;
+  }
+}
+@media (max-width: 320px) {
+}

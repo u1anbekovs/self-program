@@ -1,0 +1,111 @@
+#courseInfo {
+  margin: 120px 0;
+  .info {
+    position: relative;
+
+    &--titles {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin: 35px 0;
+      &__line2 {
+        width: 10px;
+        height: 44px;
+        background: #FFFFFF;
+      }
+
+      h1 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+      }
+    }
+    &--ul{
+      list-style-type: inherit;
+      margin-left: 50px;
+      li {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        margin: 20px 0;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+@media (max-width: 1440px) {
+  #courseInfo {
+    .info {
+    }
+  }
+}
+@media (max-width: 1200px) {
+  #courseInfo {
+    .info{
+
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #courseInfo {
+    .info{
+
+    }
+  }
+}
+@media (max-width: 992px) {
+  #courseInfo {
+    .info{
+
+    }
+  }
+}
+@media (max-width: 768px) {
+  #courseInfo .info--titles h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  #courseInfo .info--ul li {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 16px 0;
+  }
+  #courseInfo .info--titles__line2 {
+    height: 40px;
+  }
+
+}
+@media (max-width: 576px) {
+  #courseInfo .info--titles__line2 {
+    width: 7px;
+  }
+  #courseInfo {
+    margin: 91px 0;
+  }
+
+}
+@media (max-width: 450px) {
+  #courseInfo .info--titles__line2 {
+    height: 58px;
+  }
+  #courseInfo .info--titles h1 {
+    line-height: 35px;
+  }
+  #courseInfo .info--ul li {
+    margin: 12px 0;
+  }
+
+}
+@media (max-width: 400px) {
+  #courseInfo .info--titles h1 {
+    line-height: 30px;
+    font-size: 26px;
+  }
+  #courseInfo .info--ul li {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 10px 0;
+  }
+
+}

@@ -1,8 +1,13 @@
 import React from 'react';
-import CourseProgramme from "./CourseProgramme/CourseProgramme";
-import AccordionProgrammer from "./accordionProgrammer/AccordionProgrammer";
 import AboutCourse from "./AboutCourse/AboutCourse";
 import Team from "./Team/Team";
+import ThisCours from "./thisCours/ThisCours";
+import CourseProgramme from "./CourseProgramme/CourseProgramme";
+import Reviews from "./Reviews/Reviews";
+import Show from "./ShowCourses/Show";
+import CourseBlock from "./accordionProgrammer/CoursBlock";
+import Photo from "./Photo/Photo";
+import YourLearn from "./YourLearn/YourLearn";
 
 
 const TeamBuilding = () => {
@@ -10,8 +15,13 @@ const TeamBuilding = () => {
         <>
             <Team/>
             <AboutCourse/>
+            <ThisCours/>
+            <Show/>
             <CourseProgramme/>
-            <AccordionProgrammer/>
+            <CourseBlock/>
+            <YourLearn/>
+            <Photo/>
+            <Reviews/>
        </>
 
     );

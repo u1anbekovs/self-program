@@ -1,68 +1,51 @@
-import React, { useState } from 'react';
-import bookImg from "./../../assets/img/aboutBook.png"
+import React from "react";
+import "./Books.scss";
+import {OurBackand} from "../../backand/statyBackand";
 
 const Books = () => {
-    const [book, setBook] = useState([1, 2, 3, 4])
-    const [book2, setBook2] = useState([1, 2, 3, 4, 5, 6, 7, 8])
-
     return (
-        <div id="allBooks">
-            <div className="container">
-                <div className="allBooks">
-                    <span className='allBooks--span'>Наши курсы</span>
-                    <h1 className="allBooks--title">Статьи</h1>
-                    <div className='allBooks--tabs'>
-                        <button>Все разделы</button>
-                        <button>Новое</button>
-                        <button>Софт-скилс</button>
-                        <button>Книги</button>
-                        <button>Окружение</button>
-                    </div>
-                    <div className="allBooks--block">
-                        <div className="allBooks--block__first">
-                            {
-                                book.map(el => (
-                                    <div className="allBooks--block__first--aboutBooks">
-                                        <div className="allBooks--block__first--aboutBooks__title">
-                                            <h1>С какой книги начать?</h1>
-                                            <button>Новое</button>
-                                        </div>
-                                        <div className="allBooks--block__first--aboutBooks__tabs">
-                                            <h3>Полезные статьи</h3>
-                                            <button>Все</button>
-                                            <button>Новое</button>
-                                            <button>Книги</button>
-                                        </div>
-                                        <img src={bookImg} alt="" />
-                                        <div className='allBooks--block__first--aboutBooks__line' />
-                                        <div className="allBooks--block__first--aboutBooks__date">
-                                            <h3>Автор: Muslim Bolot</h3>
-                                            <h3>Дата: 22.08.22</h3>
-                                        </div>
-                                    </div>
-                                ))
-                            }
+        <div>
+            <div id="book">
+                <div className="container">
+                    <div className="book">
+                        <a href="">Наши курсы</a>
+                        <h1>Статьи</h1>
+                        <div className='book--tabs'>
+                            <button>Все разделы</button>
+                            <button>Новое</button>
+                            <button>Софт-скилс</button>
+                            <button>Книги</button>
+                            <button>Окружение</button>
                         </div>
-                        <div className='allBooks--block__two'>
-                            {
-                                book2.map(el => (
-                                    <div className="allBooks--block__two--aboutBooks">
-                                        <h1 className="allBooks--block__two--aboutBooks__title">С какой книги начать?</h1>
-                                        <div className="allBooks--block__two--aboutBooks__tabs">
-                                            <h3>Полезные статьи</h3>
-                                            <button>Все</button>
-                                            <button>Новое</button>
-                                            <button>Книги</button>
-                                        </div>
-                                        <img src={bookImg} alt="" />
-                                        <div className='allBooks--block__two--aboutBooks__line' />
-                                        <div className="allBooks--block__two--aboutBooks__date">
-                                            <h3>Автор: Muslim Bolot</h3>
-                                            <h3>Дата: 22.08.22</h3>
+
+
+                        <div className="book--cards">
+
+                            {OurBackand.slice(0, 12).map((el) => (
+                                <div className="book--cards__car">
+                                    <div className="book--cards__car--logos">
+                                        <h3>{el.title}</h3>
+                                        <button>{el.button}</button>
+                                    </div>
+                                    <div className="book--cards__car--info">
+                                        <h4>{el.learn}</h4>
+                                        <div className="book--cards__car--info__btn">
+                                            {el.buttons.map((btn) => (
+                                                <button>{btn.title}</button>
+                                            ))}
                                         </div>
                                     </div>
-                                ))
-                            }
+
+                                    <img
+                                        src={el.image}
+                                        alt=""
+                                        className="book--card__imgCourse"/>
+                                    <div className="book--cards__car--item">
+                                        <a href="">{el.btnFinish}</a>
+                                        <a href="">{el.dataFinish}</a>
+                                    </div>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>

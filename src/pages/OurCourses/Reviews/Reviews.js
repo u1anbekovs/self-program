@@ -1,40 +1,127 @@
-import React from 'react';
-import "./Reviews.scss"
+import React from "react";
+import "./Reviews.scss";
 import Slider from "react-slick";
-
-
+import SliderIcon1 from "./../../../assets/img/Component 32.svg";
+import SliderIcon2 from "./../../../assets/img/Component 31.svg";
 const Reviews = () => {
     const settings = {
-        slidesToShow: 1.8,
-        cssEase: "linear"
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1.57,
+        slidesToScroll: 1,
+        nextArrow: <img src={SliderIcon2} alt="arrow"/>,
+        prevArrow: <img src={SliderIcon1} alt="arrow"/>,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 1.145,
+                    slidesToScroll: 1,
+
+                },
+            },
+        ],
     };
 
     return (
-        <section id="reviews">
-            <div className="reviews">
+        <div className="review">
+            <div className="container">
+                <h2 className="review--title">Отзывы</h2>
                 <Slider {...settings}>
-                    <div className="reviews--block">
-                        <p>Твой опыт бесценен!Ты бьешь в самое сердце и в этом твой успех, любого <br/> бизнесмена!У меня
-                            есть шанс научиться на твоих ошибках.Этот опыт <br/> бесценен!</p>
-                        <div className="reviews--block__hr">
-                            <h2>Muslim Bolot</h2>
-                            <hr/>
-                            <h2>Предпрениматель</h2>
+                    <div className="review--cards">
+                        <div className="review--cards__card1">
+                            <p>
+                                Твой опыт бесценен!Ты бьешь в самое сердце и в этом твой успех,
+                                любого <br/> бизнесмена!У меня есть шанс научиться на твоих
+                                ошибках.Этот опыт <br/> бесценен!
+                                <a href=""> Смотреть полностью</a>
+                            </p>
+                            <div className="review--cards__card1--info">
+                                <h2>Muslim Bolot</h2>
+                                <div className="review--cards__card1--info__line"></div>
+                                <h2>Предпрениматель</h2>
+                            </div>
                         </div>
                     </div>
-                    <div className="reviews--block">
-                        <p>Твой опыт бесценен!Ты бьешь в самое сердце и в этом твой успех, любого <br/> бизнесмена!У меня
-                            есть шанс научиться на твоих ошибках.Этот опыт <br/> бесценен!</p>
-                        <div className="reviews--block__hr">
-                            <h2>Muslim Bolot</h2>
-                            <hr/>
-                            <h2>Предпрениматель</h2>
+                    <div className="review--cards">
+                        <div className="review--cards__card1">
+                            <p>
+                                Твой опыт бесценен!Ты бьешь в самое сердце и в этом твой успех,
+                                любого <br/> бизнесмена!У меня есть шанс научиться на твоих
+                                ошибках.Этот опыт <br/> бесценен!
+                                <a href=""> Смотреть полностью</a>
+                            </p>
+                            <div className="review--cards__card1--info">
+                                <h2>Muslim Bolot</h2>
+                                <div className="review--cards__card1--info__line"></div>
+                                <h2>Предпрениматель</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="review--cards">
+                        <div className="review--cards__card1">
+                            <p>
+                                Твой опыт бесценен!Ты бьешь в самое сердце и в этом твой успех,
+                                любого <br/> бизнесмена!У меня есть шанс научиться на твоих
+                                ошибках.Этот опыт <br/> бесценен!
+                                <a href=""> Смотреть полностью</a>
+                            </p>
+                            <div className="review--cards__card1--info">
+                                <h2>Muslim Bolot</h2>
+                                <div className="review--cards__card1--info__line"></div>
+                                <h2>Предпрениматель</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="review--cards">
+                        <div className="review--cards__card1">
+                            <p>
+                                Твой опыт бесценен!Ты бьешь в самое сердце и в этом твой успех,
+                                любого <br/> бизнесмена!У меня есть шанс научиться на твоих
+                                ошибках.Этот опыт <br/> бесценен!
+                                <a href=""> Смотреть полностью</a>
+                            </p>
+                            <div className="review--cards__card1--info">
+                                <h2>Muslim Bolot</h2>
+                                <div className="review--cards__card1--info__line"></div>
+                                <h2>Предпрениматель</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="review--cards">
+                        <div className="review--cards__card1">
+                            <p>
+                                Твой опыт бесценен!Ты бьешь в самое сердце и в этом твой успех,
+                                любого <br/> бизнесмена!У меня есть шанс научиться на твоих
+                                ошибках.Этот опыт <br/> бесценен!
+                                <a href=""> Смотреть полностью</a>
+                            </p>
+                            <div className="review--cards__card1--info">
+                                <h2>Muslim Bolot</h2>
+                                <div className="review--cards__card1--info__line"></div>
+                                <h2>Предпрениматель</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="review--cards">
+                        <div className="review--cards__card1">
+                            <p>
+                                Твой опыт бесценен!Ты бьешь в самое сердце и в этом твой успех,
+                                любого <br/> бизнесмена!У меня есть шанс научиться на твоих
+                                ошибках.Этот опыт <br/> бесценен!
+                                <a href=""> Смотреть полностью</a>
+                            </p>
+                            <div className="review--cards__card1--info">
+                                <h2>Muslim Bolot</h2>
+                                <div className="review--cards__card1--info__line"></div>
+                                <h2>Предпрениматель</h2>
+                            </div>
                         </div>
                     </div>
                 </Slider>
-
             </div>
-        </section>
+        </div>
     );
 };
 

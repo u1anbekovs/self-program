@@ -6,7 +6,6 @@ import Book3 from '../../../assets/img/book3.svg'
 import Book4 from '../../../assets/img/book4.svg'
 
 
-
 const Hero = () => {
     return (
         <div id="hero">
@@ -17,10 +16,12 @@ const Hero = () => {
                     <div className="hero--title">
                         <h1>Само развитие лучше чем школьное обучение</h1>
                         <p>Здесь вы найдете все для само-обучения.</p>
-                        <button>Подобрать пакет</button>
+                        <a href="#wrapper">
+                            <button>Подобрать пакет</button>
+                        </a>
                     </div>
                     <div className="hero--img">
-                        <img  src={Book} alt="img"/>
+                        <img src={Book} alt="img"/>
                     </div>
                 </div>
             </div>

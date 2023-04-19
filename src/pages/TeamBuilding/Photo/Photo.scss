@@ -1,0 +1,104 @@
+.coursePhoto {
+  padding: 120px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+  &--img {
+    width: 473px;
+    height: 324px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(12px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      font-weight: 500;
+      font-size: 24px;
+      color: #FFFFFF;
+    }
+  }
+
+  &--title {
+    &__Photo {
+      position: absolute;
+      width: 6%;
+      left: 0;
+    }
+    span {
+      font-weight: 500;
+      font-size: 24px;
+      color: #FFFFFF;
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 40px;
+      color: #FFFFFF;
+    }
+
+    h4 {
+      font-weight: 400;
+      font-size: 24px;
+      color: #FFFFFF;
+      padding: 10px 0 20px 0;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 24px;
+      padding: 5px 0 5px 60px;
+
+      color: #FFFFFF;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .coursePhoto--img {
+    width: 206px;
+    height: 206px;
+  }
+  .coursePhoto--title h1 {
+    font-size: 30px;
+  }
+  .coursePhoto--title h4 {
+    font-size: 18px;
+  }
+  .coursePhoto--title p {
+    font-size: 18px;
+  }
+  .coursePhoto--title span {
+    font-size: 18px;
+  }
+  .coursePhoto {
+    padding: 70px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .coursePhoto--img {
+    width: 207px;
+    height: 148px;
+  }
+}
+
+@media (max-width: 450px) {
+  .coursePhoto {
+    flex-direction: column;
+  }
+  .coursePhoto--img {
+    width: 100%;
+    margin: 20px 0;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 992px) {
+}

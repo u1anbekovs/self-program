@@ -5,9 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="000de989-247d-44ef-a3dc-5177fba8a7b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/TelamonCleaner_id643e3a0db6991f2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/mdi_gold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backand/coursBackand/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backand/statyBackand/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Photo/Photo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Photo/Photo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/ShowCourses/Show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/ShowCourses/Show.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/YourLearn/YourLearn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/YourLearn/YourLearn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/CoursBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/CoursBlock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/thisCours/ThisCours.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/thisCours/ThisCours.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2023_23_58_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2023_23_58__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_04_2023_01_24_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_04_2023_01_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_04_2023_01_24__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_04_2023_01_24__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_04_2023_15_04_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_04_2023_15_04__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Books/Books.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Books/Books.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Books/Books.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Books/Books.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/Reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Reviews/Reviews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Reviews/Reviews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/Team/Team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Team/Team.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/TeamBuilding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/TeamBuilding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +74,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="adaptive" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,11 +104,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -62,7 +122,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ef89dfc-ea8f-4f01-84d8-3d6711a4abf7" name="Changes" comment="i did login" />
+      <changelist id="000de989-247d-44ef-a3dc-5177fba8a7b4" name="Changes" comment="" />
       <created>1681365904325</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -101,6 +161,37 @@
       <workItem from="1681574182970" duration="7560000" />
       <workItem from="1681638809812" duration="605000" />
       <workItem from="1681647491372" duration="9759000" />
+      <workItem from="1681723928910" duration="3124000" />
+      <workItem from="1681734156390" duration="238000" />
+      <workItem from="1681745210056" duration="305000" />
+      <workItem from="1681745644318" duration="343000" />
+      <workItem from="1681746053162" duration="212000" />
+      <workItem from="1681746387641" duration="176000" />
+      <workItem from="1681746623853" duration="1053000" />
+      <workItem from="1681748993138" duration="711000" />
+      <workItem from="1681749795776" duration="319000" />
+      <workItem from="1681750245193" duration="1709000" />
+      <workItem from="1681804765911" duration="139000" />
+      <workItem from="1681806909373" duration="59000" />
+      <workItem from="1681810050103" duration="124000" />
+      <workItem from="1681887441697" duration="13401000" />
+      <workItem from="1681902006340" duration="28000" />
+      <workItem from="1681902071937" duration="11187000" />
+      <workItem from="1681915024632" duration="49000" />
+      <workItem from="1681915127744" duration="2203000" />
+      <workItem from="1681917485944" duration="530000" />
+      <workItem from="1681918047055" duration="17000" />
+      <workItem from="1681918095532" duration="1673000" />
+      <workItem from="1681919935206" duration="127000" />
+      <workItem from="1681920170496" duration="319000" />
+      <workItem from="1681920634043" duration="284000" />
+      <workItem from="1681920995581" duration="270000" />
+      <workItem from="1681921480974" duration="1478000" />
+      <workItem from="1681923037306" duration="692000" />
+      <workItem from="1681923821782" duration="783000" />
+      <workItem from="1681924694612" duration="186000" />
+      <workItem from="1681924941012" duration="3037000" />
+      <workItem from="1681928108852" duration="1375000" />
     </task>
     <servers />
   </component>

@@ -1,207 +1,212 @@
-#allBooks {
-    .allBooks {
-        padding: 140px 0;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
+#book {
+  padding: 200px 0;
 
-        &--block {
-            display: flex;
-            justify-content: space-between;
-            align-items: start;
+  .book {
+    &--styImg {
+      position: absolute;
+      left: 26%;
+      padding-top: 26%;
+    }
+    &--styImg1 {
+      position: absolute;
+      right: 0;
+      padding-top: 40%;
+    }
+    &--button {
+      padding: 10px 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #FFFFFF;
+      border-radius: 10px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
 
-            &__two {
-                display: flex;
-                justify-content: space-between;
-                align-items: start;
-                flex-wrap: wrap;
-                width: 66%;
-                &--aboutBooks {
-                    background: rgba(255, 255, 255, 0.1);
-                    border: 1px solid #FFFFFF;
-                    backdrop-filter: blur(7.5px);
-                    border-radius: 10px;
-                    padding: 20px;
-                    margin: 20px 0;
+    a {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+    }
 
-                    &__date {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 49px;
+      color: #FFFFFF;
+    }
 
-                        h3 {
-                            font-weight: 400;
-                            font-size: 16px;
-                            color: #FFFFFF;
-                        }
-                    }
+    &--tabs {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 30px 0;
 
-                    &__line {
-                        width: 100%;
-                        height: 1.5px;
-                        background: #fff;
-                        margin: 10px 0;
-                    }
+      button {
+        margin-right: 20px;
+        padding: 5px 10px;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
 
-                    &__tabs {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        margin: 20px 0;
+      button:focus {
+        background: #FFFFFF;
+        color: #595FEB;
+      }
+    }
 
-                        h3 {
-                            font-weight: 600;
-                            font-size: 16px;
-                            color: #FFFFFF;
+    &--tabs1 {
+      padding: 30px 0;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: left;
+      justify-content: center;
 
-                        }
+      button {
+        margin-right: 20px;
+        padding: 5px 10px;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
 
-                        button {
-                            font-weight: 400;
-                            font-size: 16px;
-                            color: #FFFFFF;
-                            background: rgba(255, 255, 255, 0.1);
-                            border: 0.5px solid #FFFFFF;
-                            border-radius: 5px;
-                            padding: 3px 5px;
-                        }
-                    }
+      button:focus {
+        background: #FFFFFF;
+        color: #595FEB;
+      }
+    }
+
+    &--cards {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
 
 
 
-                    h1 {
-                        font-weight: 500;
-                        font-size: 24px;
-                        color: #FFFFFF;
+      &__car {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(7.5px);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px 0;
 
+        &--logos {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
 
-                        button {
-                            font-weight: 500;
-                            font-size: 12px;
-                            color: #595FEB;
-                            background: #FFFFFF;
-                            border-radius: 80px;
-                            padding: 5px 16px;
-                        }
-                    }
-                }
-            }
+          h3 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+          }
 
-            &__first {
-                display: flex;
-                flex-direction: column;
-                align-items: start;
-
-                &--aboutBooks {
-                    background: rgba(255, 255, 255, 0.1);
-                    border: 1px solid #FFFFFF;
-                    backdrop-filter: blur(7.5px);
-                    border-radius: 10px;
-                    padding: 20px;
-                    margin: 20px 0;
-
-                    &__date {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-
-                        h3 {
-                            font-weight: 400;
-                            font-size: 16px;
-                            color: #FFFFFF;
-                        }
-                    }
-
-                    &__line {
-                        width: 100%;
-                        height: 1.5px;
-                        background: #fff;
-                        margin: 10px 0;
-                    }
-
-                    &__tabs {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        margin: 20px 0;
-
-                        h3 {
-                            font-weight: 600;
-                            font-size: 16px;
-                            color: #FFFFFF;
-
-                        }
-
-                        button {
-                            font-weight: 400;
-                            font-size: 16px;
-                            color: #FFFFFF;
-                            background: rgba(255, 255, 255, 0.1);
-                            border: 0.5px solid #FFFFFF;
-                            border-radius: 5px;
-                            padding: 3px 5px;
-                        }
-                    }
-
-                    &__title {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-
-                        h1 {
-                            font-weight: 500;
-                            font-size: 24px;
-                            color: #FFFFFF;
-
-                        }
-
-                        button {
-                            font-weight: 500;
-                            font-size: 12px;
-                            color: #595FEB;
-                            background: #FFFFFF;
-                            border-radius: 80px;
-                            padding: 5px 16px;
-                        }
-                    }
-                }
-            }
+          button {
+            background: #FFFFFF;
+            border-radius: 80px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            color: #595FEB;
+          }
         }
 
-        &--span {
+        &--item {
+          margin-top: 15px;
+          padding-top: 5px;
+          border-top: 2px solid white;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          a {
+            font-style: normal;
             font-weight: 400;
             font-size: 16px;
+            line-height: 20px;
             color: #FFFFFF;
-            margin-bottom: 15px;
+          }
         }
 
-        &--title {
+        &--info {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 15px 0;
+
+          h4 {
+            font-style: normal;
             font-weight: 600;
-            font-size: 40px;
+            font-size: 16px;
+            line-height: 20px;
             color: #FFFFFF;
-        }
+          }
 
-        &--tabs {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 50%;
-            margin: 30px 0 60px 0;
-
+          &__btn {
             button {
-                font-weight: 400;
-                font-size: 16px;
-                color: #FFFFFF;
-                border: 1px solid #FFFFFF;
-                border-radius: 10px;
-                transition: .4s;
-                padding: 5px 17px;
-
-                &:hover {
-                    background: #fff;
-                    color: #595FEB;
-                }
+              background: rgba(255, 255, 255, 0.1);
+              border: 0.5px solid #FFFFFF;
+              border-radius: 5px;
+              padding: 5px;
+              margin: 0 5px;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
             }
+          }
         }
+      }
     }
+  }
+}
+
+@media (max-width: 992px) {
+  #book .book--cards {
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  #book .book--tabs1 button {
+    margin: 10px;
+  }
+  #book .book--tabs button {
+    margin: 10px;
+  }
+}
+@media (max-width: 415px) {
+  #book .book--cards__car--info__btn button {
+    margin: 0 2px;
+    font-size: 10px;
+    padding: 1px;
+  }
+  #book .book--cards__car--logos h3 {
+    font-size: 20px;
+  }
+  #book .book--cards__car--info h4 {
+    font-size: 12px;
+  }
+  #book .book--cards__car--item a {
+    font-size: 12px;
+  }
 }

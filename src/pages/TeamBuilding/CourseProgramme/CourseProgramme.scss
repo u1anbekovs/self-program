@@ -1,124 +1,290 @@
-.accordion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+//@import "./CourseBlock/CourseBlock.scss";
+//@import "./YouWillLearn/YouWillLearn.scss";
+//@import "./CoursePhoro/CoursePhoto.scss";
 
-  &--btn {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid #FFFFFF;
-    border-radius: 10px;
-    width: 878px;
-    height: 89px;
-    margin: 10px 0;
 
-    &__items {
-      cursor: pointer;
+#courseProgramme {
+  .courseProgramme {
+    padding-top: 200px;
 
-      &--btn-one {
-        button {
+    &--title {
+      border-left: 10px solid white;
+      padding: 0 20px;
+      font-weight: 600;
+      font-size: 40px;
+      color: #FFFFFF;
+    }
+
+    &--blocks {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      &__acc {
+        width: 1078px;
+        height: 283px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(7px);
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        overflow: hidden;
+        height: 97px;
+        margin: 10px 0;
+
+        &--firstBtn {
           font-weight: 500;
           font-size: 24px;
-          line-height: 29px;
           color: #FFFFFF;
-          width: 152px;
-          height: 49px;
           background: rgba(255, 255, 255, 0.1);
           border: 1px solid #FFFFFF;
           border-radius: 10px;
+          padding: 10px 20px;
         }
 
-        h1 {
-          font-weight: 600;
-          font-size: 28px;
-          line-height: 34px;
-          color: #FFFFFF;
-        }
-      }
-
-      &--btn-two {
-        button {
+        &--secondBtn {
           font-weight: 500;
           font-size: 24px;
-          line-height: 29px;
           color: #595FEB;
-          width: 148px;
-          height: 49px;
           background: #FFFFFF;
           border: 1px solid #FFFFFF;
           border-radius: 10px;
+          padding: 10px 20px;
         }
 
-        &__text {
-          h1 {
+
+        &--icon {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          span {
             font-weight: 400;
             font-size: 16px;
-            line-height: 20px;
+            color: #FFFFFF;
+          }
+
+          &__giveMe {
+            color: #fff;
+            cursor: pointer;
+            font-size: 30px;
+          }
+
+        }
+
+        &--text {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          width: 570px;
+          padding: 8px 0;
+
+
+          h1 {
+            font-weight: 600;
+            font-size: 28px;
+            color: #FFFFFF;
+            padding-bottom: 14px;
+          }
+
+          span {
+            color: white;
+            padding: 5px 0;
+          }
+
+          p {
+            padding-top: 20px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
             color: #FFFFFF;
           }
         }
+
       }
     }
   }
 }
 
+@media (max-width: 1200px) {
+  #courseProgramme .courseProgramme--blocks__acc {
+    width: 100%;
+  }
+  #courseProgramme .courseProgramme--title {
+    margin: 20px 0;
+  }
+
+}
 
 @media (max-width: 1140px) {
+  #courseProgramme .courseProgramme {
+    padding-top: 150px;
+  }
 
 }
 
 @media (max-width: 1024px) {
+  #courseProgramme .courseProgramme--blocks__acc {
+    gap: 30px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--text {
+    width: 379px;
+  }
 
 }
 
 @media (max-width: 992px) {
+  #courseProgramme .courseProgramme--blocks__acc--text {
+    width: 274px;
+  }
+  #blocks__acc--text h1 {
+    font-size: 23px;
+    padding-bottom: 22px;
+  }
 
 }
 
 @media (max-width: 768px) {
-
+  #courseProgramme .courseProgramme--blocks__acc--text {
+    width: 205px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--firstBtn {
+    font-weight: 400;
+    font-size: 19px;
+    padding: 5px 20px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--secondBtn {
+    font-weight: 400;
+    font-size: 19px;
+    padding: 5px 20px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc {
+    gap: 10px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--text h1 {
+    font-size: 19px;
+    padding-bottom: 28px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc {
+    height: 80px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--text {
+    width: 222px;
+  }
+  #courseProgramme .courseProgramme--title {
+    font-size: 30px;
+  }
+  #courseProgramme .courseProgramme {
+    padding-top: 80px;
+  }
 }
 
 @media (max-width: 576px) {
+  #courseProgramme .courseProgramme--blocks__acc--text {
+    width: 170px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--firstBtn {
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--secondBtn {
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--text {
+    padding: 0 0;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--text h1 {
+    line-height: 24px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--icon span {
+    display: none;
+  }
+  #courseProgramme .courseProgramme--blocks__acc {
+    gap: 0;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--icon__giveMe {
+    font-size: 23px;
+  }
 
 }
 
+//@media (max-width: 450px) {
+//    #courseProgramme .courseProgramme--blocks__acc{
+//        flex-direction: column;
+//        align-content: center;
+//    }
+//
+//}
+
 @media (max-width: 450px) {
+  #courseProgramme .courseProgramme--blocks__acc {
+    padding: 11px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--firstBtn {
+    font-size: 12px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--secondBtn {
+    font-size: 12px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--icon span {
+    display: none;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--icon__giveMe {
+    font-size: 20px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--text {
+    width: 140px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc {
+    height: 55px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--text h1 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+}
+
+@media (max-width: 414px) {
+  #courseProgramme .courseProgramme--title {
+    font-size: 27px;
+  }
 
 }
 
 @media (max-width: 400px) {
-
-}
-
-@media (max-width: 380px) {
-
-}
-
-@media (max-width: 360px) {
-
+  #courseProgramme .courseProgramme--blocks__acc--text h1 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--firstBtn {
+    padding: 6px 6px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--secondBtn {
+    padding: 6px 6px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc--icon__giveMe {
+    font-size: 15px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc {
+    padding: 9px;
+  }
+  #courseProgramme .courseProgramme--blocks__acc {
+    margin: 7px 0;
+  }
+  #courseProgramme .courseProgramme--title {
+    font-size: 27px;
+  }
 }
 
 @media (max-width: 320px) {
-
-}
-.aboutAcc {
-  display: flex;
-  align-items: center;
-  &--h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    color: #FFFFFF;
-    padding-left: 20px;
+  #courseProgramme .courseProgramme--blocks__acc--text {
+    width: 98px;
   }
 
-  &__line {
-    width: 10px;
-    height: 44px;
-    background: #FFFFFF;
-  }
 }
-
-

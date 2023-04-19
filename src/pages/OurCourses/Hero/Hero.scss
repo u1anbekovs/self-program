@@ -1,51 +1,59 @@
 #leave {
   .img2 {
-    position: relative;
-    top: -448px;
+    position: absolute;
+    left: 0;
+    width: 5%;
+  }
+
+  .img3 {
+    position: absolute;
+    right: 100px;
+    top: 120px;
+    width: 5%;
   }
 
   .img1 {
-    position: relative;
-    left: 1206px;
-    top: -270px;
+    position: absolute;
+    right: 0;
+    width: 10%;
   }
 
   .container {
     .leave {
-      padding-top: 200px;
-      position: relative;
+      padding: 250px 0;
 
       &--leave-block {
-        height: 550px;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         background: rgba(255, 255, 255, 0.1);
         border: 1px solid #FFFFFF;
         backdrop-filter: blur(7px);
         border-radius: 10px;
-        margin: 0 0 200px 0;
-        display: flex;
-        align-items: center;
-
-        justify-content: space-around;
 
         &__leave-text {
           h1 {
+            font-style: normal;
             font-weight: 600;
             font-size: 40px;
+            line-height: 49px;
             color: #FFFFFF;
           }
 
           p {
+            padding: 30px 0;
+            font-style: normal;
             font-weight: 400;
             font-size: 24px;
             line-height: 29px;
             color: #FFFFFF;
-            margin: 30px 0 30px 0;
           }
 
           &--btn {
             display: flex;
             align-items: center;
-            gap: 5px;
+            gap: 10px;
 
             &__btn-one {
               button {
@@ -79,75 +87,38 @@
   }
 }
 
-@media (max-width: 1140px) {
-  #leave .container .leave--leave-block__leave-text {
-    margin-left: 30px;
-  }
-}
-
-@media (max-width: 1024px) {
-
-}
-
 @media (max-width: 992px) {
-
-}
-
-@media (max-width: 768px) {
-  #leave {
-    .container {
-      .leave {
-        &--leave-block {
-          flex-direction: column;
-          height: 806px;
-
-          &__leave-text {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            p {
-              text-align: center;
-            }
-
-            &--btn {
-              flex-direction: column;
-
-              &__btn-two {
-                button {
-                  padding: 10px 52px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+  #leave .container .leave--leave-block {
+    flex-direction: column;
+  }
+  #leave .container .leave--leave-block__leave-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  #leave .container .leave {
+    padding-bottom: 250px;
+    padding-top: 150px;
   }
 }
 
-@media (max-width: 576px) {
-
-}
-
-@media (max-width: 450px) {
-
-}
-
-@media (max-width: 400px) {
-
-}
-
-@media (max-width: 380px) {
-
-}
-
-@media (max-width: 360px) {
-
-}
-
-@media (max-width: 320px) {
+@media (max-width: 451px) {
+  #leave .img1 {
+    display: none;
+  }
+  #leave .container .leave--leave-block__leave-text--btn {
+    flex-direction: column;
+  }
+  #leave .container .leave--leave-block__leave-text--btn__btn-two button {
+    padding: 10px 60px;
+  }
   #leave .container .leave--leave-block__leave-text h1 {
-    font-size: 29px;
+   font-size: 35px;
+  }
+}
+@media (max-width: 360px) {
+  #leave .container .leave--leave-block__leave-text h1 {
+    font-size: 30px;
   }
 }

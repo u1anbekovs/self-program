@@ -1,327 +1,110 @@
-#about{
-  padding-top: 150px;
+#aboutCourse{
+  padding-top: 100px;
   .about{
-    &--title{
-      font-family: 'Montserrat',sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 36px;
-      line-height: 44px;
-      color: #FFFFFF;
-      padding-bottom: 10px;
-    }
-    &--description{
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 29px;
-      color: #FFFFFF;
-      padding-top: 20px;
-    }
-    &--line{
-      width: 10px;
-      height: 44px;
-      background: #FFFFFF;
-    }
-    &--block{
-      display: flex;
-      align-items: center;
-      padding-top: 120px;
-    }
-    &--title2{
-      font-family: 'Montserrat',sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 36px;
-      line-height: 44px;
-      color: #FFFFFF;
-      padding-left: 20px;
-    }
-    &--description2{
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 29px;
-      color: #FFFFFF;
-      padding-left: 33px;
-      padding-top: 30px;
-    }
-    &--desc{
-      padding: 5px 0;
-      list-style-type: initial;
-    }
-    &--image{
+    position: relative;
+    &--book1{
       position: absolute;
-      left: 400px;
-      opacity: 0.5;
+      opacity: 0.7;
+      width: 15%;
+      left: 200px;
     }
-    &--image2{
+    &--book2{
       position: absolute;
+      width: 8%;
       right: 0;
     }
-    &--line2{
-      width: 10px;
-      height: 79px;
-      background: #FFFFFF;
+    h1{
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #FFFFFF;
+      margin: 30px 0;
     }
-
-    &--image3{
-      position: absolute;
-      left: 265px;
-      top: 85rem;
-    }
-    &--image4{
-      position: absolute;
-      left: 70rem;
-    }
-    &--image5{
-      position: absolute;
-      left: 860px;
-    }
-    &--image6{
-      position: relative;
-      right: 6.8rem;
+    p{
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 29px;
+      margin: 22px 0;
+      color: #FFFFFF;
     }
   }
 }
 
-@media (max-width: 1040px) {
-  #about .about--image4 {
-    position: absolute;
-    left: 58rem;
+
+@media (max-width: 1440px) {
+  #aboutCourse{
+    .about{
+    }
   }
-  #about .about--image2 {
-    position: absolute;
-    bottom: -275px;
-    left: 921px;
-  }
-  #about .about--image {
-    position: absolute;
-    bottom: 237px;
-    left: 371px;
-  }
-  #about .about--image6 {
-    position: relative;
-    right: 5.3rem;
+}
+@media (max-width: 1140px) {
+  #aboutCourse{
+    .about{
+    }
   }
 }
 @media (max-width: 1024px) {
-  #about .about--image2 {
-    position: absolute;
-    left: 904px;
-  }
-  #about .about--image4 {
-    position: absolute;
-    left: 57rem;
-  }
-  #about .about--image6 {
-    position: relative;
-    right: 5.2rem;
+  #aboutCourse{
+    .about{
+    }
   }
 }
 @media (max-width: 992px) {
-  #about .about--image2 {
-    position: absolute;
-    left: 873px;
-  }
-  #about .about--image4 {
-    position: absolute;
-    left: 55rem;
-  }
-  #about .about--image6 {
-    position: relative;
-    right: 9.2rem;
+  #aboutCourse{
+    .about{
+    }
   }
 }
 @media (max-width: 768px) {
-  #about .about--image2 {
-    position: absolute;
-    left: 649px;
+  #aboutCourse .about h1 {
+    font-size: 30px;
+    line-height: 30px;
   }
-  #about .about--image4 {
-    position: absolute;
-    left: 41rem;
+  #aboutCourse .about p {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 18px 0;
   }
-  #about .about--image6 {
-    position: relative;
-    right: 4.5rem;
-  }
-  #about .about--image5 {
-    position: absolute;
-    left: 622px;
-  }
+
 }
 @media (max-width: 576px) {
-  #about .about--image2 {
-    position: absolute;
-    left: 458px;
-  }
-  #about .about--image {
-    position: absolute;
-    bottom: 237px;
-    left: 346px;
-  }
-  #about .about--image4 {
-    position: absolute;
-    left: 28rem;
-  }
-  #about .about--image5 {
-    position: absolute;
-    left: 480px;
-  }
-  #about .about--image6 {
-    position: relative;
-    right: 3.9rem;
-  }
-  #about .about--title {
-    font-weight: 500;
-  }
-  #about .about--title2 {
-    font-weight: 500;
+
+}
+@media (max-width: 470px) {
+  #aboutCourse{
+    .about{
+
+    }
   }
 }
-@media (max-width: 450px) {
-  #about .about--image4 {
-    position: absolute;
-    left: 19rem;
-  }
-  #about .about--image {
-    position: absolute;
-    bottom: 237px;
-    left: 197px;
-  }
-  #about .about--image2 {
-    position: absolute;
-    left: 330px;
-  }
-  #about .about--image3 {
-    position: absolute;
-    left: 165px;
-  }
-  #about .about--image5 {
-    position: absolute;
-    left: 358px;
-  }
-  #about .about--image6 {
-    position: relative;
-    right: 3.4rem;
-  }
-  #about .about--title {
-    font-weight: 400;
-  }
-  #about .about--title2 {
-    font-weight: 400;
-  }
-  #about .about--description {
-    font-weight: 300;
-  }
-  #about .about--desc {
-    font-weight: 300;
+@media (max-width: 430px) {
+  #aboutCourse{
+    .about{
+
+    }
   }
 }
 @media (max-width: 400px) {
-  #about .about--image2 {
-    position: absolute;
-    left: 282px;
+  #aboutCourse .about h1 {
+    font-size: 26px;
+    line-height: 6px;
   }
-  #about .about--image5 {
-    position: absolute;
-    left: 318px;
+  #aboutCourse .about p {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 13px 0;
   }
-  #about .about--image6 {
-    position: relative;
-    right: 3.2rem;
-  }
+
 }
-@media (max-width: 380px) {
-  #about .about--image {
-    position: absolute;
-    left: 165px;
-  }
-  #about .about--image2 {
-    position: absolute;
-    left: 260px;
-  }
-  #about .about--image4 {
-    position: absolute;
-    left: 16rem;
-  }
-  #about .about--image5 {
-    position: absolute;
-    left: 306px;
-  }
-}
-@media (max-width: 360px) {
-  #about .about--image {
-    position: absolute;
-    left: 130px;
-  }
-  #about .about--image2 {
-    position: absolute;
-    left: 240px;
-  }
-  #about .about--image5 {
-    position: absolute;
-    left: 275px;
-  }
-  #about .about--image5 {
-    position: absolute;
-    left: 275px;
-  }
-  #about .about--title {
-    font-weight: 300;
-  }
-  #about .about--description {
-    font-weight: 200;
-    font-size: 22px;
-  }
-  #about .about--title2 {
-    font-weight: 200;
-  }
-  #about .about--desc {
-    font-weight: 200;
-    font-size: 22px;
+@media (max-width: 376px) {
+  #aboutCourse{
+    .about{
+    }
   }
 }
 @media (max-width: 320px) {
-  #about .about--image {
-    position: absolute;
-    left: 98px;
+  #aboutCourse{
+    .about{
+    }
   }
-  #about .about--image2 {
-    position: absolute;
-    left: 200px;
-  }
-  #about .about--image4 {
-    position: absolute;
-    left: 12rem;
-  }
-  #about .about--image5 {
-    position: absolute;
-    left: 246px;
-  }
-  #about .about--image6 {
-    position: relative;
-    right: 3rem;
-  }
-  #about .about--title2 {
-    line-height: 38px;
-  }
-  #about .about--line {
-    position: relative;
-    top: -45px;
-  }
-  #about .about--title2 {
-    line-height: 36px;
-  }
-  #about .about--title2 {
-    line-height: 38px;
-    width: 1px;
-  }
-  #about .about--line2 {
-    position: relative;
-    top: -13rem;
-  }
-  }
+}

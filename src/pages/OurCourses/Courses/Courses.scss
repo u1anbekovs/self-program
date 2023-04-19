@@ -1,80 +1,236 @@
-#course {
-  padding-bottom: 100px;
-  .container {
-    .course {
-      h1{
-        font-weight: 600;
-        font-size: 40px;
+#courses{
+  .courses{
+    position: relative;
+    &--cards{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    &--title{
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 49px;
+      color: #FFFFFF;
+      margin: 20px 0 20px 100px;
+    }
+    &--book{
+      position: absolute;
+      filter: blur(1px);
+      left: 323px;
+      transform: rotate(30deg);
+      width: 150px;
+      bottom: 25px;
+    }
+    &--card{
+      z-index: 10;
+      margin: 12px 0;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #FFFFFF;
+      backdrop-filter: blur(7.5px);
+      border-radius: 10px;
+      width: 372px;
+      h3{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
         color: #FFFFFF;
-        margin: 0 0 20px 80px;
       }
-      &--block {
+      &__info{
         display: flex;
-        align-items: center;
         justify-content: space-between;
-        &__block-one {
-          background: rgba(255, 255, 255, 0.1);
-          border: 1px solid #FFFFFF;
-          backdrop-filter: blur(7.5px);
-          border-radius: 10px;
-          width: 400px;
-          height: 449px;
-
-          h1 {
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 29px;
-            color: #FFFFFF;
-            margin: 20px 0 0 20px;
-          }
-
-          &--btn {
-            display: flex;
-            align-items: center;
-            p {
-              font-weight: 600;
-              font-size: 16px;
-              line-height: 20px;
-              color: #FFFFFF;
-              margin: 22px 95px 15px 20px;
-            }
-
-            button {
-              background: rgba(255, 255, 255, 0.1);
-              border: 0.5px solid #FFFFFF;
-              border-radius: 5px;
-              font-weight: 400;
-              font-size: 16px;
-              outline: none;
-              color: #FFFFFF;
-              margin-left: 5px;
-              padding: 2px 4px;
-            }
-          }
-          p{
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
-            color: #FFFFFF;
-          }
-        }
-      }
-      &--block-btn{
-        button{
-          background: rgba(255, 255, 255, 0.1);
-          border: 1px solid #FFFFFF;
-          border-radius: 10px;
-          font-weight: 400;
+        align-items: center;
+        margin: 15px 0 12px 0;
+        h4{
+          font-weight: 500;
           font-size: 16px;
           color: #FFFFFF;
-          padding: 10px;
-          margin-top: 100px;
         }
-        &__img{
-          position: absolute;
-          left: 400px;
+        &--btn{
+          display: flex;
+          gap: 10px;
+          button{
+            font-weight: 300;
+            font-size: 16px;
+            color: #FFFFFF;
+            padding: 3px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 0.5px solid #FFFFFF;
+            border-radius: 5px;
+          }
         }
       }
+      &__imgCourse{
+        margin: 10px 0 15px 0;
+      }
+      a{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+      }
+
+    }
+    &--btnMain{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid #FFFFFF;
+      border-radius: 10px;
+      padding: 13px 15px;
+      margin: 40px 0;
     }
   }
+}
+
+@media (max-width: 1200px) {
+  #courses .courses--card {
+    width: 310px;
+  }
+
+}
+@media (max-width: 1024px) {
+  #courses .courses--card {
+    width: 285px;
+    font-weight: 200;
+  }
+  #courses .courses--card__info--btn button {
+    font-size: 12px;
+  }
+}
+@media (max-width: 992px) {
+
+  #courses .courses--card {
+    width: 242px;
+  }
+  #courses .courses--card h3 {
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 18px;
+  }
+  #courses .courses--card__info h4 {
+    font-weight: 400;
+    font-size: 13px;
+  }
+  #courses .courses--card__info--btn {
+    gap: 5px;
+  }
+  #courses .courses--card__info--btn button {
+    font-size: 10px;
+  }
+  #courses .courses--card {
+    padding: 12px;
+  }
+  #courses .courses--book {
+    left: 49px;
+  }
+  #courses .courses--btnMain {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 15px;
+    margin: 25px 0;
+  }
+
+}
+@media (max-width: 768px) {
+
+#courses .courses--cards {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+  #courses .courses--card{
+    padding: 20px;
+    width: 402px;
+  }
+  #courses .courses--card h3{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  #courses .courses--card__info--btn {
+    gap: 10px;
+  }
+  #courses .courses--card__info h4 {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  #courses .courses--card__info--btn button {
+    font-weight: 300;
+    font-size: 16px;
+  }
+  #courses .courses--title{
+    text-align: center;
+    margin: 20px 0;
+  }
+}
+@media (max-width: 450px) {
+  #courses .courses--card {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  #courses .courses--card {
+    padding: 13px;
+  }
+  #courses .courses--card a {
+    font-size: 13px;
+    line-height: 10px;
+  }
+  #courses .courses--card__imgCourse{
+    margin: 5px 0 5px 0;
+  }
+  #courses .courses--title {
+    font-size: 28px;
+  }
+}
+@media (max-width: 320px) {
+  #courses .courses--card h3 {
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 18px;
+  }
+  #courses .courses--card__info h4 {
+    font-weight: 400;
+    font-size: 13px;
+  }
+  #courses .courses--card__info--btn {
+    gap: 5px;
+  }
+  #courses .courses--card__info--btn button {
+    font-size: 10px;
+  }
+  #courses .courses--card {
+    padding: 15px;
+  }
+  #courses .courses--book {
+    left: 49px;
+  }
+  #courses .courses--btnMain {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 14px;
+    margin: 16px 0;
+  }
+  #courses .courses--title {
+    font-size: 30px;
+    line-height: 12px;
+  }
+  #courses .courses--card {
+    margin: 8px 0;
+  }
+  #courses .courses--book {
+    left: 30px;
+    width: 90px;
+    bottom: 13px;
+  }
+  #courses .courses--btnMain {
+    line-height: 8px;
+    margin: 13px 0;
+    padding: 13px 8px;
+  }
+
 }

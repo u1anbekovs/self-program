@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700;800;900&family=League+Spartan:wght@600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
 
 #more {
-  padding-bottom: 230px;
-
   .more:hover {
     overflow: hidden;
 
@@ -90,3 +88,63 @@
     }
   }
 }
+
+
+@media (max-width: 1140px) {
+  #more .more--text h1 {
+    font-size: 30px;
+  }
+  #more .more--text p {
+    font-size: 25px;
+  }
+  #more .more {
+    padding: 30px 20px 30px 0;
+  }
+}
+@media (max-width: 1024px) {
+  #more .more {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  #more .more__image1 {
+    display: none;
+  }
+  #more .more__image {
+    display: none;
+  }
+  #more .more__btn {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+  }
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  #more .more__btn {
+    width: 70%;
+  }
+}
+@media (max-width: 576px) {
+  #more .more__btn {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  #more .more__btn {
+    width: 100%;
+  }
+}
+@media (max-width: 415px) {
+  #more .more__btn {
+    flex-direction: column;
+  }
+  #more .more__btn--remove {
+    margin-top: 20px;
+  }
+}
+

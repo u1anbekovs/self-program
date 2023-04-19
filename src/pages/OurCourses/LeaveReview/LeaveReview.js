@@ -1,46 +1,47 @@
-import React from 'react';
-
-
+import React from "react";
 import "./LeaveReview.scss"
-import img from "../../../assets/img/book.png"
-import img2 from "../../../assets/img/review-img.svg"
-import img3 from "../../../assets/img/rview-img2.png"
+import Book from "./../../../assets/img/book1.png"
+import Book2 from "./../../../assets/img/book3.svg"
 
 
 const LeaveReview = () => {
 
     return (
+        <div id="leaveReview">
+            <div className="container">
+                <div className="leaveReview">
 
-   <div id="review">
-       <div className="container">
-           <div className="review">
-               <div>
-                   <h1 className="review--title">Оставить отзыв</h1>
-                   <p className="review--description">Если вам понравилась наша <br/>
-                       платфрома, вы можете <br/>
-                       оставить отзыв, а также <br/>
-                       увидеть остальные отзывы в <br/>
-                       нашем телеграм канале.</p>
-               </div>
+                    <img className="leaveReview--img1" src={Book2} alt=""/>
 
-               <div className="review--block">
-                   <h2 className="review--title2">ФИО:</h2>
-                   <input className="review--input1" type="text" placeholder="Muslim Bolot Joodarovich"/>
-                   <h2 className="review--title2">Кем вы работаете? :</h2>
-                   <input className="review--input1" type="text" placeholder="Частный предпрениматель"/>
-                   <h2 className="review--title2">Отзыв:</h2>
-                   <input className="review--input2" type="text" placeholder="Мне очень понравилась эта школа..."/>
-                   <button className="review--btn">Оставить отзыв</button>
-               </div>
+                    <div className="leaveReview--title">
+                        <h1>Оставить отзыв</h1>
+                        <p>
+                            Если вам понравилась наша платфрома, вы можете оставить отзыв, а
+                            также увидеть остальные отзывы в нашем телеграм канале.
+                        </p>
+                    </div>
+                    <div className="leaveReview--addWorlds">
+                        <div className="leaveReview--addWorlds__name">
+                            <label htmlFor="name">ФИО:</label>
+                            <input type="text" placeholder="Muslim Bolot Joodarovich"/>
+                        </div>
+                        <div className="leaveReview--addWorlds__name">
+                            <label htmlFor="work">Кем вы работаете? :</label>
+                            <input type="text" placeholder="Частный предпрениматель"/>
+                        </div>
+                        <div className="leaveReview--addWorlds__name">
+                            <label htmlFor="review">Отзыв:</label>
+                            <textarea placeholder="Мне очень понравилась эта школа..."></textarea>
+                        </div>
+                        <button>Оставить отзыв</button>
 
-           </div>
-           <img className="review--image1" src={img} alt=""/>
-           <img className="review--image2" src={img2} alt=""/>
-           <img className="review--image3" src={img3} alt=""/>
-       </div>
+                    </div>
+                    <img className="leaveReview--img2" src={Book} alt=""/>
 
-   </div>
+                </div>
 
+            </div>
+        </div>
     );
 };
 

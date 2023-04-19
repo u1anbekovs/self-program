@@ -1,93 +1,43 @@
-import React from 'react';
-import "./MasterClasses.scss"
-import courseBlock from "../../../assets/img/coursblock.png";
-import {Link} from "react-router-dom";
-import imgAbout2 from "../../../assets/img/Kaif 5.svg";
+import React from "react";
+import "./MasterClasses.scss";
+import Book from "./../../../assets/img/ress.svg";
+import {useNavigate} from "react-router-dom";
+import {OurApi} from "../../../backand/coursBackand";
+
 const MasterClasses = () => {
+    const navigate = useNavigate()
     return (
-        <section id="master">
+        <div id="mk">
             <div className="container">
-                <div className="master">
-                    <div className="master">
-                        <h1>Мастер классы</h1>
-                        <img className="master--image" src={imgAbout2} alt=""/>
-                        <div className="master--block">
-                            <div className="master--block__block-one">
-                                <h1>Создание команды</h1>
-                                <div className="master--block__block-one--btn">
-                                    <p>Обучение</p>
-                                    <button>Все</button>
-                                    <button>Новое</button>
-                                    <button>Новое</button>
+                <div className="mk">
+                    <img src={Book} alt="" className="mk--book"/>
+                    <h2>Мастер классы</h2>
+
+                    <div className="mk--cards">
+                        {OurApi.map((el) => (
+                            <div onClick={() => navigate(`/button`)} className="mk--cards__cup">
+                                <h3>{el.title}</h3>
+                                <div className="mk--cards__cup--info">
+                                    <h4>{el.learn}</h4>
+                                    <div>
+                                        {
+                                            el.buttons.map(btn => (
+                                                <button>{btn.title}</button>
+                                            ))
+                                        }
+                                    </div>
                                 </div>
-                                <img src={courseBlock} alt="img" className="ml-[20px]"/>
-                                <p className="mt-[15px] ml-[20px]">Подробнее...</p>
+                                <img src={el.image} alt=""/>
+                                <a href="">{el.btnFinish}</a>
                             </div>
-                            <div className="master--block__block-one">
-                                <h1>Создание команды</h1>
-                                <div className="master--block__block-one--btn">
-                                    <p>Обучение</p>
-                                    <button>Все</button>
-                                    <button>Новое</button>
-                                    <button>Новое</button>
-                                </div>
-                                <img src={courseBlock} alt="img" className="ml-[20px]"/>
-                                <p className="mt-[15px] ml-[20px]">Подробнее...</p>
-                            </div>
-                            <div className="master--block__block-one">
-                                <h1>Создание команды</h1>
-                                <div className="master--block__block-one--btn">
-                                    <p>Обучение</p>
-                                    <button>Все</button>
-                                    <button>Новое</button>
-                                    <button>Новое</button>
-                                </div>
-                                <img src={courseBlock} alt="img" className="ml-[20px]"/>
-                                <p className="mt-[15px] ml-[20px]">Подробнее...</p>
-                            </div>
-                            <div className="master--block__block-one">
-                                <h1>Создание команды</h1>
-                                <div className="master--block__block-one--btn">
-                                    <p>Обучение</p>
-                                    <button>Все</button>
-                                    <button>Новое</button>
-                                    <button>Новое</button>
-                                </div>
-                                <img src={courseBlock} alt="img" className="ml-[20px]"/>
-                                <p className="mt-[15px] ml-[20px]">Подробнее...</p>
-                            </div>
-                            <div className="master--block__block-one">
-                                <h1>Создание команды</h1>
-                                <div className="master--block__block-one--btn">
-                                    <p>Обучение</p>
-                                    <button>Все</button>
-                                    <button>Новое</button>
-                                    <button>Новое</button>
-                                </div>
-                                <img src={courseBlock} alt="img" className="ml-[20px]"/>
-                                <p className="mt-[15px] ml-[20px]">Подробнее...</p>
-                            </div>
-                            <div className="master--block__block-one">
-                                <h1>Создание команды</h1>
-                                <div className="master--block__block-one--btn">
-                                    <p>Обучение</p>
-                                    <button>Все</button>
-                                    <button>Новое</button>
-                                    <button>Новое</button>
-                                </div>
-                                <img src={courseBlock} alt="img" className="ml-[20px]"/>
-                                <p className="mt-[15px] ml-[20px]">Подробнее...</p>
-                            </div>
-                        </div>
-                        <center>
-                            <div className="master--block-btn">
-                                <Link to={"/button"}><button>Смотреть все мастер классы</button></Link>
-                            </div>
-                        </center>
+                        ))}
                     </div>
+                    <center>
+                        <button>Смотреть все мастер классы</button>
+                    </center>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 

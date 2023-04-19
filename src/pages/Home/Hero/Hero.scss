@@ -1,6 +1,5 @@
 #hero {
-  padding: 200px 0 120px 0;
-  position: relative;
+  padding-top: 200px;
 
   .hero {
     display: flex;
@@ -37,18 +36,15 @@
         color: #595FEB;
       }
     }
-
-    
   }
 
   .book1 {
     position: absolute;
     top: 107px;
     right: 102px;
-
   }
 
-  .book2{
+  .book2 {
     position: absolute;
     top: 200px;
     left: 300px;
@@ -56,21 +52,26 @@
 
   .book4 {
     position: absolute;
-    right: 50px;
-    bottom: 80px;
+    right: 40px;
+    bottom: -100px;
+  }
+}
+
+
+@media (max-width: 1440px) {
+  #hero {
+    .hero {
+    }
   }
 }
 
 @media (max-width: 1200px) {
   #hero {
     .hero {
-
     }
   }
 }
-@media (max-width: 1140px) {
 
-}
 @media (max-width: 1024px) {
   #hero {
     .hero {
@@ -92,9 +93,14 @@
     }
   }
 }
+
 @media (max-width: 992px) {
   #hero {
-    padding-top: 150px;
+    padding: 30px 0;
+
+    .hero {
+      padding-top: 90px;
+    }
 
     .book4 {
       width: 190px;
@@ -123,8 +129,11 @@
     }
   }
 }
-@media (max-width: 768px) {
+
+@media (max-width: 800px) {
   #hero {
+    padding: 30px 0;
+
     .book4 {
       width: 160px;
     }
@@ -171,8 +180,11 @@
     }
   }
 }
-@media (max-width: 576px) {
+
+@media (max-width: 470px) {
   #hero {
+    padding: 30px 0;
+
     .book4 {
       position: absolute;
       right: 30px;
@@ -192,7 +204,7 @@
     }
 
     .book2 {
-      width: 90px;
+      display: none;
     }
 
     .hero {
@@ -234,8 +246,11 @@
     }
   }
 }
-@media (max-width: 450px) {
+
+@media (max-width: 430px) {
   #hero {
+    padding: 30px 0;
+
     .book4 {
       position: absolute;
       right: 30px;
@@ -297,8 +312,11 @@
     }
   }
 }
-@media (max-width: 414px) {
+
+@media (max-width: 412px) {
   #hero {
+    padding: 30px 0;
+
     .book4 {
       position: absolute;
       right: 30px;
@@ -360,8 +378,11 @@
     }
   }
 }
+
 @media (max-width: 400px) {
   #hero {
+    padding: 30px 0;
+
     .book4 {
       position: absolute;
       right: 30px;
@@ -423,8 +444,11 @@
     }
   }
 }
-@media (max-width: 380px) {
+
+@media (max-width: 390px) {
   #hero {
+    padding: 30px 0;
+
     .book4 {
       position: absolute;
       right: 30px;
@@ -486,8 +510,10 @@
     }
   }
 }
-@media (max-width: 360px) {
+
+@media (max-width: 376px) {
   #hero {
+    padding: 30px 0;
 
     .book4 {
       position: absolute;
@@ -550,8 +576,11 @@
     }
   }
 }
+
 @media (max-width: 320px) {
   #hero {
+    padding: 30px 0;
+
     .book4 {
       position: absolute;
       right: 30px;
@@ -595,7 +624,6 @@
         }
 
         button {
-          width: 150px;
           height: 38px;
           font-size: 16px;
           line-height: 24px;

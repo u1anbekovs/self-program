@@ -1,128 +1,60 @@
-import React, { useState } from 'react';
-import aboutBook from "./../../../assets/img/aboutBook.png"
-import bookStuty from "./../../../assets/img/bookStuty.png"
-import book from "./../../../assets/img/logo.svg"
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import "../../Books/Books.scss";
+import {useNavigate} from "react-router-dom";
+import {OurBackand} from "../../../backand/statyBackand";
+import styImg from "../../../assets/img/book1.png"
+import ress from "../../../assets/img/ress.svg"
 
 const Staty = () => {
-
-    const [books, setBooks] = useState([1, 2, 3])
-    const [books1, setBooks1] = useState([1, 2])
-
+    const navigate = useNavigate()
     return (
-        <div id="books">
-            <div className="container">
-                <div className="books">
+        <div>
+            <div id="book">
+                <div className="container">
+                    <div className="book">
 
-                    <img src={book} className='books--img1' alt="" />
-                    <img src={book} className='books--img2' alt="" />
-                    <img src={book} className='books--img3' alt="" />
-                    <img src={book} className='books--img4' alt="" />
-                    <div className="books--tabs">
-                        <div className="books--tabs__btn">Все разделы</div>
-                        <div className="books--tabs__btn">Новое</div>
-                        <div className="books--tabs__btn">Софт-скилс</div>
-                        <div className="books--tabs__btn">Книги</div>
-                        <div className="books--tabs__btn">Окружение</div>
-                    </div>
+                        <div className='book--tabs1'>
+                            <button>Все разделы</button>
+                            <button>Новое</button>
+                            <button>Софт-скилс</button>
+                            <button>Книги</button>
+                            <button>Окружение</button>
+                        </div>
+                        <img className="book--styImg" src={styImg} alt=""/>
+                        <img className="book--styImg1" src={ress} alt=""/>
 
-                    <div className="books--block">
-                        {
-                            books.map(el => (
-                                <div className='books--block__aboutBook'>
-                                    <h2>С какой книги начать?</h2>
-                                    <div className='books--block__aboutBook--start'>
-                                        <h4>Полезные статьи</h4>
-                                        <button>Все</button>
-                                        <button className="ml-[5px]">Новое</button>
-                                        <button className="">Книги</button>
+                        <div className="book--cards">
+                            {OurBackand.slice(0, 8).map((el) => (
+                                <div className="book--cards__car">
+                                    <div className="book--cards__car--logos">
+                                        <h3>{el.title}</h3>
                                     </div>
-                                    <img src={aboutBook} alt="" />
-                                    <div className="books--block__aboutBook--line" />
-                                    <div className='books--block__aboutBook--end'>
-                                        <h3>Автор: Muslim Bolot</h3>
-                                        <h3>Дата: 22.08.22</h3>
+                                    <div className="book--cards__car--info">
+                                        <h4>{el.learn}</h4>
+                                        <div className="book--cards__car--info__btn">
+                                            {el.buttons.map((btn) => (
+                                                <button>{btn.title}</button>
+                                            ))}
+                                        </div>
+                                    </div>
+
+                                    <img src={el.image} alt=""/>
+                                    <div className="book--cards__car--item">
+                                        <a href="">{el.btnFinish}</a>
+                                        <a href="">{el.dataFinish}</a>
                                     </div>
                                 </div>
-
-                            ))
-                        }
+                            ))}
+                        </div>
+                        <center>
+                            <button className="book--button" onClick={() => navigate(`/books`)}>Смотреть все курсы
+                            </button>
+                        </center>
                     </div>
-
-                    <div className='books--startBlock'>
-                        <div className="books--startBlock__firstBlock">
-                            {
-                                books1.map(el => (
-                                    <div className='books--startBlock__firstBlock--aboutBook'>
-                                        <h2>С какой книги начать?</h2>
-                                        <div className='books--startBlock__firstBlock--aboutBook__start'>
-                                            <h4>Полезные статьи</h4>
-                                            <button>Все</button>
-                                            <button>Новое</button>
-                                            <button>Книги</button>
-                                        </div>
-                                        <img src={aboutBook} alt="" />
-                                        <div className="books--startBlock__firstBlock--aboutBook__line" />
-                                        <div className='books--startBlock__firstBlock--aboutBook__end'>
-                                            <h3>Автор: Muslim Bolot</h3>
-                                            <h3>Дата: 22.08.22</h3>
-                                        </div>
-                                    </div>
-
-                                ))
-                            }
-                        </div>
-                        <div className='books--startBlock__centerBooks'>
-                            <div className='books--startBlock__centerBooks--aboutBook'>
-                                <h2>С какой книги начать?</h2>
-                                <div className='books--startBlock__centerBooks--aboutBook__start'>
-                                    <h4>Полезные статьи</h4>
-                                    <button>Все</button>
-                                    <button>Новое</button>
-                                    <button>Книги</button>
-                                </div>
-                                <img src={aboutBook} alt="" />
-                                <img src={bookStuty} className='books--startBlock__centerBooks--aboutBook__img' alt="" />
-                                <div className="books--startBlock__centerBooks--aboutBook__line" />
-                                <div className='books--startBlock__centerBooks--aboutBook__end'>
-                                    <h3>Автор: Muslim Bolot</h3>
-                                    <h3>Дата: 22.08.22</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="books--startBlock__firstBlock">
-                            {
-                                books1.map(el => (
-                                    <div className='books--startBlock__firstBlock--aboutBook'>
-                                        <h2>С какой книги начать?</h2>
-                                        <div className='books--startBlock__firstBlock--aboutBook__start'>
-                                            <h4>Полезные статьи</h4>
-                                            <button>Все</button>
-                                            <button>Новое</button>
-                                            <button>Книги</button>
-                                        </div>
-                                        <img src={aboutBook} alt="" />
-                                        <div className="books--startBlock__firstBlock--aboutBook__line" />
-                                        <div className='books--startBlock__firstBlock--aboutBook__end'>
-                                            <h3>Автор: Muslim Bolot</h3>
-                                            <h3>Дата: 22.08.22</h3>
-                                        </div>
-                                    </div>
-
-                                ))
-                            }
-                        </div>
-                    </div>
-
-
-                    <NavLink to={"/books"}>
-                        <button className='books--btn'>Показать болшье</button>
-                    </NavLink>
-
                 </div>
             </div>
         </div>
     );
-}
+};
 
 export default Staty;

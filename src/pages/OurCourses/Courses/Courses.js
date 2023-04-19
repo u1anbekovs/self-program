@@ -1,59 +1,47 @@
-import React from 'react';
-import "./Courses.scss"
-import courseBlock from "../../../assets/img/coursblock.png"
-import book from "../../../assets/img/book1.png"
-import {Link} from "react-router-dom";
+import React from "react";
+import "../MasterClasses/MasterClasses.scss";
+import Book from "../../../assets/img/book1.png";
 import {useNavigate} from "react-router-dom";
+import {OurApi} from "../../../backand/coursBackand";
 
 const Courses = () => {
     const navigate = useNavigate()
     return (
-        <section id="course">
-            <div className="container">
-                <div className="course mt-[-300px]">
-                    <h1>Курсы</h1>
-                    <div className="course--block">
-                        <div className="course--block__block-one">
-                            <h1>Создание команды</h1>
-                            <div className="course--block__block-one--btn">
-                                <p>Обучение</p>
-                                <button>Все</button>
-                                <button>Новое</button>
-                                <button>Новое</button>
-                            </div>
-                            <img onClick={() => navigate(`/button`)} src={courseBlock} alt="img" className="cursor-pointer ml-[20px]"/>
-                            <p className="mt-[15px] ml-[20px]">Подробнее...</p>
+        <div>
+            <div id="mk">
+                <div className="container">
+                    <div className="mk">
+                        <h2>Курсы</h2>
+
+                        <div className="mk--cards">
+                            {OurApi.slice(0,3).map((el) => (
+                                <div onClick={() => navigate(`/button`)} className="mk--cards__cup">
+                                    <h3>{el.title}</h3>
+                                    <div className="mk--cards__cup--info">
+                                        <h4>{el.learn}</h4>
+                                        <div>
+                                            {
+                                                el.buttons.map(btn => (
+                                                    <button>{btn.title}</button>
+                                                ))
+                                            }
+                                        </div>
+                                    </div>
+                                    <img src={el.image} alt=""/>
+                                    <a href="">{el.btnFinish}</a>
+                                </div>
+                            ))}
                         </div>
-                        <div className="course--block__block-one">
-                            <h1>Создание команды</h1>
-                            <div className="course--block__block-one--btn">
-                                <p>Обучение</p>
-                                <button>Все</button>
-                                <button>Новое</button>
-                                <button>Новое</button>
-                            </div>
-                            <img onClick={() => navigate(`/button`)} src={courseBlock} alt="img" className="cursor-pointer ml-[20px]"/>
-                            <p className="mt-[15px] ml-[20px]">Подробнее...</p>
-                        </div>
-                        <div className="course--block__block-one">
-                            <h1>Создание команды</h1>
-                            <div className="course--block__block-one--btn">
-                                <p>Обучение</p>
-                                <button>Все</button>
-                                <button>Новое</button>
-                                <button>Новое</button>
-                            </div>
-                            <img onClick={() => navigate(`/button`)} src={courseBlock} alt="img" className="cursor-pointer ml-[20px]"/>
-                            <p className="mt-[15px] ml-[20px]">Подробнее...</p>
-                        </div>
-                    </div>
-                    <div className="course--block-btn">
-                        <img src={book} alt="img" className="course--block-btn__img"/>
-                        <center><Link to={"/button"}><button>Смотреть все курсы</button></Link></center>
+                        <img src={Book} alt="" className="mk--book1"/>
+
+
+                        <center>
+                            <button>Смотреть все курсы</button>
+                        </center>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 

@@ -1,167 +1,390 @@
-#review {
-  .review {
+#leaveReview {
+  position: relative;
+
+  .leaveReview {
+    padding: 10px 0 260px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: start;
+
+    &--img1 {
+      position: absolute;
+      left: 0;
+      width: 7%;
+    }
+
+    &--img2 {
+      position: absolute;
+      bottom: 150px;
+      left: 30%;
+      width: 15%;
+    }
 
     &--title {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 40px;
-      line-height: 49px;
-      color: #FFFFFF;
-      padding-bottom: 30px;
+      width: 335px;
+
+      h1 {
+        font-weight: 600;
+        font-size: 40px;
+        color: #ffffff;
+        padding-bottom: 30px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 20px;
+        color: #ffffff;
+      }
     }
 
-    &--description {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 24px;
-      color: #FFFFFF;
-    }
-
-    &--block {
-      box-sizing: border-box;
-      width: 555px;
-      height: 484px;
+    &--addWorlds {
       background: rgba(255, 255, 255, 0.1);
       border: 1px solid #FFFFFF;
       backdrop-filter: blur(12px);
       border-radius: 10px;
-      padding: 30px 28px;
-      margin-left: 40px;
-    }
+      padding: 20px;
 
-    &--input1 {
-      width: 495px;
-      height: 40px;
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid #FFFFFF;
-      backdrop-filter: blur(12px);
-      border-radius: 10px;
-      outline: none;
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 17px;
-      padding-left: 12px;
-      color: rgba(255, 255, 255, 0.41);
-      margin-bottom: 15px;
-    }
+      label {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+      }
 
-    &--title2 {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      color: #FFFFFF;
-      padding-bottom: 10px;
-    }
+      button {
+        background: #FFFFFF;
+        border-radius: 10px;
+        width: 495px;
+        padding: 10px 0;
+        margin-top: 20px;
+        color: darkblue;
+      }
 
-    &--input2 {
-      width: 495px;
-      height: 150px;
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(12px);
-      border-radius: 10px;
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 17px;
-      outline: none;
-      padding-left: 12px;
-      border: 1px solid #FFFFFF;
-    }
+      &__name {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
 
-    &--btn {
-      font-family: 'Roboto', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
-      color: #595FEB;
-      width: 495px;
-      height: 44px;
-      background: #FFFFFF;
-      border-radius: 10px;
-      margin-top: 30px;
-    }
+        input {
+          border: 1px solid #FFFFFF;
+          border-radius: 10px;
+          width: 495px;
+          height: 50px;
+          padding: 0 10px;
+          background: transparent;
+          margin-bottom: 20px;
+          color: #FFFFFF;
+        }
 
-    &--image1 {
-      position: relative;
-      left: 22rem;
-    }
+        textarea {
+          border: 1px solid #FFFFFF;
+          border-radius: 10px;
+          padding: 0 10px;
+          background: transparent;
+          width: 495px;
+          height: 150px;
+          padding-top: 12px;
+          color: #FFFFFF;
+        }
 
-    &--image2 {
-      position: relative;
-      bottom: 43.5rem;
-      right: 5rem;
-    }
+        input::placeholder {
+          color: rgba(255, 255, 255, 0.41);
+          font-size: 14px;
+        }
 
-    &--image3 {
-      position: absolute;
-      left: 56rem;
-      top: 87rem;
-      opacity: 29%;
-    }
-  }
-
-}
-
-
-@media (max-width: 992px) {
-  #review .review {
-    flex-wrap: wrap;
-
-    &--description {
-      margin: 0 0 30px 0;
+        textarea::placeholder {
+          color: rgba(255, 255, 255, 0.41);
+          font-size: 14px;
+        }
+      }
     }
   }
 }
 
-@media (max-width: 576px) {
-  #review .review--block {
-    width: 100%;
-    margin-left: 0;
-  }
-  #review .review--input1 {
-    width: 100%;
-  }
-  #review .review--input2 {
-    width: 100%;
-  }
-  #review .review--btn {
-    width: 100%;
-  }
-  #review .review--image1 {
-    left: 11rem;
-  }
-  #review .review--image2 {
-    bottom: 12.5rem;
-    right: 1rem;
+
+
+
+@media (max-width:1024px) {
+  #leaveReview {
+    .leaveReview {
+      &--addWorlds {
+        &__name {
+          input {
+            width: 470px;
+
+          }
+
+          textarea {
+            width: 470px;
+          }
+        }
+
+        button {
+          width: 470px;
+        }
+      }
+    }
   }
 }
+@media (max-width:992px) {
+  #leaveReview {
+    .leaveReview {
 
+      &--title {
+        h1 {
+          font-size: 33px;
+        }
+      }
+
+      &--addWorlds {
+        &__name {
+          input {
+            width: 420px;
+
+          }
+
+          textarea {
+            width: 420px;
+          }
+        }
+
+        button {
+          width: 420px;
+        }
+      }
+    }
+  }
+}
+@media (max-width:768px) {
+  #leaveReview {
+    .leaveReview {
+      flex-direction: column;
+      align-items: center;
+      &--title {
+        width: 100%;
+        padding-bottom: 80px;
+        h1 {
+          font-size: 33px;
+        }
+      }
+
+    &--addWorlds {
+      &__name {
+        input {
+          width: 420px;
+
+        }
+
+        textarea {
+          width: 420px;
+        }
+      }
+
+      button {
+        width: 420px;
+      }
+    }
+    }
+  }
+}
+@media (max-width:576px) {
+  #leaveReview {
+    .leaveReview {
+      flex-direction: column;
+      align-items: center;
+      &--title {
+        width: 100%;
+        padding-bottom: 80px;
+        h1 {
+          font-size: 30px;
+        }
+        p{
+          font-size: 18px;
+        }
+      }
+
+      &--addWorlds {
+        &__name {
+          input {
+            width: 420px;
+
+          }
+
+          textarea {
+            width: 420px;
+          }
+        }
+
+        button {
+          width: 420px;
+        }
+      }
+    }
+  }
+}
+@media (max-width:451px) {
+  #leaveReview {
+    .leaveReview {
+      flex-direction: column;
+      align-items: center;
+      &--title {
+        width: 100%;
+        padding-bottom: 80px;
+        h1 {
+          font-size: 30px;
+        }
+        p{
+          font-size: 18px;
+        }
+      }
+
+      &--addWorlds {
+        &__name {
+          input {
+            width: 360px;
+          }
+
+          textarea {
+            width: 360px;
+          }
+        }
+
+        button {
+          width: 360px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 415px) {
+  #leaveReview .leaveReview--addWorlds {
+    width: 100%;
+  }
+  #leaveReview .leaveReview--addWorlds__name input {
+    width: 330px;
+  }
+  #leaveReview .leaveReview--addWorlds__name textarea {
+    width: 330px;
+  }
+  #leaveReview .leaveReview--addWorlds button {
+    width: 330px;
+  }
+
+}
+@media (max-width: 390px) {
+  #leaveReview .leaveReview--addWorlds {
+    width: 100%;
+  }
+  #leaveReview .leaveReview--addWorlds__name input {
+    width: 310px;
+  }
+  #leaveReview .leaveReview--addWorlds__name textarea {
+    width: 310px;
+  }
+  #leaveReview .leaveReview--addWorlds button {
+    width: 310px;
+  }
+
+}
+@media (max-width: 380px) {
+  #leaveReview .leaveReview--addWorlds {
+    width: 100%;
+  }
+  #leaveReview .leaveReview--addWorlds__name input {
+    width: 300px;
+  }
+  #leaveReview .leaveReview--addWorlds__name textarea {
+    width: 300px;
+  }
+  #leaveReview .leaveReview--addWorlds button {
+    width: 300px;
+  }
+
+}
+@media (max-width:375px) {
+  #leaveReview {
+    .leaveReview {
+      flex-direction: column;
+      align-items: center;
+      &--title {
+        width: 100%;
+        padding-bottom: 80px;
+        h1 {
+          font-size: 26px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
+
+      &--addWorlds {
+        &__name {
+          input {
+            width: 293px;
+
+          }
+
+          textarea {
+            width: 293px;
+          }
+        }
+
+        button {
+          width: 293px;
+        }
+      }
+    }
+  }
+}
 @media (max-width: 360px) {
-  #review .review--title {
-    font-size: 38px;
-
+  #leaveReview .leaveReview--addWorlds {
+    width: 100%;
   }
+  #leaveReview .leaveReview--addWorlds__name input {
+    width: 284px;
+  }
+  #leaveReview .leaveReview--addWorlds__name textarea {
+    width: 284px;
+  }
+  #leaveReview .leaveReview--addWorlds button {
+    width: 284px;
+  }
+
 }
+@media (max-width:320px) {
+  #leaveReview {
+    .leaveReview {
+      flex-direction: column;
+      align-items: center;
+      &--title {
+        width: 100%;
+        padding-bottom: 80px;
+        h1 {
+          font-size: 26px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
 
-@media (max-width: 320px) {
-  #review .review--title {
-    font-size: 34px;
-  }
-  #review .review--description {
-    font-size: 19px;
-  }
-  #review .review--image1 {
-    left: 22rem;
+      &--addWorlds {
+        padding: 14px;
+        &__name {
+          input {
+            width: 260px;
+
+          }
+
+          textarea {
+            width: 260px;
+          }
+        }
+
+        button {
+          width: 260px;
+        }
+      }
+    }
   }
 }
