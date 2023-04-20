@@ -4,67 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="000de989-247d-44ef-a3dc-5177fba8a7b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/TelamonCleaner_id643e3a0db6991f2.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/mdi_gold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/time.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/youtube.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backand/coursBackand/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backand/statyBackand/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Photo/Photo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Photo/Photo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/ShowCourses/Show.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/ShowCourses/Show.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/YourLearn/YourLearn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/YourLearn/YourLearn.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/CoursBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/CoursBlock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/thisCours/ThisCours.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/thisCours/ThisCours.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2023_23_58_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_04_2023_23_58__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_04_2023_01_24_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_04_2023_01_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_04_2023_01_24__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_04_2023_01_24__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_0_03__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_04_2023_15_04_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_04_2023_15_04__Changes_.xml" beforeDir="false" />
+    <list default="true" id="0ab992d6-c149-42b7-8ba4-9fc8af3189d8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Books/Books.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Books/Books.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Books/Books.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Books/Books.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/Accardeon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Accardeon/openAcc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Follow/Follow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Hero/Hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Staty/Staty.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Courses/Courses.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Hero/Hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/LeaveReview/LeaveReview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/MasterClasses/MasterClasses.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OurCourses/Reviews/Reviews.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/AboutCourse/AboutCourse.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/CourseProgramme/CourseProgramme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/Reviews/Reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Reviews/Reviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Reviews/Reviews.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/Team/Team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/Team/Team.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/TeamBuilding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TeamBuilding/TeamBuilding.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeamBuilding/accordionProgrammer/AccordionProgrammer.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="titan_product" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
