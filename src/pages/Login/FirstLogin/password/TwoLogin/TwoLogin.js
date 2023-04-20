@@ -1,20 +1,23 @@
 import React, {useState} from 'react';
 import Book from "../../../../../assets/img/logo.svg";
+import password from "../password";
 import {useNavigate} from "react-router-dom";
 
 const TwoLogin = () => {
     const [forget, setForget] = useState("")
     const [forgetOne, setForgetOne] = useState("")
-    const [forgotError, setForgotError] = useState(false)
+    const [forgotError , setForgotError] = useState(false)
+    const[error, setError] = useState('Пароли не совпадают!')
     const navigate = useNavigate()
 
-    function handleConfirmPassword() {
-        if (forget === forgetOne && forget.length !== 0 && forgetOne.length !== 0) {
-            navigate('/')
-        } else {
-            setForgotError(true)
-        }
+function handleConfirmPassword() {
+    if (forget === forgetOne && forget.length !== 0 && forgetOne.length !== 0) {
+        // alert('Succes')
+        navigate('/')
+    } else {
+        setForgotError(true)
     }
+}
 
     return (
         <div id='twoLogin'>
@@ -27,16 +30,9 @@ const TwoLogin = () => {
                             <h3>Востановить пароль</h3>
                             <input type="password" placeholder={'Новый пароль'}
                                    onChange={(e) => setForget(e.target.value)}
-                                   style={{
-                                       border: forgotError ? '1px solid red' : ""
-                                   }}
                             />
                             <input type="password" placeholder={'Повторите'}
-                                   onChange={(e) => setForgetOne(e.target.value)}
-                                   style={{
-                                       border: forgotError ? '1px solid red' : ""
-                                   }}
-                            />
+                                   onChange={(e) => setForgetOne(e.target.value)}/>
                             <button onClick={handleConfirmPassword}>Востановить пароль</button>
                         </div>
                     </div>
