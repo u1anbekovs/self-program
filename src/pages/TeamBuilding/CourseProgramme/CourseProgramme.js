@@ -1,9 +1,6 @@
 import React, {useState} from "react";
 import {IoIosArrowDown, IoIosArrowUp} from "react-icons/io";
-import "./CourseProgramme.scss"
-// import CourseBlock from "./CourseBlock/CourseBlock";
-// import YouWillLearn from "./YouWillLearn/YouWillLearn";
-// import CoursePhoto from "./CoursePhoro/CoursePhoto";
+import "./CourseProgramme.scss";
 
 const CourseProgramme = () => {
     const [acc, setAcc] = useState(false);
@@ -237,10 +234,6 @@ const CourseProgramme = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/*<CourseBlock/>*/}
-                    {/*<YouWillLearn/>*/}
-                    {/*<CoursePhoto/>*/}
                 </div>
             </div>
         </div>

@@ -1,8 +1,3 @@
-//@import "./CourseBlock/CourseBlock.scss";
-//@import "./YouWillLearn/YouWillLearn.scss";
-//@import "./CoursePhoro/CoursePhoto.scss";
-
-
 #courseProgramme {
   .courseProgramme {
     padding-top: 200px;
@@ -23,7 +18,6 @@
 
       &__acc {
         width: 1078px;
-        height: 283px;
         background: rgba(255, 255, 255, 0.1);
         border: 1px solid #FFFFFF;
         backdrop-filter: blur(7px);
@@ -104,7 +98,6 @@
             color: #FFFFFF;
           }
         }
-
       }
     }
   }
@@ -117,7 +110,6 @@
   #courseProgramme .courseProgramme--title {
     margin: 20px 0;
   }
-
 }
 
 @media (max-width: 1140px) {
@@ -213,13 +205,6 @@
 
 }
 
-//@media (max-width: 450px) {
-//    #courseProgramme .courseProgramme--blocks__acc{
-//        flex-direction: column;
-//        align-content: center;
-//    }
-//
-//}
 
 @media (max-width: 450px) {
   #courseProgramme .courseProgramme--blocks__acc {

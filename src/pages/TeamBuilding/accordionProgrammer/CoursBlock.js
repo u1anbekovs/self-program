@@ -30,7 +30,6 @@ const CourseBlock = () => {
                     </p>
                 </div>
             </div>
-
         </div>
     );
 };

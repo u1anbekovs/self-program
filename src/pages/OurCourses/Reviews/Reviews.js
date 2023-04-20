@@ -3,25 +3,15 @@ import "./Reviews.scss";
 import Slider from "react-slick";
 import SliderIcon1 from "./../../../assets/img/Component 32.svg";
 import SliderIcon2 from "./../../../assets/img/Component 31.svg";
+
+
 const Reviews = () => {
     const settings = {
-        dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 1.57,
         slidesToScroll: 1,
         nextArrow: <img src={SliderIcon2} alt="arrow"/>,
         prevArrow: <img src={SliderIcon1} alt="arrow"/>,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 1.145,
-                    slidesToScroll: 1,
-
-                },
-            },
-        ],
     };
 
     return (
