@@ -1,23 +1,20 @@
 import React, {useState} from 'react';
 import Book from "../../../../../assets/img/logo.svg";
-import password from "../password";
 import {useNavigate} from "react-router-dom";
 
 const TwoLogin = () => {
     const [forget, setForget] = useState("")
     const [forgetOne, setForgetOne] = useState("")
-    const [forgotError , setForgotError] = useState(false)
-    const[error, setError] = useState('Пароли не совпадают!')
+    const [forgotError, setForgotError] = useState(false)
     const navigate = useNavigate()
 
-function handleConfirmPassword() {
-    if (forget === forgetOne) {
-        // alert('Succes')
-        navigate('/')
-    } else {
-        setForgotError(true)
+    function handleConfirmPassword() {
+        if (forget === forgetOne && forget.length !== 0 && forgetOne.length !== 0) {
+            navigate('/')
+        } else {
+            setForgotError(true)
+        }
     }
-}
 
     return (
         <div id='twoLogin'>
@@ -28,16 +25,18 @@ function handleConfirmPassword() {
                         <h2>SELF DEVELOPING SCHOOL</h2>
                         <div className="twoLogin--text__block">
                             <h3>Востановить пароль</h3>
-                            {forgotError ? <p style={{
-                                color:"red",
-                                marginLeft:"-150px"
-                            }}>{error}</p> : null}
-
                             <input type="password" placeholder={'Новый пароль'}
                                    onChange={(e) => setForget(e.target.value)}
+                                   style={{
+                                       border: forgotError ? '1px solid red' : ""
+                                   }}
                             />
                             <input type="password" placeholder={'Повторите'}
-                                   onChange={(e) => setForgetOne(e.target.value)}/>
+                                   onChange={(e) => setForgetOne(e.target.value)}
+                                   style={{
+                                       border: forgotError ? '1px solid red' : ""
+                                   }}
+                            />
                             <button onClick={handleConfirmPassword}>Востановить пароль</button>
                         </div>
                     </div>
