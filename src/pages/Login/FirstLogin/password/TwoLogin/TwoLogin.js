@@ -11,7 +11,7 @@ const TwoLogin = () => {
     const navigate = useNavigate()
 
 function handleConfirmPassword() {
-    if (forget === forgetOne) {
+    if (forget === forgetOne && forget.length !== 0 && forgetOne.length !== 0) {
         // alert('Succes')
         navigate('/')
     } else {
@@ -28,11 +28,6 @@ function handleConfirmPassword() {
                         <h2>SELF DEVELOPING SCHOOL</h2>
                         <div className="twoLogin--text__block">
                             <h3>Востановить пароль</h3>
-                            {forgotError ? <p style={{
-                                color:"red",
-                                marginLeft:"-150px"
-                            }}>{error}</p> : null}
-
                             <input type="password" placeholder={'Новый пароль'}
                                    onChange={(e) => setForget(e.target.value)}
                             />
