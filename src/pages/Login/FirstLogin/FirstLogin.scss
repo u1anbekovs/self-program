@@ -1,917 +1,115 @@
 #firstLogin {
-    .firstLogin {
-      padding-top: 120px;
-        min-height: 90vh;
+  .firstLogin {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+
+    &--block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+
+      img {
+        opacity: 0.3;
+        width: 136.35px;
+      }
+
+
+      h1 {
+        font-weight: 500;
+        font-size: 27.8281px;
+        color: #FFFFFF;
+        opacity: 0.3;
+        padding-bottom: 60px;
+      }
+
+      &__login {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        padding-bottom: 150px;
-        &--block {
+        background: rgba(255, 255, 255, 0.3);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(2px);
+        border-radius: 10px;
+        padding: 20px 10px;
 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-          h1{
-            font-family: 'Montserrat',sans-serif;
-            font-weight: 500;
-            font-size: 27px;
-            color: #FFFFFF;
-            opacity: 0.3;
-
-          }
-            &__login {
-                margin: 20px 0;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                position: relative;
-
-              width: 400px;
-              height: 306px;
-              background: rgba(255, 255, 255, 0.3);
-              border: 1px solid #FFFFFF;
-              backdrop-filter: blur(2px);
-              border-radius: 10px;
-              h2{
-                font-family: 'Montserrat',sans-serif;
-                font-weight: 500;
-                font-size: 24px;
-                color: #FFFFFF;
-                opacity: 0.3;
-                margin: 15px 0;
-              }
-
-              &--div{
-                position: relative;
-                p{
-                  bottom: 51px;
-                  color: red;
-                  position: absolute;
-                }
-                &__Email{
-                  padding: 0 20px;
-                  margin: 10px 0;
-                  width: 360px;
-                  height: 40px;
-                  border: 1px solid #FFFFFF;
-                  border-radius: 10px;
-                  background: transparent;
-                  outline: none;
-                }
-                input::placeholder{
-                  color: rgba(255, 255, 255, 0.62);
-                }
-                p{
-                  font-size: 12px;
-                }
-              }
-            &--input{
-              position: relative;
-              p{
-                position: absolute;
-                bottom: 51px;
-                font-size: 10in;
-              }
-              input{
-                outline: none;
-                padding: 0 20px;
-                margin: 10px 0;
-                width: 360px;
-                height: 40px;
-                border: 1px solid #FFFFFF;
-                border-radius: 10px;
-                background: transparent;
-              }
-              input::placeholder{
-                color: rgba(255, 255, 255, 0.59);
-              }
-              &__icon{
-                position: absolute;
-                color: rgba(255, 255, 255, 0.59);
-                font-size: 25px;
-                top: 20px;
-                right: 25px;
-              }
-              p{
-                font-size: 12px;
-              }
-            }
-
-              button{
-                margin: 15px 0;
-                width: 360px;
-                height: 40px;
-                background: #FFFFFF;
-                border-radius: 10px;
-                cursor: pointer;
-                font-family: 'Montserrat',sans-serif;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 20px;
-                color: #6363DF;
-
-              }
-              h3{
-                font-family: 'Montserrat',sans-serif;
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                color: #FFFFFF;
-                opacity: 0.3;
-                &:hover{
-                  text-decoration: underline;
-                  transition: 3s;
-                  cursor:pointer;
-                }
-              }
-            }
-        }
-      &--imageBlock{
-        position: relative;
-        &__kaif{
-          position: absolute;
-        }
-        &__image{
-          position: absolute;
-        }
-        &__kaifBlock{
-          position: absolute;
-        }
-        &__imgif{
-          position: absolute;
-        }
-      }
-    }
-}
-
-@media (max-width: 1140px) {
-  #firstLogin {
-    .firstLogin {
-
-      &--block {
-
-
-        h1{
+        h2 {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 29px;
+          color: #FFFFFF;
+          opacity: 0.3;
+          padding: 20px 0;
 
         }
-        &__login {
 
-          h2{
-
-          }
-
-          &--div{
-
-            p{
-
-            }
-            &__Email{
-
-            }
-
-            p{
-
-            }
-          }
-          &--input{
-
-            p{
-
-            }
-            input{
-
-            }
-
-            &__icon{
-
-            }
-            p{
-
-            }
-          }
-
-          button{
-
-          }
-          h3{
-
-            &:hover{
-
-            }
-          }
-        }
-      }
-      &--imageBlock{
-        position: relative;
-        &__kaif{
-          position: absolute;
-        }
-        &__image{
-          position: absolute;
-        }
-        &__kaifBlock{
-          position: absolute;
-        }
-        &__imgif{
-          position: absolute;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 1024px) {
-  #firstLogin {
-    .firstLogin {
-
-      &--block {
-
-
-        h1{
-
-        }
-        &__login {
-
-          h2{
-
-          }
-
-          &--div{
-
-            p{
-
-            }
-            &__Email{
-
-            }
-
-            p{
-
-            }
-          }
-          &--input{
-
-            p{
-
-            }
-            input{
-
-            }
-
-            &__icon{
-
-            }
-            p{
-
-            }
-          }
-
-          button{
-
-          }
-          h3{
-
-            &:hover{
-
-            }
-          }
-        }
-      }
-      &--imageBlock{
-        position: relative;
-        &__kaif{
-          position: absolute;
-        }
-        &__image{
-          position: absolute;
-        }
-        &__kaifBlock{
-          position: absolute;
-        }
-        &__imgif{
-          position: absolute;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 992px) {
-  #firstLogin {
-    .firstLogin {
-
-      &--block {
-
-
-        h1{
-
-        }
-        &__login {
-
-          h2{
-
-          }
-
-          &--div{
-
-            p{
-
-            }
-            &__Email{
-
-            }
-
-            p{
-
-            }
-          }
-          &--input{
-
-            p{
-
-            }
-            input{
-
-            }
-
-            &__icon{
-
-            }
-            p{
-
-            }
-          }
-
-          button{
-
-          }
-          h3{
-
-            &:hover{
-
-            }
-          }
-        }
-      }
-      &--imageBlock{
-        position: relative;
-        &__kaif{
-          position: absolute;
-        }
-        &__image{
-          position: absolute;
-        }
-        &__kaifBlock{
-          position: absolute;
-        }
-        &__imgif{
-          position: absolute;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 768px) {
-  #firstLogin {
-    .firstLogin {
-
-      &--block {
-
-
-        h1{
-
-        }
-        &__login {
-
-          h2{
-
-          }
-
-          &--div{
-
-            p{
-
-            }
-            &__Email{
-
-            }
-
-            p{
-
-            }
-          }
-          &--input{
-
-            p{
-
-            }
-            input{
-
-            }
-
-            &__icon{
-
-            }
-            p{
-
-            }
-          }
-
-          button{
-
-          }
-          h3{
-
-            &:hover{
-
-            }
-          }
-        }
-      }
-      &--imageBlock{
-        position: relative;
-        &__kaif{
-          position: absolute;
-        }
-        &__image{
-          position: absolute;
-        }
-        &__kaifBlock{
-          position: absolute;
-        }
-        &__imgif{
-          position: absolute;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 576px) {
-  #firstLogin {
-    .firstLogin {
-
-      &--block {
-
-
-        h1{
-
-        }
-        &__login {
-
-          h2{
-
-          }
-
-          &--div{
-
-            p{
-
-            }
-            &__Email{
-
-            }
-
-            p{
-
-            }
-          }
-          &--input{
-
-            p{
-
-            }
-            input{
-
-            }
-
-            &__icon{
-
-            }
-            p{
-
-            }
-          }
-
-          button{
-
-          }
-          h3{
-
-            &:hover{
-
-            }
-          }
-        }
-      }
-      &--imageBlock{
-        position: relative;
-        &__kaif{
-          position: absolute;
-        }
-        &__image{
-          position: absolute;
-        }
-        &__kaifBlock{
-          position: absolute;
-        }
-        &__imgif{
-          position: absolute;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 450px) {
-  #firstLogin {
-    .firstLogin {
-
-      &--block {
-        img{
-          width: 81px;
-        }
-
-        h1{
-          font-size: 22px;
-        }
-        &__login {
-          width: 344px;
-          height: 273px;
-          h2{
-            font-size: 23px;
-            margin: 12px 0;
-          }
-
-          &--div{
-
-            p{
-
-            }
-            &__Email{
-              margin: 5px 0;
-              width: 309px;
-              height: 38px;
-            }
-
-            p{
-
-            }
-          }
-          &--input{
-
-            p{
-
-            }
-            input{
-              width: 309px;
-              height: 38px;
-            }
-
-            &__icon{
-
-            }
-            p{
-
-            }
-          }
-
-          button{
-            width: 309px;
-            height: 38px;
-          }
-          h3{
-
-            &:hover{
-
-            }
-          }
-        }
-      }
-      &--imageBlock{
-        position: relative;
-        &__kaif{
-          position: absolute;
-        }
-        &__image{
-          position: absolute;
-        }
-        &__kaifBlock{
-          position: absolute;
-        }
-        &__imgif{
-          position: absolute;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 400px) {
-  #firstLogin {
-    .firstLogin {
-
-      &--block {
-
-
-        h1{
-
-        }
-        &__login {
-
-          h2{
-
-          }
-
-          &--div{
-
-            p{
-
-            }
-            &__Email{
-
-            }
-
-            p{
-
-            }
-          }
-          &--input{
-
-            p{
-
-            }
-            input{
-
-            }
-
-            &__icon{
-
-            }
-            p{
-
-            }
-          }
-
-          button{
-
-          }
-          h3{
-
-            &:hover{
-
-            }
-          }
-        }
-      }
-      &--imageBlock{
-        position: relative;
-        &__kaif{
-          position: absolute;
-        }
-        &__image{
-          position: absolute;
-        }
-        &__kaifBlock{
-          position: absolute;
-        }
-        &__imgif{
-          position: absolute;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 380px) {
-  #firstLogin {
-    .firstLogin {
-
-      &--block {
-        img{
-          width: 70px;
-        }
-
-        h1{
+        button {
+          font-weight: 500;
           font-size: 20px;
+          color: #6363DF;
+          width: 380px;
+          background: #FFFFFF;
+          border-radius: 10px;
+          padding: 10px 0;
+          margin-top: 20px;
         }
-        &__login {
-          width: 288px;
-          height: 245px;
-          h2{
 
-          }
+        div {
+          width: 380px;
+          height: 50px;
+          position: relative;
+          margin: 10px 20px;
 
-          &--div{
-
-            p{
-              bottom: 41px;
-              font-size: 10px;
-            }
-            &__Email{
-              width: 248px;
-              height: 34px;
-            }
-
-            p{
-
-            }
-          }
-          &--input{
-
-            p{
-              bottom: 43px;
-              font-size: 10px;
-            }
-            input{
-              width: 248px;
-              height: 34px;
-            }
-
-            &__icon{
-              top: 15px;
-            }
-            p{
-
-            }
-          }
-
-          button{
-            font-size: 17px;
-            margin: 10px 0;
-            width: 248px;
-            height: 34px;
-          }
-          h3{
-
-            &:hover{
-
-            }
+          .forgetMe {
+            background: transparent;
+            border: 1px solid #FFFFFF;
+            border-radius: 10px;
+            padding: 0 10px;
+            color: #FFFFFF;
+            font-size: 18px;
+            width: 100%;
+            height: 100%;
           }
         }
-      }
-      &--imageBlock{
-        position: relative;
-        &__kaif{
+
+
+        &--icon {
+          color: #fff;
+          font-size: 20px;
           position: absolute;
+          right: 18px;
+          top: 15px;
         }
-        &__image{
-          position: absolute;
-        }
-        &__kaifBlock{
-          position: absolute;
-        }
-        &__imgif{
-          position: absolute;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 360px) {
-  #firstLogin {
-    .firstLogin {
 
-      &--block {
-        img{
+        .IWillForgetYou {
+          width: 380px;
+          height: 50px;
+          // opacity: 0.3;
+          background: transparent;
+          border: 1px solid #FFFFFF;
+          border-radius: 10px;
+          margin: 10px 20px;
+          padding: 0 10px;
+          color: #FFFFFF;
+          font-size: 18px;
+          outline: none;
 
         }
 
-        h1{
-
+        input::placeholder {
+          color: #ffffff3e;
         }
-        &__login {
 
-          h2{
-
-          }
-
-          &--div{
-
-            p{
-
-            }
-            &__Email{
-
-            }
-
-            p{
-
-            }
-          }
-          &--input{
-
-            p{
-
-            }
-            input{
-
-            }
-
-            &__icon{
-
-            }
-            p{
-
-            }
-          }
-
-          button{
-
-          }
-          h3{
-
-            &:hover{
-
-            }
-          }
-        }
-      }
-      &--imageBlock{
-        position: relative;
-        &__kaif{
-          position: absolute;
-        }
-        &__image{
-          position: absolute;
-        }
-        &__kaifBlock{
-          position: absolute;
-        }
-        &__imgif{
-          position: absolute;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 320px)   {
-  #firstLogin {
-    .firstLogin {
-
-      &--block {
-
-      img{
-        width: 55px;
-      }
-        h1{
-          font-size: 19px;
-        }
-        &__login {
-
-          h2{
-
-          }
-
-          &--div{
-
-            p{
-
-            }
-            &__Email{
-
-            }
-
-            p{
-
-            }
-          }
-          &--input{
-
-            p{
-
-            }
-            input{
-
-            }
-
-            &__icon{
-
-            }
-            p{
-
-            }
-          }
-
-          button{
-
-          }
-          h3{
-
-            &:hover{
-
-            }
-          }
-        }
-      }
-      &--imageBlock{
-        position: relative;
-        &__kaif{
-          position: absolute;
-        }
-        &__image{
-          position: absolute;
-        }
-        &__kaifBlock{
-          position: absolute;
-        }
-        &__imgif{
-          position: absolute;
+        h3 {
+          font-weight: 400;
+          font-size: 14px;
+          color: #FFFFFF;
+          opacity: 0.3;
+          padding-top: 20px;
+          cursor: pointer;
         }
       }
     }

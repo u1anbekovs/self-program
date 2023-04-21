@@ -1,117 +1,127 @@
-import React, {useEffect, useState} from 'react';
-import Book from "./../../../assets/img/logo.svg"
-import {AiOutlineEye, AiOutlineEyeInvisible} from "react-icons/ai";
-import {Link} from "react-router-dom";
-import {Link, useNavigate} from "react-router-dom";
-import {useDispatch} from "react-redux";
-
-
+import React, { useState } from "react";
+import Book from "./../../../assets/img/logo.svg";
+import {Link, NavLink, useNavigate} from "react-router-dom";
+import { BsEyeSlash, BsEye } from "react-icons/bs";
+import { useDispatch } from "react-redux";
 
 const FirstLogin = () => {
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
-    const [info, setInfo] = useState(false)
-    const [emailGo, setEmailGo] = useState(false)
-    const [passwordGo, setPasswordGo] = useState(false)
-    const [emailError, setEmailError] = useState('Емайл не может быть пустым')
-    const [passwordError, setPasswordError] = useState('Пароль не может быть пустым')
-    const [formValid, setFormValid] = useState(false)
+    const dispatch = useDispatch();
 
-
-    useEffect(() => {
-        if (emailError || passwordError){
-            setFormValid(false)
-        }else {
-            setFormValid(true)
-        }
-    },[emailError, passwordError])
-
-
-    const EmailHandler = (e) => {
-        setEmail(e.target.value)
-        const re =/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-        if (!re.test(String(e.target.value).toLowerCase())){
-            setEmailError('некорректный емайл')
-            if (!e.target.value){
-                setEmailError('Емайл не может быть пустым')
+    const local = () => {
+        let { uname, pass } = document.forms[0];
+        database.find((user) => {
+            if (user.username === uname.value && user.password === pass.value) {
+                nav("/");
+                window.scroll(0, 0);
+                dispatch({ type: "OPEN_LOGIN", payload: false });
+                localStorage.setItem("login", JSON.stringify(false));
             }
-        }else {
-            setEmailError('')
-        }
-    }
+            return "";
+        });
+    };
 
-    const passwordHandler = (e) => {
-        setPassword(e.target.value)
-        if (e.target.value.length > 0 || e.target.value.length > 4){
-            setPasswordError('пароль должен быть больще 4 и менше 8')
-            if (!e.target.value.length > 0 || e.target.value.length > 4){
-                setPasswordError('')
-            }
-            if (!e.target.value){
-                setPasswordError('')
-            }
-       }else {
-            setPasswordError('Пароль не может быть пустым')
-        }
-    }
+    const navbar = () => {
+        nav("/");
+        window.scroll(0, 0);
+        dispatch({ type: "OPEN_LOGIN", payload: false });
+        localStorage.setItem("login", JSON.stringify(false));
+    };
 
-    function getInfo () {
-        if (info){
-            return  <div className="firstLogin--block__login--input">
-                {(passwordGo && passwordError) && <p style={{color: 'red'}}>{passwordError}</p>}
-                <input onChange={e => passwordHandler(e)} value={password} onBlur={(e => start(e))} type="text" name="Password" placeholder='Password' id=""/>
-                <AiOutlineEye onClick={() => setInfo(!info)} className={"firstLogin--block__login--input__icon"}/>
+    //////////////////////////////////////
+
+    const [isSubmitted, setIsSubmitted] = useState(false);
+    const [eye, setEye] = useState(false);
+    const [errors, setErrors] = useState(false);
+
+    const nav = useNavigate();
+
+    const database = [
+        {
+            username: "1",
+            password: "1",
+        },
+        {
+            username: "satimbaevasan@gmail.com",
+            password: "1234567",
+        },
+    ];
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
+        let { uname, pass } = document.forms[0];
+
+        const userData = database.find((user) => user.username === uname.value);
+
+        if (userData) {
+            if (userData.password !== pass.value) {
+                setErrors(true);
+            } else {
+                setErrors(false);
+            }
+        } else {
+            setErrors(true);
+        }
+    };
+
+    const getPage = (
+        <form
+            action=""
+            onSubmit={handleSubmit}
+            className="firstLogin--block__login"
+        >
+            <h2>Войти в аккаунт</h2>
+            <input
+                style={{
+                    border: errors ? "1px solid red" : "",
+                }}
+                className="IWillForgetYou"
+                type="text"
+                name="uname"
+                id="email"
+                placeholder="Email"
+                onChange={() => setErrors(false)}
+            />
+            <div>
+                <input
+                    style={{
+                        border: errors ? "1px solid red" : "",
+                    }}
+                    className="forgetMe"
+                    type={!eye ? "password" : "rf"}
+                    name="pass"
+                    id="passw"
+                    placeholder="Password"
+                    onChange={() => setErrors(false)}
+                />
+                {eye ? (
+                    <BsEyeSlash
+                        className="firstLogin--block__login--icon"
+                        onClick={() => setEye(false)}
+                    />
+                ) : (
+                    <BsEye
+                        className="firstLogin--block__login--icon"
+                        onClick={() => setEye(true)}
+                    />
+                )}
             </div>
+            <button onClick={local}>Войти</button>
+           <Link to={'/password-url'}>
+               <h3>Забыли пароль?</h3>
+           </Link>
+        </form>
+    );
 
-        }
-        else return <div className="firstLogin--block__login--input">
-            {(passwordGo && passwordError) && <p style={{color: 'red'}}>{passwordError}</p>}
-            <input onChange={e => passwordHandler(e)} value={password} onBlur={(e => start(e))} type="password" name="Password" placeholder='Password' id=""/>
-            <input style={{
-                border: passwordError ? '1px solid red' : ''
-            }} onChange={e => passwordHandler(e)} value={password} onBlur={(e => start(e))} type="password" name="Password" placeholder='Password' id=""/>
-            <AiOutlineEyeInvisible onClick={() => setInfo(!info)} className={"firstLogin--block__login--input__icon"}/>
-        </div>
-
-
-    }
-
-
-    const start = (e) => {
-            switch (e.target.name){
-                case 'Email':
-                    setEmailGo(true)
-                    break
-                case 'Password':
-                    setPasswordGo(true)
-                    break
-        }
-    }
     return (
         <div id="firstLogin">
             <div className="container">
                 <div className="firstLogin">
                     <div className="firstLogin--block">
-                        <img src={Book} alt="" />
+                        <img onClick={navbar} src={Book} alt="" />
                         <h1>SELF DEVELOPING SCHOOL</h1>
-                        <div className="firstLogin--block__login">
-                            <h2>Войти в аккаунт</h2>
-                           <div className="firstLogin--block__login--div">
-                               {(emailGo && emailError) && <p>{emailError}</p>}
-                               <input className={'firstLogin--block__login--div__Email'} onChange={e => EmailHandler(e)} value={email} onBlur={(e => start(e))} type="text" name="Email" placeholder='Email...' id="" />
-                               <input style={{
-                                   border: emailError ? '1px solid red' : ''
-                               }} className={'firstLogin--block__login--div__Email'} onChange={e => EmailHandler(e)} value={email} onBlur={(e => start(e))} type="text" name="Email" placeholder='Email...' id="" />
-                           </div>
-                            {getInfo()}
-                            <button>Войти</button>
-                            <Link to={'/password-url'}>
-                                <h3>Забыли пароль?</h3>
-                            </Link>
-                        </div>
+                        {isSubmitted ? "greate" : getPage}
                     </div>
-
-
                 </div>
             </div>
         </div>
